@@ -142,10 +142,16 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			ETH = {has_full_control_of_state = 550
-					has_full_control_of_state = 559}
-
+			ETH = {
+				has_full_control_of_state = 550
+				has_full_control_of_state = 559
 			}
+			is_in_faction = no
+
+			not = {
+				num_occupied_states > 0
+			}
+		}
 		completion_reward = {
 		load_focus_tree = FD_itaaltern_focus
 	    country_event = { id = italy.22 }
