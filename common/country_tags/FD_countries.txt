@@ -1,0 +1,2 @@
+AOI = "countries/AfricaOrientaleItaliana.txt"
+VAI = "countries/VicereameArabia.txt"

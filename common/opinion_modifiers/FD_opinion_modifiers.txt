@@ -1,0 +1,18 @@
+	
+opinion_modifiers = {
+
+ITA_guide = {
+		value = 50
+	}
+
+hitler_visit_opinion = {
+		value = 10
+	}
+hitler_notvisit_opinion = {
+		value = -10
+	}	
+ITA_approach = {
+		value = 20
+	}
+
+}

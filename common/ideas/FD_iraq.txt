@@ -1,0 +1,23 @@
+ideas = {
+
+	country = {
+
+italian_friend = {
+			allowed = {
+				original_tag = "IRQ"
+			}
+
+		
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.20				
+			}
+		}
+		}
+		}
+		
+		
+		
+		
+		

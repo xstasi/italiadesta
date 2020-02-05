@@ -1,0 +1,33 @@
+colonial_works = {
+	icon = generic_prospect_for_resources
+
+}
+
+ita_irredentism = {
+	icon = generic_political_actions
+}
+
+richness_arabia = {
+	icon = generic_prospect_for_resources
+}
+
+yemen_works = {
+	icon = generic_prospect_for_resources
+
+}
+
+ita_army_investment = {
+			icon = generic_army_support
+}
+
+ita_air_investment = {
+			icon = generic_air
+
+
+}
+
+romanization= {
+	icon = generic_political_actions
+	visible = { has_global_flag = form_roman_empire_flag
+			}
+}

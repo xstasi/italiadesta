@@ -1,0 +1,106 @@
+ITA_historical_plan = {
+	name = "Italy historical plan"
+	desc = "Historical behavior for Italy"
+
+	enable = {
+		original_tag = ITA
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = ITA_ai_behavior
+					option = DEFAULT
+				}
+			}
+			has_country_flag = ITA_AI_RANDOM_FASCIST_HISTORICAL
+			has_game_rule = {
+				rule = ITA_ai_behavior
+				option = FASCIST_HISTORICAL
+			}
+		}
+	}
+	abort = {
+		GER = {
+			has_completed_focus = GER_oppose_hitler
+		}
+	}
+
+	ai_national_focuses = {
+		ITA_pact_of_steel
+		ITA_ethiopian_war_logistics
+		ITA_support_nationalist_spain
+		ITA_triumphinafrica
+		ITA_limperodargilla
+		ITA_endoftheeconomicsanctions
+		ITA_autarky
+		ITA_reclaim_swamps
+		ITA_wheat
+		ITA_regioesercito
+		ITA_donthear
+		ITA_iri
+		ITA_irimili
+		ITA_developlibia
+		ITA_viaBalbia
+		ITA_immi
+		ITA_mussprop
+		ITA_itagerfrie
+		ITA_german_millitary_cooperation
+		ITA_german_economic_cooperation
+		ITA_claims
+		ITA_HitlerRome
+		ITA_albania_war_goal
+		ITA_albaniainfr
+		ITA_fiatmili
+		ITA_bredamili
+		ITA_ansfoss
+		ITA_piaggio
+		ITA_prepareforwar
+		ITA_theilva
+		ITA_more_dockyards
+		ITA_programmar
+		ITA_napmil
+		ITA_extra_tech_slot
+		ITA_bigship
+		ITA_battlefield_support
+		ITA_marenostrum
+		ITA_dalmazia
+		ITA_dalmita
+		ITA_greece_war_goal
+		ITA_fascist_iraq
+		ITA_turkey_friend
+		ITA_fascist_iraq
+		ITA_iraq_war_goal
+		ITA_albaita
+		ITA_Etal
+		ITA_devTripoli
+		ITA_OilinLibia
+		ITA_AGIPinLibia
+		ITA_libiadeve
+		ITA_starttothedeveloptheaoi
+		ITA_buildtheasmaraaddisabebaroad
+		ITA_assab
+		ITA_improveresourceextraction
+		ITA_addabeba
+		ITA_aoideve
+		ITA_colonial_elite
+		 													
+	}				
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

@@ -1,0 +1,300 @@
+###########################
+# News Events
+###########################
+
+add_namespace = news
+
+news_event = {
+	id = news.520
+	title = news.520.t
+	desc = news.520.desc
+	picture = GFX_news_event_regia_aeronautica
+
+	major = no
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.520.a
+	}
+}
+
+news_event = {
+	id = news.521
+	title = news.521.t
+	desc = news.521.desc
+	picture = GFX_news_event_regio_esercito
+
+	major = no
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.521.a
+	}
+}
+
+#Impero
+news_event = {
+	id = news.500
+	title = news.500.t
+	desc = news.500.desc
+	picture = GFX_news_event_impero
+
+	major = yes
+
+	is_triggered_only = yes
+
+	fire_for_sender = no
+	
+	option = {
+		name = news.500.a
+	}
+}
+
+#Unione Bulgaria-Italia
+news_event = {
+	id = news.501
+	title = news.501.t
+	desc = news.501.desc
+	picture = GFX_news_event_itabulga
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.501.a
+	}
+}
+
+#iraq
+news_event = {
+	id = news.502
+	title = news.502.t
+	desc = news.502.desc
+	picture = GFX_news_event_fasiraq
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.502.a
+	}
+}
+
+#SavoiaNizza
+news_event = {
+	id = news.503
+	title = news.503.t
+	desc = news.503.desc
+	picture = GFX_news_event_savnizza
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.503.a
+	}
+}
+
+#Fine di Mussolini
+news_event = {
+	id = news.504
+	title = news.504.t
+	desc = news.504.desc
+	picture = GFX_news_event_remusso
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.504.a
+	}
+}
+
+
+########INTESA ANTI ITALIANA##########
+#Romania crea fazione antiitalia
+news_event = {
+	id = news.505
+	title = news.505.t
+	desc = news.505.desc
+	picture = GFX_news_event_romaniawar
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.505.a
+	}
+}
+
+#Grecia accetta
+news_event = {
+	id = news.506
+	title = news.506.t
+	desc = news.506.desc
+	picture = GFX_news_event_romaniawar
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.506.a
+	}
+}
+
+#Bulgaria Accetta
+news_event = {
+	id = news.507
+	title = news.507.t
+	desc = news.507.desc
+	picture = GFX_news_event_romaniawar
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.507.a
+	}
+}
+
+
+####MUSSOLINI ANNUNCIA INTENZIONE SUI BALCANI
+
+news_event = {
+	id = news.508
+	title = news.508.t
+	desc = news.508.desc
+	picture = GFX_news_event_piazzavenezia
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.508.a
+	}
+}
+
+
+###HITLER VISITA ROMA
+news_event = {
+	id = news.509
+	title = news.509.t
+	desc = news.509.desc
+	picture = GFX_news_event_hitlerroma
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.509.a
+	}
+}
+
+
+
+
+###Germania-Italia Asse
+
+news_event = {
+	id = news.510
+	title = news.510.t
+	desc = news.510.desc
+	picture = GFX_news_event_hitmusso
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = news.510.a
+	}
+}
+
+
+###InghilterraItaliaaccordoraggiunto
+
+news_event = {
+	id = news.511
+	title = news.511.t
+	desc = news.511.desc
+	picture = GFX_news_event_churchmusso
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = news.511.a
+	}
+}
+
+
+###GermaniaItaliaaccordoraggiunto
+
+news_event = {
+	id = news.512
+	title = news.512.t
+	desc = news.512.desc
+	picture = GFX_news_event_hitmusso
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = news.512.a
+	}
+}
+
+
+###Bulgariafascistacede
+
+news_event = {
+	id = news.513
+	title = news.513.t
+	desc = news.513.desc
+	picture = GFX_news_event_lukov
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = news.513.a
+	}
+}
+
+
+###AntiAnschluss
+
+news_event = {
+	id = news.514
+	title = news.514.t
+	desc = news.514.desc
+	picture = GFX_news_event_ausmusso
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = news.514.a
+	}
+}
+
+
+###Stresa
+
+news_event = {
+	id = news.515
+	title = news.515.t
+	desc = news.515.desc
+	picture = GFX_news_event_stresa
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = news.515.a
+	}
+}

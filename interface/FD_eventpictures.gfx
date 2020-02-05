@@ -1,0 +1,67 @@
+spriteTypes = {
+
+##fratellid'italia
+
+	spriteType = {
+		name = "GFX_news_event_impero"
+		texturefile = "gfx/event_pictures/news_event_impero.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_itabulga"
+		texturefile = "gfx/event_pictures/news_event_itabulga.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fasiraq"
+		texturefile = "gfx/event_pictures/news_event_fasiraq.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_savnizza"
+		texturefile = "gfx/event_pictures/news_event_savnizza.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_remusso"
+		texturefile = "gfx/event_pictures/news_event_remusso.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_romaniawar"
+		texturefile = "gfx/event_pictures/news_event_romaniawar.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_piazzavenezia"
+		texturefile = "gfx/event_pictures/news_event_piazzavenezia.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_hitlerroma"
+		texturefile = "gfx/event_pictures/news_event_hitlerroma.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_regio_esercito"
+		texturefile = "gfx/event_pictures/news_event_regio_esercito.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_regia_aeronautica"
+		texturefile = "gfx/event_pictures/news_event_regia_aeronautica.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_hitmusso"
+		texturefile = "gfx/event_pictures/news_event_hitmusso.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_churchmusso"
+		texturefile = "gfx/event_pictures/news_event_churchmusso.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_lukov"
+		texturefile = "gfx/event_pictures/news_event_lukov.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_ausmusso"
+		texturefile = "gfx/event_pictures/news_event_ausmusso.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_stresa"
+		texturefile = "gfx/event_pictures/news_event_stresa.dds"
+	}
+
+}

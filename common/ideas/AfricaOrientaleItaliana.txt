@@ -1,0 +1,22 @@
+ideas = {
+
+		country = {
+					italian_colony = {
+			
+			
+			allowed = {
+				original_tag = "ITA"
+			}
+
+		
+			removal_cost = -1
+			
+			picture = generic_exploit_mines
+			
+			modifier = {
+				conscription_factor = -0.7			
+			}
+		}
+		
+}
+}

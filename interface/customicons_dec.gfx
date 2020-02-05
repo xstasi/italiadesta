@@ -1,0 +1,12 @@
+spriteTypes = {
+
+  spriteType = {
+    name = "GFX_decision_generic_air2"
+    texturefile = "gfx/interface/decisions/decision_generic_air2.dds"
+  }
+  spriteType = {
+    name = "GFX_decision_generic_air3"
+    texturefile = "gfx/interface/decisions/decision_generic_air3.dds"
+  }
+
+}

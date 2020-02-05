@@ -1,0 +1,38 @@
+state={
+	id=788
+	name="STATE_788"
+	manpower = 400000
+	resources={
+		aluminium=2 # was: 3
+	}
+	
+	state_category = town
+	
+	history={
+		owner = ALB
+		victory_points = {
+			11767 1
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+			11767 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ALB
+		add_claim_by = ITA
+
+		1939.4.12 = {
+			owner = ITA
+			controller = ITA
+			remove_claim_by = ITA
+		}
+	}
+
+	provinces={
+		914 3448 3884 6900 11767 
+	}
+}
