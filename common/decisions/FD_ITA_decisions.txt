@@ -3,1893 +3,1893 @@
 
 colonial_works = {
 
-	develop_derna = {
-
-		allowed = {
-			original_tag = ITA
-		}
-
-		cost = 250
-		days_remove = 200
-
-		icon = generic_prospect_for_resources
-		available = {
-			451 = { is_fully_controlled_by = ITA }
-		}
-		visible = {
-			has_full_control_of_state = 451
-		}
-		fire_only_once = yes
-
-		modifier = {
-			civilian_factory_use = 8
-		}
-		complete_effect = {
-			451 = {
-				set_state_category = town
-			}
-		}
-	}
-
-	develop_elagheila = {
-
-		allowed = {
-			original_tag = ITA
-		}
-
-		cost = 250
-		days_remove = 200
-
-		icon = generic_prospect_for_resources
-		available = {
-			449 = { is_fully_controlled_by = ITA }
-		}
-		visible = {
-			has_full_control_of_state = 449
-		}
-		fire_only_once = yes
-
-		modifier = {
-			civilian_factory_use = 8
-		}
-		complete_effect = {
-			449 = {
-				set_state_category = town
-			}
-		}
-	}
-
-	develop_benghasi = {
-
-		allowed = {
-			original_tag = ITA
-		}
-
-		cost = 250
-		days_remove = 200
-
-		icon = generic_prospect_for_resources
-		available = {
-			450 = { is_fully_controlled_by = ITA }
-		}
-		visible = {
-			has_full_control_of_state = 450
-		}
-		fire_only_once = yes
-
-		modifier = {
-			civilian_factory_use = 8
-		}
-		complete_effect = {
-			450 = {
-				set_state_category = town
-			}
-		}
-	}
-
-	develop_tripoli = {
-
-		allowed = {
-			original_tag = ITA
-		}
-
-		cost = 250
-		days_remove = 200
-
-		icon = generic_prospect_for_resources
-		available = {
-			448 = { is_fully_controlled_by = ITA }
-		}
-		visible = {
-			has_full_control_of_state = 448
-		}
-		fire_only_once = yes
-
-		modifier = {
-			civilian_factory_use = 8
-		}
-		complete_effect = {
-			448 = {
-				set_state_category = large_city
-			}
-		}
-	}
-	###AOI###
-	puppet_AOI = {
-
-		allowed = {
-			original_tag = ITA
-		}
-
-		cost = 100
-		days_remove = 15
-
-		icon = generic_formable_nations
-		available = {
-			271 = { is_fully_controlled_by = ITA }
-			550 = { is_fully_controlled_by = ITA }
-			559 = { is_fully_controlled_by = ITA }
-
-		}
-		fire_only_once = yes
-
-		modifier = {
-		}
-		complete_effect = {
-			puppet = AOI
-			AOI = { transfer_state =  271 }
-			AOI = { transfer_state =  550 }
-			AOI = { transfer_state =  559 }
-			AOI = {  add_state_core = 271 add_state_core = 550 add_state_core = 559
-			}
-		}
-	}
-	##aggiungi djibouti
-	AOI_gibuti= {
-
-		allowed = {
-			original_tag = ITA
-		}
-		visible = {
-			has_full_control_of_state = 268
-		}
-		cost = 0
-		days_remove = 0
-		icon = generic_formable_nations
-		available = {
-			268 = { is_fully_controlled_by = ITA }
-		}
-		fire_only_once = yes
-		modifier = {
-		}
-		complete_effect = {
-			puppet = AOI
-			AOI = { transfer_state =  268 }
-			AOI = {  add_state_core = 268 }
-		}
-	}
-	###aggiungi somaliland
-	AOI_somaliland= {
-
-		allowed = {
-			original_tag = ITA
-		}
-		visible = {
-			has_full_control_of_state = 269
-		}
-		cost = 0
-		days_remove = 0
-		icon = generic_formable_nations
-		available = {
-			269 = { is_fully_controlled_by = ITA }
-		}
-		fire_only_once = yes
-		modifier = {
-		}
-		complete_effect = {
-			puppet = AOI
-			AOI = { transfer_state =  269 }
-			AOI = {  add_state_core = 269 }
-		}
-	}
-
-
-
-	####Arabia Italiana
-	puppet_VAI = {
-
-		allowed = {
-			original_tag = ITA
-		}
-
-		cost = 100
-		days_remove = 15
-
-		icon = generic_formable_nations
-		available = {
-			OR = { ITA = {has_full_control_of_state = 292
-				has_full_control_of_state = 679 has_full_control_of_state = 678	}
-				SAU ={	is_puppet_of = ITA	}	}
-				OR = { ITA = {has_full_control_of_state = 293
-				}
-				YEM ={	is_puppet_of = ITA	}	}
-				OR = { ITA = {has_full_control_of_state = 294
-				}
-				OMA ={	is_puppet_of = ITA	}	}
-				ITA = {has_full_control_of_state = 656}
-				ITA = {has_full_control_of_state = 765}
-				ITA = {has_full_control_of_state = 658}
-				ITA = {has_full_control_of_state = 659}
-			}
-			fire_only_once = yes
-
-			modifier = {
-			}
-			complete_effect = {
-				puppet = VAI
-				VAI = { transfer_state =  678 }
-				VAI = { transfer_state =  656 }
-				VAI = { transfer_state =  765 }
-				VAI = { transfer_state =  658 }
-				VAI = { transfer_state =  659 }
-				VAI = { transfer_state =  294 }
-				VAI = { transfer_state =  293 }
-				VAI = { transfer_state =  292 }
-				VAI = { transfer_state =  679 }
-				VAI = {  add_state_core = 656 add_state_core = 765 add_state_core = 658 add_state_core = 659 add_state_core = 294 add_state_core = 293 add_state_core = 292 add_state_core = 679 add_state_core = 678
-				}
-			}
-		}
-
-	}
-
-	foreign_politics = {
-
-		renew_itayem_treaty = {
-			allowed = {
-				original_tag = ITA
-
-			}
-			cost = 100
-			days_remove = 60
-			icon = generic_political_actions
-			available = {
-			}
-			fire_only_once = yes
-			complete_effect = {
-				give_guarantee = YEM
-			}
-		}
-
-		yem_puppet = {
-			allowed = {
-				original_tag = ITA
-
-			}
-			cost = 300
-			days_remove = 200
-			icon = generic_political_actions
-			available = {
-				293 = {has_state_flag = yem_res}
-				293 = {has_state_flag = yem_infr}
-				293 = {has_state_flag = yem_indu}
-			}
-			fire_only_once = yes
-			complete_effect = {
-				puppet = YEM
-			}
-		}
-	}
-
-	yemen_works = {
-		######
-		yemita_resources ={
-			allowed = {
-				original_tag = ITA
-
-			}
-			visible = {
-				has_guaranteed = YEM
-			}
-			cost = 150
-			days_remove = 100
-			icon = generic_prospect_for_resources
-			available = {
-			}
-			fire_only_once = yes
-			modifier = {
-				civilian_factory_use = 5
-			}
-			complete_effect = {
-				293 = {
-					add_resource = {
-						type = oil
-						amount = 4
-					}
-					set_state_flag = yem_res
-				}
-			}
-		}
-
-		######
-		yemita_infrastructure ={
-			allowed = {
-				original_tag = ITA
-
-			}
-			visible = {
-				has_guaranteed = YEM
-			}
-			cost = 150
-			days_remove = 100
-			icon = generic_prospect_for_resources
-			available = {
-			}
-			fire_only_once = yes
-			modifier = {
-				civilian_factory_use = 5
-			}
-			complete_effect = {
-				293 = {
-					add_building_construction = {
-						type = naval_base
-						level = 4
-						province = 10843
-						instant_build = yes
-					}
-				}
-				293 = {
-					add_building_construction = {
-						type = infrastructure
-						level = 1
-						instant_build = yes
-					}
-					set_state_flag = yem_infr
-				}
-
-			}
-		}
-		######
-		yemita_industries ={
-			allowed = {
-				original_tag = ITA
-
-			}
-			visible = {
-				has_guaranteed = YEM
-			}
-			cost = 150
-			days_remove = 100
-			icon = generic_prospect_for_resources
-			available = {
-			}
-			fire_only_once = yes
-			modifier = {
-				civilian_factory_use = 5
-			}
-			complete_effect = {
-				293 = {
-					add_extra_state_shared_building_slots = 3
-					add_building_construction = {
-						type = industrial_complex
-						level = 3
-						instant_build = yes
-					}
-					set_state_flag = yem_indu
-				}
-
-			}
-
-		}
-	}
-
-	####has_completed_focus = ITA_arditoarabia####
-
-
-	richness_arabia = {
-
-		nejd_oil ={
-
-			allowed = {
-				original_tag = ITA
-
-			}
-			visible = {
-				has_completed_focus = ITA_arditoarabia
-			}
-			cost = 100
-			days_remove = 100
-			icon = generic_prospect_for_resources
-			fire_only_once = yes
-			modifier = {
-				consumer_goods_factor = 0.02
-				civilian_factory_use = 8
-			}
-			complete_effect = {
-
-				add_resource= {
-					type = oil
-					amount = 90
-					state = 292
-				}
-
-
-			}
-		}
-
-		alkhali_oil ={
-
-			allowed = {
-				original_tag = ITA
-
-			}
-			visible = {
-				has_completed_focus = ITA_arditoarabia
-			}
-			cost = 100
-			days_remove = 100
-			icon = generic_prospect_for_resources
-			fire_only_once = yes
-			modifier = {
-				consumer_goods_factor = 0.02
-				civilian_factory_use = 8
-			}
-			complete_effect = {
-
-				add_resource= {
-					type = oil
-					amount = 150
-					state = 678
-				}
-
-
-			}
-		}
-
-		purchase_bricolony ={
-
-			allowed = {
-				original_tag = ITA
-
-			}
-			visible = {
-				has_completed_focus = ITA_arditoarabia
-			}
-			cost = 50
-			days_remove = 7
-			icon = generic_prospect_for_resources
-			fire_only_once = yes
-			modifier = {
-			}
-			complete_effect = {
-
-				ITA = { transfer_state =  656 }
-				ITA = { transfer_state =  765 }
-				ITA = { transfer_state =  658 }
-				ITA = { transfer_state =  659 }
-				add_timed_idea
-				{
-					idea = purchase_colonies
-					days = 365
-				}
-				ENG = {
-					add_timed_idea
-					{
-						idea = sell_colonies
-						days = 365
-					}
-				}
-			}
-		}
-
-		qatar_oil ={
-
-			allowed = {
-				original_tag = ITA
-
-			}
-			visible = {
-				owns_state = 765
-			}
-			cost = 100
-			days_remove = 100
-			icon = generic_prospect_for_resources
-			fire_only_once = yes
-			modifier = {
-				consumer_goods_factor = 0.02
-				civilian_factory_use = 8
-			}
-			complete_effect = {
-
-				add_resource= {
-					type = oil
-					amount = 30
-					state = 765
-				}
-
-
-			}
-		}
-		kuwait_oil ={
-
-			allowed = {
-				original_tag = ITA
-
-			}
-			visible = {
-				owns_state = 656
-			}
-			cost = 100
-			days_remove = 100
-			icon = generic_prospect_for_resources
-			fire_only_once = yes
-			modifier = {
-				consumer_goods_factor = 0.02
-				civilian_factory_use = 8
-			}
-			complete_effect = {
-
-				add_resource= {
-					type = oil
-					amount = 20
-					state = 656
-				}
-
-
-			}
-		}
-
-	}
-
-	ita_irredentism = {
-
-		integrate_savoy = {
-
-			allowed = {
-				original_tag = ITA
-			}
-
-			cost = 150
-			days_remove = 200
-
-			icon = generic_political_actions
-			available = {
-				has_full_control_of_state = 735
-			}
-			visible = {
-				has_government = fascism
-			}
-			fire_only_once = yes
-
-			modifier = {
-				civilian_factory_use = 10
-			}
-			complete_effect = {
-				add_state_core = 735
-				if = {
-					limit = {
-						NOT = { owns_state = 735 }
-					}
-					transfer_state = 735
-				}
-				set_province_name = {
-					id = 9909
-					name = "Nizza"
-				}
-				set_province_name = {
-					id = 778
-					name = "Ennecì"
-				}
-				hidden_effect = {
-					news_event = { hours = 6 id = news.503 }
-
-				}
-			}
-		}
-	}
-
-
-
-	ita_army_investment = {
-		low_armyinv ={
-
-			allowed = {
-				original_tag = ITA
-
-			}
-			visible = {
-				check_variable = {
-					var = army_renovated
-					value = 1
-					compare = not_equals
-				}
-			}
-			days_remove = -1
-			icon = ger_military_buildup
-			fire_only_once = no
-			modifier = {
-				consumer_goods_factor = 0.05
-				experience_gain_army = 0.10
-			}
-			complete_effect = {
-				set_variable = {
-					var = lowarmy_running
-					value = 1
-				}
-			}
-		}
-		med_armyinv ={
-
-			allowed = {
-				original_tag = ITA
-			}
-			visible = {
-				check_variable = {
-					var = army_renovated
-					value = 1
-					compare = not_equals
-				}
-			}
-			days_remove = -1
-			icon = generic_prepare_civil_war
-			fire_only_once = no
-			modifier = {
-				consumer_goods_factor = 0.10
-				experience_gain_army = 0.20
-			}
-			days_re_enable = 30
-			complete_effect = {
-
-				set_variable = {
-					var = medarmy_running
-					value = 1
-				}
-
-
-
-			}
-		}
-
-		high_armyinv ={
-			allowed = {
-				original_tag = ITA
-			}
-			visible = {
-				check_variable = {
-					var = army_renovated
-					value = 1
-					compare = not_equals
-				}
-			}
-			days_remove = -1
-			icon = generic_industry
-			fire_only_once = no
-			modifier = {
-				consumer_goods_factor = 0.15
-				experience_gain_army = 0.30
-			}
-			days_re_enable = 30
-			complete_effect = {
-				set_variable = {
-					var = higharmy_running
-					value = 1
-				}
-			}
-		}
-
-		cancel_armyinv = {
-			allowed = {
-				original_tag = ITA
-			}
-			visible = {
-				AND = {
-
-					OR = {
-						check_variable = {
-							var = higharmy_running
-							value = 1
-							compare = equals
-						}
-						check_variable = {
-							var = medarmy_running
-							value = 1
-							compare = equals
-						}
-						check_variable = {
-							var = lowarmy_running
-							value = 1
-							compare = equals
-						}
-					}
-
-					check_variable = {
-						var = army_renovated
-						value = 1
-						compare = not_equals
-					}
-
-				}
-			}
-			days_remove = 60
-			icon = generic_break_treaty
-			fire_only_once = no
-			modifier = {
-			}
-
-			remove_effect = {
-				remove_decision = high_armyinv
-				remove_decision = med_armyinv
-				remove_decision = low_armyinv
-				set_variable = {
-					var = higharmy_running
-					value = 0
-				}
-				set_variable = {
-					var = lowarmy_running
-					value = 0
-				}
-				set_variable = {
-					var = medarmy_running
-					value = 0
-				}
-			}
-		}
-		army_reform = {
-
-			icon = generic_tank
-
-			available = {
-				has_army_experience > 199
-			}
-
-			cost = 0
-			ai_will_do = {
-				factor = 500
-			}
-			days_remove = 75
-
-			visible = {
-				OR = {
-					has_idea = itaold_regio
-					has_idea = itaold_regio2
-					has_idea = itaold_regio3
-					has_idea = itaold_regio4
-				}
-			}
-			remove_effect = {
-				if = {
-					limit = { has_idea = itaold_regio }
-					swap_ideas = {
-						remove_idea = itaold_regio
-						add_idea = itaold_regio2
-					}
-				}
-				else_if = {
-					limit = { has_idea = itaold_regio2 }
-					swap_ideas = {
-						remove_idea = itaold_regio2
-						add_idea = itaold_regio3
-					}
-				}
-				else_if = {
-					limit = { has_idea = itaold_regio3 }
-					swap_ideas = {
-						remove_idea = itaold_regio3
-						add_idea = itaold_regio4
-					}
-				}
-				else_if = {
-					limit = { has_idea = itaold_regio4 }
-					swap_ideas = {
-						remove_idea = itaold_regio4
-						add_idea = new_regio
-					}
-					set_variable = {
-						var = army_renovated
-						value = 1
-					}
-					remove_decision = high_armyinv
-					remove_decision = med_armyinv
-					remove_decision = low_armyinv
-					country_event = {
-						id = news.521
-					}
-				}
-			}
-			complete_effect = {
-				army_experience = -200
-			}
-		}
-
-	}
-
-	ita_air_investment = {
-		low_airinv ={
-			allowed = {
-				original_tag = ITA
-			}
-			visible = {
-				check_variable = {
-					var = air_renovated
-					value = 1
-					compare = not_equals
-				}
-			}
-
-			days_remove = -1
-			icon = generic_air
-			fire_only_once = no
-			modifier = {
-				consumer_goods_factor = 0.05
-				experience_gain_air = 0.10
-			}
-			complete_effect = {
-				set_variable = {
-					var = lowair_running
-					value = 1
-				}
-			}
-		}
-		med_airinv ={
-
-			allowed = {
-				original_tag = ITA
-			}
-			visible = {
-				check_variable = {
-					var = air_renovated
-					value = 1
-					compare = not_equals
-				}
-			}
-			days_remove = -1
-			icon = generic_air2
-			fire_only_once = no
-			modifier = {
-				consumer_goods_factor = 0.10
-				experience_gain_air = 0.20
-			}
-			complete_effect = {
-				set_variable = {
-					var = medair_running
-					value = 1
-				}
-			}
-		}
-		high_airinv ={
-
-			allowed = {
-				original_tag = ITA
-			}
-			visible = {
-				check_variable = {
-					var = air_renovated
-					value = 1
-					compare = not_equals
-				}
-			}
-			days_remove = -1
-			icon = generic_air3
-			fire_only_once = no
-			modifier = {
-				consumer_goods_factor = 0.15
-				experience_gain_air = 0.30
-			}
-			complete_effect = {
-				set_variable = {
-					var = highair_running
-					value = 1
-				}
-			}
-		}
-
-		cancel_airinv = {
-			allowed = {
-				original_tag = ITA
-			}
-			visible = {
-				AND = {
-
-					OR = {
-						check_variable = {
-							var = highair_running
-							value = 1
-							compare = equals
-						}
-						check_variable = {
-							var = medair_running
-							value = 1
-							compare = equals
-						}
-						check_variable = {
-							var = lowair_running
-							value = 1
-							compare = equals
-						}
-					}
-
-					check_variable = {
-						var = air_renovated
-						value = 1
-						compare = not_equals
-					}
-
-				}
-			}
-			days_remove = 60
-			icon = generic_break_treaty
-			fire_only_once = no
-			modifier = {
-			}
-
-			remove_effect = {
-				remove_decision = high_airinv
-				remove_decision = med_airinv
-				remove_decision = low_airinv
-				set_variable = {
-					var = highair_running
-					value = 0
-				}
-				set_variable = {
-					var = lowair_running
-					value = 0
-				}
-				set_variable = {
-					var = medair_running
-					value = 0
-				}
-			}
-		}
-		air_reform = {
-
-			icon = generic_operation
-
-			available = {
-				#has_air_experience > 199
-				has_air_experience > 1
-			}
-
-			cost = 0
-			ai_will_do = {
-				factor = 500
-			}
-			#days_remove = 75
-			days_remove = 2
-
-			visible = {
-
-				OR = {
-					has_idea = itaold_air
-					has_idea = itaold_air2
-					has_idea = itaold_air3
-					has_idea = itaold_air4
-				}
-			}
-			remove_effect = {
-				if = {
-					limit = { has_idea = itaold_air }
-					swap_ideas = {
-						remove_idea = itaold_air
-						add_idea = itaold_air2
-					}
-				}
-				else_if = {
-					limit = { has_idea = itaold_air2 }
-					swap_ideas = {
-						remove_idea = itaold_air2
-						add_idea = itaold_air3
-					}
-				}
-				else_if = {
-					limit = { has_idea = itaold_air3 }
-					swap_ideas = {
-						remove_idea = itaold_air3
-						add_idea = itaold_air4
-					}
-				}
-				else_if = {
-					limit = { has_idea = itaold_air4 }
-					remove_ideas = itaold_air4
-					set_variable = {
-						var = air_renovated
-						value = 1
-					}
-					remove_decision = high_airinv
-					remove_decision = med_airinv
-					remove_decision = low_airinv
-					country_event = {
-						id = news.520
-					}
-				}
-			}
-			complete_effect = {
-				air_experience = -1
-				#air_experience = -200
-			}
-		}
-	}
-
-
-
-
-	#########ROMA!!!!#######
-
-	romanization= {
-		#Olanda
-		dutch_roman = {
-			icon = ger_reichskommissariats
-			fire_only_once = yes
-			available = {
-				has_global_flag = form_roman_empire_flag
-				controls_state = 7
-				controls_state = 35
-			}
-			visible = {
-			}
-			cost = 200
-			days_remove = 200
-			remove_effect = {
-				add_state_core = 7
-				add_state_core = 35
-				set_province_name = {
-					id = 391
-					name = "Amstelodamum"
-				}
-			}
-		}
-		#lussemburgo
-		luss_roman = {
-			icon = ger_reichskommissariats
-			fire_only_once = yes
-			available = {
-				has_global_flag = form_roman_empire_flag
-				controls_state = 8
-
-			}
-			visible = {
-			}
-			cost = 200
-			days_remove = 200
-			remove_effect = {
-				add_state_core = 8
-				set_province_name = {
-					id = 6583
-					name = "Luxemburgum urbs"
-				}
-			}
-		}
-		##austria
-		austria_roman = {
-			icon = ger_reichskommissariats
-			fire_only_once = yes
-			available = {
-				has_global_flag = form_roman_empire_flag
-				controls_state = 153
-				controls_state = 4
-				controls_state = 152
-			}
-			visible = {
-			}
-			cost = 200
-			days_remove = 200
-			remove_effect = {
-				add_state_core = 153
-				add_state_core = 152
-				add_state_core = 4
-				set_province_name = {
-					id = 673
-					name = "Aeni Pons"
-				}
-				set_province_name = {
-					id = 688
-					name = "Iuvavum"
-				}
-				set_province_name = {
-					id = 11666
-					name = "Vindo Bona"
-				}
-				set_province_name = {
-					id = 732
-					name = "Lincium"
-				}
-				set_province_name = {
-					id = 9665
-					name = "Ovilavis"
-				}
-			}
-		}
-
-		##albania
-		albania_roman = {
-			icon = ger_reichskommissariats
-			fire_only_once = yes
-			available = {
-				has_global_flag = form_roman_empire_flag
-				controls_state = 44
-				controls_state = 788
-			}
-			visible = {
-			}
-			cost = 200
-			days_remove = 200
-			remove_effect = {
-				add_state_core = 44
-				add_state_core = 788
-				set_province_name = {
-					id = 9914
-					name = "Theranda"
-				}
-				set_province_name = {
-					id = 11767
-					name = "Dyrrachium"
-				}
-			}
-		}
-		###Romania
-		romania_roman = {
-			icon = ger_reichskommissariats
-			fire_only_once = yes
-			available = {
-				has_global_flag = form_roman_empire_flag
-				controls_state = 46
-				controls_state = 81
-				controls_state = 82
-			}
-			visible = {
-			}
-			cost = 200
-			days_remove = 200
-			remove_effect = {
-				add_state_core = 81
-				add_state_core = 82
-				add_state_core = 46
-
-				set_province_name = {
-					id = 9617
-					name = "Bucaresta"
-				}
-			}
-		}
-
-		####yugoslavia
-		yugoslavia_roman = {
-			icon = ger_reichskommissariats
-			fire_only_once = yes
-			available = {
-				has_global_flag = form_roman_empire_flag
-				controls_state = 46
-				controls_state = 81
-				controls_state = 82
-			}
-			visible = {
-			}
-			cost = 200
-			days_remove = 200
-			remove_effect = {
-				102 = { add_core_of = ROOT }
-				103 = { add_core_of = ROOT }
-				109 = { add_core_of = ROOT }
-				104 = { add_core_of = ROOT }
-				45 = { add_core_of = ROOT }
-				107 = { add_core_of = ROOT }
-				105 = { add_core_of = ROOT }
-				108 = { add_core_of = ROOT }
-				106 = { add_core_of = ROOT }
-
-				set_province_name = {
-					id = 11564
-					name = "Tarsatica"
-				}
-				set_province_name = {
-					id = 11581
-					name = "Zagabria"
-				}
-				set_province_name = {
-					id = 3924
-					name = "Spalatium"
-				}
-				set_province_name = {
-					id = 11899
-					name = "Seraium"
-				}
-				set_province_name = {
-					id = 6983
-					name = "Bagnaluca"
-				}
-				set_province_name = {
-					id = 9627
-					name = "Aemona"
-				}
-				set_province_name = {
-					id = 9809
-					name = "Birziminium"
-				}
-				set_province_name = {
-					id = 3882
-					name = "Scupi"
-				}
-				set_province_name = {
-					id = 9602
-					name = "Naissus"
-				}
-				set_province_name = {
-					id = 11586
-					name = "Singidunum"
-				}
-			}
-		}
-
-		##Grecia
-		grecia_roman = {
-			icon = ger_reichskommissariats
-			fire_only_once = yes
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = form_country_greece_required_states_tt
-					controls_state = 185
-					controls_state = 731
-					controls_state = 47
-					controls_state = 186
-					controls_state = 184
-					controls_state = 187
-					controls_state = 182
-				}
-			}
-			visible = {
-			}
-			cost = 200
-			days_remove = 200
-			remove_effect = {
-				185 = { add_core_of = ROOT }
-				731 = { add_core_of = ROOT }
-				47 = { add_core_of = ROOT }
-				186 = { add_core_of = ROOT }
-				184 = { add_core_of = ROOT }
-				187 = { add_core_of = ROOT }
-				182 = { add_core_of = ROOT }
-
-				set_province_name = {
-					id = 10203
-					name = "Corcyra"
-				}
-				set_province_name = {
-					id = 4109
-					name = "Athenae"
-				}
-				set_province_name = {
-					id = 3988
-					name = "Corinthus"
-				}
-				set_province_name = {
-					id = 11818
-					name = "Thessalonica"
-				}
-
-
-			}
-		}
-
-		###Bulgaria
-		bulgaria_roman = {
-			icon = ger_reichskommissariats
-			fire_only_once = yes
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = form_country_bulgaria_required_states_tt
-					controls_state = 48
-					controls_state = 212
-					controls_state = 211
-				}
-			}
-			visible = {
-			}
-			cost = 200
-			days_remove = 200
-			remove_effect = {
-				custom_effect_tooltip = form_country_bulgaria_coring_states_tt
-				hidden_effect = {
-					48 = { add_core_of = ROOT }
-					212 = { add_core_of = ROOT }
-					211 = { add_core_of = ROOT }
-				}
-
-				set_province_name = {
-					id = 6923
-					name = "Trimontium"
-				}
-				set_province_name = {
-					id = 949
-					name = "Serdica"
-				}
-				set_province_name = {
-					id = 9783
-					name = "Odessus"
-				}
-				set_province_name = {
-					id = 9902
-					name = "Deultium"
-				}
-
-
-			}
-		}
-
-		###Turchia
-		turkey_roman = {
-			icon = ger_reichskommissariats
-			fire_only_once = yes
-			available = {
-				controls_state = 341
-				controls_state = 340
-				controls_state = 339
-				controls_state = 342
-				controls_state = 343
-				controls_state = 347
-				controls_state = 49
-				controls_state = 345
-				controls_state = 344
-			}
-			visible = {
-			}
-			cost = 200
-			days_remove = 200
-			remove_effect = {
-				custom_effect_tooltip = form_country_turkey_coring_states_tt
-				hidden_effect = {
-					341 = { add_core_of = ROOT }
-					340 = { add_core_of = ROOT }
-					339 = { add_core_of = ROOT }
-					342 = { add_core_of = ROOT }
-					343 = { add_core_of = ROOT }
-					347 = { add_core_of = ROOT }
-					49 = { add_core_of = ROOT }
-					346 = { add_core_of = ROOT }
-					345 = { add_core_of = ROOT }
-					356 = { add_core_of = ROOT }
-					348 = { add_core_of = ROOT }
-					344 = { add_core_of = ROOT }
-					355 = { add_core_of = ROOT }
-					349 = { add_core_of = ROOT }
-					350 = { add_core_of = ROOT }
-					354 = { add_core_of = ROOT }
-					353 = { add_core_of = ROOT }
-					352 = { add_core_of = ROOT }
-				}
-
-				set_province_name = {
-					id = 9833
-					name = "Byzantium"
-				}
-
-
-			}
-		}
-
-		# Switzerland
-		swiss_roman = {
-			icon = ger_reichskommissariats
-			fire_only_once = yes
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = form_country_switzerland_required_states_tt
-					controls_state = 3
-					controls_state = 151
-					controls_state = 789
-				}
-			}
-			visible = {
-			}
-			cost = 200
-			days_remove = 200
-			remove_effect = {
-				custom_effect_tooltip = form_country_switzerland_coring_states_tt
-				hidden_effect = {
-					3 = { add_core_of = ROOT }
-					151 = { add_core_of = ROOT }
-					789 = { add_core_of = ROOT }
-				}
-
-				set_province_name = {
-					id = 9600
-					name = "Baltiona"
-				}
-				set_province_name = {
-					id = 663
-					name = "Tigurum"
-				}
-				set_province_name = {
-					id = 9620
-					name = "Berna"
-				}
-
-
-			}
-		}
-
-		# Portogallo
-		portugal_roman = {
-			icon = ger_reichskommissariats
-			fire_only_once = yes
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = form_eu_portugal_required_states_tt
-					controls_state = 180
-					controls_state = 181
-					controls_state = 112
-					controls_state = 179
-				}
-			}
-			visible = {
-			}
-			cost = 200
-			days_remove = 200
-			remove_effect = {
-				custom_effect_tooltip = form_eu_portugal_coring_states_tt
-				hidden_effect = {
-					180 = { add_core_of = ROOT }
-					181 = { add_core_of = ROOT }
-					112 = { add_core_of = ROOT }
-					179 = { add_core_of = ROOT }
-				}
-
-
-				set_province_name = {
-					id = 11673
-					name = "Bracara Augusta"
-				}
-				set_province_name = {
-					id = 11805
-					name = "Olisipo"
-				}
-				set_province_name = {
-					id = 9869
-					name = "Ebora Liberalitas Julia"
-				}
-				set_province_name = {
-					id = 3798
-					name = "Aeminium"
-				}
-				set_province_name = {
-					id = 9817
-					name = "Portus Cale"
-				}
-				set_province_name = {
-					id = 3790
-					name = "Portus Magnus"
-				}
-			}
-		}
-
-		# Belgio
-		belgium_roman = {
-			icon = ger_reichskommissariats
-			fire_only_once = yes
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = form_eu_portugal_required_states_tt
-					controls_state = 180
-					controls_state = 181
-					controls_state = 112
-					controls_state = 179
-				}
-			}
-			visible = {
-			}
-			cost = 200
-			days_remove = 200
-			remove_effect = {
-				custom_effect_tooltip = form_eu_belgium_coring_states_tt
-				hidden_effect = {
-					6 = { add_core_of = ROOT }
-					34 = { add_core_of = ROOT }
-				}
-
-
-				set_province_name = {
-					id = 516
-					name = "Bruxellae"
-				}
-				set_province_name = {
-					id = 6598
-					name = "Ambivaritum"
-				}
-				set_province_name = {
-					id = 3576
-					name = "Cortoriacum"
-				}
-			}
-		}
-
-
-		##Spagna
-		spain_roman = {
-			icon = ger_reichskommissariats
-			fire_only_once = yes
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = form_spqr_spain_required_states_tt
-					controls_state = 165
-					controls_state = 166
-					controls_state = 167
-					controls_state = 177
-					controls_state = 171
-					controls_state = 174
-					controls_state = 172
-					controls_state = 176
-					controls_state = 170
-					controls_state = 41
-					controls_state = 175
-					controls_state = 169
-					controls_state = 173
-					controls_state = 168
-					# North Africa
-					controls_state = 290
-				}
-			}
-			visible = {
-			}
-			cost = 200
-			days_remove = 200
-			remove_effect = {
-				custom_effect_tooltip = form_spqr_spain_coring_states_tt
-				hidden_effect = {
-					165 = { add_core_of = ROOT }
-					166 = { add_core_of = ROOT }
-					167 = { add_core_of = ROOT }
-					177 = { add_core_of = ROOT }
-					171 = { add_core_of = ROOT }
-					174 = { add_core_of = ROOT }
-					172 = { add_core_of = ROOT }
-					176 = { add_core_of = ROOT }
-					170 = { add_core_of = ROOT }
-					41 = { add_core_of = ROOT }
-					175 = { add_core_of = ROOT }
-					169 = { add_core_of = ROOT }
-					173 = { add_core_of = ROOT }
-					168 = { add_core_of = ROOT }
-					290 = { add_core_of = ROOT }
-				}
-
-
-
-				set_province_name = {
-					id = 758
-					name = "Brigantium"
-				}
-				set_province_name = {
-					id = 11825
-					name = "Pintia"
-				}
-				set_province_name = {
-					id = 6734
-					name = "Vicus"
-				}
-				set_province_name = {
-					id = 3874
-					name = "Salamantica"
-				}
-				set_province_name = {
-					id = 9840
-					name = "Osca"
-				}
-				set_province_name = {
-					id = 3938
-					name = "Madritum"
-				}
-				set_province_name = {
-					id = 3816
-					name = "Caesaraugusta"
-				}
-				set_province_name = {
-					id = 9764
-					name = "Barcino"
-				}
-				set_province_name = {
-					id = 6906
-					name = "Valentia"
-				}
-				set_province_name = {
-					id = 4098
-					name = "Lucentum"
-				}
-				set_province_name = {
-					id = 10024
-					name = "Carthago Nova"
-				}
-				set_province_name = {
-					id = 747
-					name = "Portus Magnus"
-				}
-				set_province_name = {
-					id = 1176
-					name = "Illiberis"
-				}
-				set_province_name = {
-					id = 9979
-					name = "Malaca"
-				}
-				set_province_name = {
-					id = 1048
-					name = "Gades"
-				}
-				set_province_name = {
-					id = 7183
-					name = "Italica"
-				}
-				set_province_name = {
-					id = 875
-					name = "Corduba"
-				}
-				set_province_name = {
-					id = 6902
-					name = "Bathalios"
-				}
-				set_province_name = {
-					id = 9945
-					name = "Septem Fratres"
-				}
-			}
-		}
-
-
-
-		##Francia
-		france_roman = {
-			icon = ger_reichskommissariats
-			fire_only_once = yes
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = form_spqr_france_required_states_tt
-					controls_state = 29
-					controls_state = 18
-					controls_state = 17
-					controls_state = 28
-					controls_state = 15
-					controls_state = 16
-					controls_state = 27
-					controls_state = 14
-					controls_state = 30
-					controls_state = 24
-					controls_state = 23
-					controls_state = 33
-					controls_state = 26
-					controls_state = 20
-					controls_state = 32
-					controls_state = 735
-					controls_state = 25
-					controls_state = 22
-					controls_state = 21
-					controls_state = 19
-					controls_state = 20
-					controls_state = 1
-					# North Africa
-					controls_state = 458
-					controls_state = 665
-					controls_state = 460
-					controls_state = 513
-					controls_state = 459
-					controls_state = 461
-					# Syria
-					controls_state = 677
-					controls_state = 680
-					controls_state = 553
-					controls_state = 554
-				}
-			}
-			visible = {
-			}
-			cost = 200
-			days_remove = 200
-			remove_effect = {
-				custom_effect_tooltip = form_spqr_france_coring_states_tt
-				hidden_effect = {
-					29 = { add_core_of = ROOT }
-					18 = { add_core_of = ROOT }
-					17 = { add_core_of = ROOT }
-					28 = { add_core_of = ROOT }
-					15 = { add_core_of = ROOT }
-					16 = { add_core_of = ROOT }
-					27 = { add_core_of = ROOT }
-					14 = { add_core_of = ROOT }
-					30 = { add_core_of = ROOT }
-					24 = { add_core_of = ROOT }
-					23 = { add_core_of = ROOT }
-					33 = { add_core_of = ROOT }
-					26 = { add_core_of = ROOT }
-					20 = { add_core_of = ROOT }
-					32 = { add_core_of = ROOT }
-					735 = { add_core_of = ROOT }
-					25 = { add_core_of = ROOT }
-					22 = { add_core_of = ROOT }
-					21 = { add_core_of = ROOT }
-					19 = { add_core_of = ROOT }
-					20 = { add_core_of = ROOT }
-					1 = { add_core_of = ROOT }
-					458 = { add_core_of = ROOT }
-					665 = { add_core_of = ROOT }
-					460 = { add_core_of = ROOT }
-					513 = { add_core_of = ROOT }
-					459 = { add_core_of = ROOT }
-					461 = { add_core_of = ROOT }
-					677 = { add_core_of = ROOT }
-					680 = { add_core_of = ROOT }
-					553 = { add_core_of = ROOT }
-					554 = { add_core_of = ROOT }
-				}
-
-
-
-				set_province_name = {
-					id = 3838
-					name = "Aiacium"
-				}
-				set_province_name = {
-					id = 9909
-					name = "Nicaea"
-				}
-				set_province_name = {
-					id = 911
-					name = "Telonis Portius"
-				}
-				set_province_name = {
-					id = 11834
-					name = "Massilia"
-				}
-				set_province_name = {
-					id = 6766
-					name = "Tolosa"
-				}
-				set_province_name = {
-					id = 9737
-					name = "Burdigala"
-				}
-				set_province_name = {
-					id = 11465
-					name = "Namnetus Portus"
-				}
-				set_province_name = {
-					id = 3552
-					name = "Brestia"
-				}
-				set_province_name = {
-					id = 9495
-					name = "Condate Riedonum"
-				}
-				set_province_name = {
-					id = 6449
-					name = " Coriallum"
-				}
-				set_province_name = {
-					id = 9434
-					name = "Franciscopolis"
-				}
-				set_province_name = {
-					id = 11563
-					name = "Rothomagus"
-				}
-				set_province_name = {
-					id = 11420
-					name = "Samarobriva"
-				}
-				set_province_name = {
-					id = 11506
-					name = "Lutetia Parisiorum"
-				}
-				set_province_name = {
-					id = 11548
-					name = "Caletum"
-				}
-				set_province_name = {
-					id = 7183
-					name = "Italica"
-				}
-				set_province_name = {
-					id = 11483
-					name = "Insula"
-				}
-				set_province_name = {
-					id = 9559
-					name = "Divodurum Mediomatricorum"
-				}
-				set_province_name = {
-					id = 11516
-					name = "Nanciacum"
-				}
-				set_province_name = {
-					id = 9503
-					name = "Argentoratum"
-				}
-				set_province_name = {
-					id = 9642
-					name = "Desontio"
-				}
-				set_province_name = {
-					id = 3652
-					name = "Divio"
-				}
-				set_province_name = {
-					id = 6613
-					name = "Lugdunum"
-				}
-				set_province_name = {
-					id = 3594
-					name = "Vipiacus"
-				}
-				set_province_name = {
-					id = 3768
-					name = "Gratianopolis"
-				}
-				set_province_name = {
-					id = 11969
-					name = "Cartagho"
-				}
-				set_province_name = {
-					id = 778
-					name = "Boutae"
-				}
-			}
-		}
-
-		##Britannia
-		britain_roman = {
-			icon = ger_reichskommissariats
-			fire_only_once = yes
-			available = {
-
-				controls_state = 123
-				controls_state = 126
-				controls_state = 127
-				controls_state = 338
-				controls_state = 116
-				controls_state = 118
-				controls_state = 183
-				controls_state = 446
-				controls_state = 447
-			}
-			visible = {
-			}
-			cost = 200
-			days_remove = 200
-			remove_effect = {
-
-				123 = { add_core_of = ROOT }
-				126 = { add_core_of = ROOT }
-				127 = { add_core_of = ROOT }
-				338 = { add_core_of = ROOT }
-				446 = { add_core_of = ROOT }
-				447 = { add_core_of = ROOT }
-				183 = { add_core_of = ROOT }
-				118 = { add_core_of = ROOT }
-				116 = { add_core_of = ROOT }
-
-
-
-
-
-				set_province_name = {
-					id = 6103
-					name = "Londinium"
-				}
-				set_province_name = {
-					id = 3501
-					name = "Dubris"
-				}
-				set_province_name = {
-					id = 9458
-					name = "Portus Adurni"
-				}
-				set_province_name = {
-					id = 11984
-					name = "Nicosia"
-				}
-				set_province_name = {
-					id = 4076
-					name = "Alexandrea ad Aegyptum"
-				}
-
-			}
-		}
-
-
-		###fine
-	}
+  develop_derna = {
+
+    allowed = {
+      original_tag = ITA
+    }
+
+    cost = 250
+    days_remove = 200
+
+    icon = generic_prospect_for_resources
+    available = {
+      451 = { is_fully_controlled_by = ITA }
+    }
+    visible = {
+      has_full_control_of_state = 451
+    }
+    fire_only_once = yes
+
+    modifier = {
+      civilian_factory_use = 8
+    }
+    complete_effect = {
+      451 = {
+        set_state_category = town
+      }
+    }
+  }
+
+  develop_elagheila = {
+
+    allowed = {
+      original_tag = ITA
+    }
+
+    cost = 250
+    days_remove = 200
+
+    icon = generic_prospect_for_resources
+    available = {
+      449 = { is_fully_controlled_by = ITA }
+    }
+    visible = {
+      has_full_control_of_state = 449
+    }
+    fire_only_once = yes
+
+    modifier = {
+      civilian_factory_use = 8
+    }
+    complete_effect = {
+      449 = {
+        set_state_category = town
+      }
+    }
+  }
+
+  develop_benghasi = {
+
+    allowed = {
+      original_tag = ITA
+    }
+
+    cost = 250
+    days_remove = 200
+
+    icon = generic_prospect_for_resources
+    available = {
+      450 = { is_fully_controlled_by = ITA }
+    }
+    visible = {
+      has_full_control_of_state = 450
+    }
+    fire_only_once = yes
+
+    modifier = {
+      civilian_factory_use = 8
+    }
+    complete_effect = {
+      450 = {
+        set_state_category = town
+      }
+    }
+  }
+
+  develop_tripoli = {
+
+    allowed = {
+      original_tag = ITA
+    }
+
+    cost = 250
+    days_remove = 200
+
+    icon = generic_prospect_for_resources
+    available = {
+      448 = { is_fully_controlled_by = ITA }
+    }
+    visible = {
+      has_full_control_of_state = 448
+    }
+    fire_only_once = yes
+
+    modifier = {
+      civilian_factory_use = 8
+    }
+    complete_effect = {
+      448 = {
+        set_state_category = large_city
+      }
+    }
+  }
+  ###AOI###
+  puppet_AOI = {
+
+    allowed = {
+      original_tag = ITA
+    }
+
+    cost = 100
+    days_remove = 15
+
+    icon = generic_formable_nations
+    available = {
+      271 = { is_fully_controlled_by = ITA }
+      550 = { is_fully_controlled_by = ITA }
+      559 = { is_fully_controlled_by = ITA }
+
+    }
+    fire_only_once = yes
+
+    modifier = {
+    }
+    complete_effect = {
+      puppet = AOI
+      AOI = { transfer_state =  271 }
+      AOI = { transfer_state =  550 }
+      AOI = { transfer_state =  559 }
+      AOI = {  add_state_core = 271 add_state_core = 550 add_state_core = 559
+      }
+    }
+  }
+  ##aggiungi djibouti
+  AOI_gibuti= {
+
+    allowed = {
+      original_tag = ITA
+    }
+    visible = {
+      has_full_control_of_state = 268
+    }
+    cost = 0
+    days_remove = 0
+    icon = generic_formable_nations
+    available = {
+      268 = { is_fully_controlled_by = ITA }
+    }
+    fire_only_once = yes
+    modifier = {
+    }
+    complete_effect = {
+      puppet = AOI
+      AOI = { transfer_state =  268 }
+      AOI = {  add_state_core = 268 }
+    }
+  }
+  ###aggiungi somaliland
+  AOI_somaliland= {
+
+    allowed = {
+      original_tag = ITA
+    }
+    visible = {
+      has_full_control_of_state = 269
+    }
+    cost = 0
+    days_remove = 0
+    icon = generic_formable_nations
+    available = {
+      269 = { is_fully_controlled_by = ITA }
+    }
+    fire_only_once = yes
+    modifier = {
+    }
+    complete_effect = {
+      puppet = AOI
+      AOI = { transfer_state =  269 }
+      AOI = {  add_state_core = 269 }
+    }
+  }
+
+
+
+  ####Arabia Italiana
+  puppet_VAI = {
+
+    allowed = {
+      original_tag = ITA
+    }
+
+    cost = 100
+    days_remove = 15
+
+    icon = generic_formable_nations
+    available = {
+      OR = { ITA = {has_full_control_of_state = 292
+        has_full_control_of_state = 679 has_full_control_of_state = 678  }
+        SAU ={  is_puppet_of = ITA  }  }
+        OR = { ITA = {has_full_control_of_state = 293
+        }
+        YEM ={  is_puppet_of = ITA  }  }
+        OR = { ITA = {has_full_control_of_state = 294
+        }
+        OMA ={  is_puppet_of = ITA  }  }
+        ITA = {has_full_control_of_state = 656}
+        ITA = {has_full_control_of_state = 765}
+        ITA = {has_full_control_of_state = 658}
+        ITA = {has_full_control_of_state = 659}
+      }
+      fire_only_once = yes
+
+      modifier = {
+      }
+      complete_effect = {
+        puppet = VAI
+        VAI = { transfer_state =  678 }
+        VAI = { transfer_state =  656 }
+        VAI = { transfer_state =  765 }
+        VAI = { transfer_state =  658 }
+        VAI = { transfer_state =  659 }
+        VAI = { transfer_state =  294 }
+        VAI = { transfer_state =  293 }
+        VAI = { transfer_state =  292 }
+        VAI = { transfer_state =  679 }
+        VAI = {  add_state_core = 656 add_state_core = 765 add_state_core = 658 add_state_core = 659 add_state_core = 294 add_state_core = 293 add_state_core = 292 add_state_core = 679 add_state_core = 678
+        }
+      }
+    }
+
+  }
+
+  foreign_politics = {
+
+    renew_itayem_treaty = {
+      allowed = {
+        original_tag = ITA
+
+      }
+      cost = 100
+      days_remove = 60
+      icon = generic_political_actions
+      available = {
+      }
+      fire_only_once = yes
+      complete_effect = {
+        give_guarantee = YEM
+      }
+    }
+
+    yem_puppet = {
+      allowed = {
+        original_tag = ITA
+
+      }
+      cost = 300
+      days_remove = 200
+      icon = generic_political_actions
+      available = {
+        293 = {has_state_flag = yem_res}
+        293 = {has_state_flag = yem_infr}
+        293 = {has_state_flag = yem_indu}
+      }
+      fire_only_once = yes
+      complete_effect = {
+        puppet = YEM
+      }
+    }
+  }
+
+  yemen_works = {
+    ######
+    yemita_resources ={
+      allowed = {
+        original_tag = ITA
+
+      }
+      visible = {
+        has_guaranteed = YEM
+      }
+      cost = 150
+      days_remove = 100
+      icon = generic_prospect_for_resources
+      available = {
+      }
+      fire_only_once = yes
+      modifier = {
+        civilian_factory_use = 5
+      }
+      complete_effect = {
+        293 = {
+          add_resource = {
+            type = oil
+            amount = 4
+          }
+          set_state_flag = yem_res
+        }
+      }
+    }
+
+    ######
+    yemita_infrastructure ={
+      allowed = {
+        original_tag = ITA
+
+      }
+      visible = {
+        has_guaranteed = YEM
+      }
+      cost = 150
+      days_remove = 100
+      icon = generic_prospect_for_resources
+      available = {
+      }
+      fire_only_once = yes
+      modifier = {
+        civilian_factory_use = 5
+      }
+      complete_effect = {
+        293 = {
+          add_building_construction = {
+            type = naval_base
+            level = 4
+            province = 10843
+            instant_build = yes
+          }
+        }
+        293 = {
+          add_building_construction = {
+            type = infrastructure
+            level = 1
+            instant_build = yes
+          }
+          set_state_flag = yem_infr
+        }
+
+      }
+    }
+    ######
+    yemita_industries ={
+      allowed = {
+        original_tag = ITA
+
+      }
+      visible = {
+        has_guaranteed = YEM
+      }
+      cost = 150
+      days_remove = 100
+      icon = generic_prospect_for_resources
+      available = {
+      }
+      fire_only_once = yes
+      modifier = {
+        civilian_factory_use = 5
+      }
+      complete_effect = {
+        293 = {
+          add_extra_state_shared_building_slots = 3
+          add_building_construction = {
+            type = industrial_complex
+            level = 3
+            instant_build = yes
+          }
+          set_state_flag = yem_indu
+        }
+
+      }
+
+    }
+  }
+
+  ####has_completed_focus = ITA_arditoarabia####
+
+
+  richness_arabia = {
+
+    nejd_oil ={
+
+      allowed = {
+        original_tag = ITA
+
+      }
+      visible = {
+        has_completed_focus = ITA_arditoarabia
+      }
+      cost = 100
+      days_remove = 100
+      icon = generic_prospect_for_resources
+      fire_only_once = yes
+      modifier = {
+        consumer_goods_factor = 0.02
+        civilian_factory_use = 8
+      }
+      complete_effect = {
+
+        add_resource= {
+          type = oil
+          amount = 90
+          state = 292
+        }
+
+
+      }
+    }
+
+    alkhali_oil ={
+
+      allowed = {
+        original_tag = ITA
+
+      }
+      visible = {
+        has_completed_focus = ITA_arditoarabia
+      }
+      cost = 100
+      days_remove = 100
+      icon = generic_prospect_for_resources
+      fire_only_once = yes
+      modifier = {
+        consumer_goods_factor = 0.02
+        civilian_factory_use = 8
+      }
+      complete_effect = {
+
+        add_resource= {
+          type = oil
+          amount = 150
+          state = 678
+        }
+
+
+      }
+    }
+
+    purchase_bricolony ={
+
+      allowed = {
+        original_tag = ITA
+
+      }
+      visible = {
+        has_completed_focus = ITA_arditoarabia
+      }
+      cost = 50
+      days_remove = 7
+      icon = generic_prospect_for_resources
+      fire_only_once = yes
+      modifier = {
+      }
+      complete_effect = {
+
+        ITA = { transfer_state =  656 }
+        ITA = { transfer_state =  765 }
+        ITA = { transfer_state =  658 }
+        ITA = { transfer_state =  659 }
+        add_timed_idea
+        {
+          idea = purchase_colonies
+          days = 365
+        }
+        ENG = {
+          add_timed_idea
+          {
+            idea = sell_colonies
+            days = 365
+          }
+        }
+      }
+    }
+
+    qatar_oil ={
+
+      allowed = {
+        original_tag = ITA
+
+      }
+      visible = {
+        owns_state = 765
+      }
+      cost = 100
+      days_remove = 100
+      icon = generic_prospect_for_resources
+      fire_only_once = yes
+      modifier = {
+        consumer_goods_factor = 0.02
+        civilian_factory_use = 8
+      }
+      complete_effect = {
+
+        add_resource= {
+          type = oil
+          amount = 30
+          state = 765
+        }
+
+
+      }
+    }
+    kuwait_oil ={
+
+      allowed = {
+        original_tag = ITA
+
+      }
+      visible = {
+        owns_state = 656
+      }
+      cost = 100
+      days_remove = 100
+      icon = generic_prospect_for_resources
+      fire_only_once = yes
+      modifier = {
+        consumer_goods_factor = 0.02
+        civilian_factory_use = 8
+      }
+      complete_effect = {
+
+        add_resource= {
+          type = oil
+          amount = 20
+          state = 656
+        }
+
+
+      }
+    }
+
+  }
+
+  ita_irredentism = {
+
+    integrate_savoy = {
+
+      allowed = {
+        original_tag = ITA
+      }
+
+      cost = 150
+      days_remove = 200
+
+      icon = generic_political_actions
+      available = {
+        has_full_control_of_state = 735
+      }
+      visible = {
+        has_government = fascism
+      }
+      fire_only_once = yes
+
+      modifier = {
+        civilian_factory_use = 10
+      }
+      complete_effect = {
+        add_state_core = 735
+        if = {
+          limit = {
+            NOT = { owns_state = 735 }
+          }
+          transfer_state = 735
+        }
+        set_province_name = {
+          id = 9909
+          name = "Nizza"
+        }
+        set_province_name = {
+          id = 778
+          name = "Ennecì"
+        }
+        hidden_effect = {
+          news_event = { hours = 6 id = news.503 }
+
+        }
+      }
+    }
+  }
+
+
+
+  ita_army_investment = {
+    low_armyinv ={
+
+      allowed = {
+        original_tag = ITA
+
+      }
+      visible = {
+        check_variable = {
+          var = army_renovated
+          value = 1
+          compare = not_equals
+        }
+      }
+      days_remove = -1
+      icon = ger_military_buildup
+      fire_only_once = no
+      modifier = {
+        consumer_goods_factor = 0.05
+        experience_gain_army = 0.10
+      }
+      complete_effect = {
+        set_variable = {
+          var = lowarmy_running
+          value = 1
+        }
+      }
+    }
+    med_armyinv ={
+
+      allowed = {
+        original_tag = ITA
+      }
+      visible = {
+        check_variable = {
+          var = army_renovated
+          value = 1
+          compare = not_equals
+        }
+      }
+      days_remove = -1
+      icon = generic_prepare_civil_war
+      fire_only_once = no
+      modifier = {
+        consumer_goods_factor = 0.10
+        experience_gain_army = 0.20
+      }
+      days_re_enable = 30
+      complete_effect = {
+
+        set_variable = {
+          var = medarmy_running
+          value = 1
+        }
+
+
+
+      }
+    }
+
+    high_armyinv ={
+      allowed = {
+        original_tag = ITA
+      }
+      visible = {
+        check_variable = {
+          var = army_renovated
+          value = 1
+          compare = not_equals
+        }
+      }
+      days_remove = -1
+      icon = generic_industry
+      fire_only_once = no
+      modifier = {
+        consumer_goods_factor = 0.15
+        experience_gain_army = 0.30
+      }
+      days_re_enable = 30
+      complete_effect = {
+        set_variable = {
+          var = higharmy_running
+          value = 1
+        }
+      }
+    }
+
+    cancel_armyinv = {
+      allowed = {
+        original_tag = ITA
+      }
+      visible = {
+        AND = {
+
+          OR = {
+            check_variable = {
+              var = higharmy_running
+              value = 1
+              compare = equals
+            }
+            check_variable = {
+              var = medarmy_running
+              value = 1
+              compare = equals
+            }
+            check_variable = {
+              var = lowarmy_running
+              value = 1
+              compare = equals
+            }
+          }
+
+          check_variable = {
+            var = army_renovated
+            value = 1
+            compare = not_equals
+          }
+
+        }
+      }
+      days_remove = 60
+      icon = generic_break_treaty
+      fire_only_once = no
+      modifier = {
+      }
+
+      remove_effect = {
+        remove_decision = high_armyinv
+        remove_decision = med_armyinv
+        remove_decision = low_armyinv
+        set_variable = {
+          var = higharmy_running
+          value = 0
+        }
+        set_variable = {
+          var = lowarmy_running
+          value = 0
+        }
+        set_variable = {
+          var = medarmy_running
+          value = 0
+        }
+      }
+    }
+    army_reform = {
+
+      icon = generic_tank
+
+      available = {
+        has_army_experience > 199
+      }
+
+      cost = 0
+      ai_will_do = {
+        factor = 500
+      }
+      days_remove = 75
+
+      visible = {
+        OR = {
+          has_idea = itaold_regio
+          has_idea = itaold_regio2
+          has_idea = itaold_regio3
+          has_idea = itaold_regio4
+        }
+      }
+      remove_effect = {
+        if = {
+          limit = { has_idea = itaold_regio }
+          swap_ideas = {
+            remove_idea = itaold_regio
+            add_idea = itaold_regio2
+          }
+        }
+        else_if = {
+          limit = { has_idea = itaold_regio2 }
+          swap_ideas = {
+            remove_idea = itaold_regio2
+            add_idea = itaold_regio3
+          }
+        }
+        else_if = {
+          limit = { has_idea = itaold_regio3 }
+          swap_ideas = {
+            remove_idea = itaold_regio3
+            add_idea = itaold_regio4
+          }
+        }
+        else_if = {
+          limit = { has_idea = itaold_regio4 }
+          swap_ideas = {
+            remove_idea = itaold_regio4
+            add_idea = new_regio
+          }
+          set_variable = {
+            var = army_renovated
+            value = 1
+          }
+          remove_decision = high_armyinv
+          remove_decision = med_armyinv
+          remove_decision = low_armyinv
+          country_event = {
+            id = news.521
+          }
+        }
+      }
+      complete_effect = {
+        army_experience = -200
+      }
+    }
+
+  }
+
+  ita_air_investment = {
+    low_airinv ={
+      allowed = {
+        original_tag = ITA
+      }
+      visible = {
+        check_variable = {
+          var = air_renovated
+          value = 1
+          compare = not_equals
+        }
+      }
+
+      days_remove = -1
+      icon = generic_air
+      fire_only_once = no
+      modifier = {
+        consumer_goods_factor = 0.05
+        experience_gain_air = 0.10
+      }
+      complete_effect = {
+        set_variable = {
+          var = lowair_running
+          value = 1
+        }
+      }
+    }
+    med_airinv ={
+
+      allowed = {
+        original_tag = ITA
+      }
+      visible = {
+        check_variable = {
+          var = air_renovated
+          value = 1
+          compare = not_equals
+        }
+      }
+      days_remove = -1
+      icon = generic_air2
+      fire_only_once = no
+      modifier = {
+        consumer_goods_factor = 0.10
+        experience_gain_air = 0.20
+      }
+      complete_effect = {
+        set_variable = {
+          var = medair_running
+          value = 1
+        }
+      }
+    }
+    high_airinv ={
+
+      allowed = {
+        original_tag = ITA
+      }
+      visible = {
+        check_variable = {
+          var = air_renovated
+          value = 1
+          compare = not_equals
+        }
+      }
+      days_remove = -1
+      icon = generic_air3
+      fire_only_once = no
+      modifier = {
+        consumer_goods_factor = 0.15
+        experience_gain_air = 0.30
+      }
+      complete_effect = {
+        set_variable = {
+          var = highair_running
+          value = 1
+        }
+      }
+    }
+
+    cancel_airinv = {
+      allowed = {
+        original_tag = ITA
+      }
+      visible = {
+        AND = {
+
+          OR = {
+            check_variable = {
+              var = highair_running
+              value = 1
+              compare = equals
+            }
+            check_variable = {
+              var = medair_running
+              value = 1
+              compare = equals
+            }
+            check_variable = {
+              var = lowair_running
+              value = 1
+              compare = equals
+            }
+          }
+
+          check_variable = {
+            var = air_renovated
+            value = 1
+            compare = not_equals
+          }
+
+        }
+      }
+      days_remove = 60
+      icon = generic_break_treaty
+      fire_only_once = no
+      modifier = {
+      }
+
+      remove_effect = {
+        remove_decision = high_airinv
+        remove_decision = med_airinv
+        remove_decision = low_airinv
+        set_variable = {
+          var = highair_running
+          value = 0
+        }
+        set_variable = {
+          var = lowair_running
+          value = 0
+        }
+        set_variable = {
+          var = medair_running
+          value = 0
+        }
+      }
+    }
+    air_reform = {
+
+      icon = generic_operation
+
+      available = {
+        #has_air_experience > 199
+        has_air_experience > 1
+      }
+
+      cost = 0
+      ai_will_do = {
+        factor = 500
+      }
+      #days_remove = 75
+      days_remove = 2
+
+      visible = {
+
+        OR = {
+          has_idea = itaold_air
+          has_idea = itaold_air2
+          has_idea = itaold_air3
+          has_idea = itaold_air4
+        }
+      }
+      remove_effect = {
+        if = {
+          limit = { has_idea = itaold_air }
+          swap_ideas = {
+            remove_idea = itaold_air
+            add_idea = itaold_air2
+          }
+        }
+        else_if = {
+          limit = { has_idea = itaold_air2 }
+          swap_ideas = {
+            remove_idea = itaold_air2
+            add_idea = itaold_air3
+          }
+        }
+        else_if = {
+          limit = { has_idea = itaold_air3 }
+          swap_ideas = {
+            remove_idea = itaold_air3
+            add_idea = itaold_air4
+          }
+        }
+        else_if = {
+          limit = { has_idea = itaold_air4 }
+          remove_ideas = itaold_air4
+          set_variable = {
+            var = air_renovated
+            value = 1
+          }
+          remove_decision = high_airinv
+          remove_decision = med_airinv
+          remove_decision = low_airinv
+          country_event = {
+            id = news.520
+          }
+        }
+      }
+      complete_effect = {
+        air_experience = -1
+        #air_experience = -200
+      }
+    }
+  }
+
+
+
+
+  #########ROMA!!!!#######
+
+  romanization= {
+    #Olanda
+    dutch_roman = {
+      icon = ger_reichskommissariats
+      fire_only_once = yes
+      available = {
+        has_global_flag = form_roman_empire_flag
+        controls_state = 7
+        controls_state = 35
+      }
+      visible = {
+      }
+      cost = 200
+      days_remove = 200
+      remove_effect = {
+        add_state_core = 7
+        add_state_core = 35
+        set_province_name = {
+          id = 391
+          name = "Amstelodamum"
+        }
+      }
+    }
+    #lussemburgo
+    luss_roman = {
+      icon = ger_reichskommissariats
+      fire_only_once = yes
+      available = {
+        has_global_flag = form_roman_empire_flag
+        controls_state = 8
+
+      }
+      visible = {
+      }
+      cost = 200
+      days_remove = 200
+      remove_effect = {
+        add_state_core = 8
+        set_province_name = {
+          id = 6583
+          name = "Luxemburgum urbs"
+        }
+      }
+    }
+    ##austria
+    austria_roman = {
+      icon = ger_reichskommissariats
+      fire_only_once = yes
+      available = {
+        has_global_flag = form_roman_empire_flag
+        controls_state = 153
+        controls_state = 4
+        controls_state = 152
+      }
+      visible = {
+      }
+      cost = 200
+      days_remove = 200
+      remove_effect = {
+        add_state_core = 153
+        add_state_core = 152
+        add_state_core = 4
+        set_province_name = {
+          id = 673
+          name = "Aeni Pons"
+        }
+        set_province_name = {
+          id = 688
+          name = "Iuvavum"
+        }
+        set_province_name = {
+          id = 11666
+          name = "Vindo Bona"
+        }
+        set_province_name = {
+          id = 732
+          name = "Lincium"
+        }
+        set_province_name = {
+          id = 9665
+          name = "Ovilavis"
+        }
+      }
+    }
+
+    ##albania
+    albania_roman = {
+      icon = ger_reichskommissariats
+      fire_only_once = yes
+      available = {
+        has_global_flag = form_roman_empire_flag
+        controls_state = 44
+        controls_state = 788
+      }
+      visible = {
+      }
+      cost = 200
+      days_remove = 200
+      remove_effect = {
+        add_state_core = 44
+        add_state_core = 788
+        set_province_name = {
+          id = 9914
+          name = "Theranda"
+        }
+        set_province_name = {
+          id = 11767
+          name = "Dyrrachium"
+        }
+      }
+    }
+    ###Romania
+    romania_roman = {
+      icon = ger_reichskommissariats
+      fire_only_once = yes
+      available = {
+        has_global_flag = form_roman_empire_flag
+        controls_state = 46
+        controls_state = 81
+        controls_state = 82
+      }
+      visible = {
+      }
+      cost = 200
+      days_remove = 200
+      remove_effect = {
+        add_state_core = 81
+        add_state_core = 82
+        add_state_core = 46
+
+        set_province_name = {
+          id = 9617
+          name = "Bucaresta"
+        }
+      }
+    }
+
+    ####yugoslavia
+    yugoslavia_roman = {
+      icon = ger_reichskommissariats
+      fire_only_once = yes
+      available = {
+        has_global_flag = form_roman_empire_flag
+        controls_state = 46
+        controls_state = 81
+        controls_state = 82
+      }
+      visible = {
+      }
+      cost = 200
+      days_remove = 200
+      remove_effect = {
+        102 = { add_core_of = ROOT }
+        103 = { add_core_of = ROOT }
+        109 = { add_core_of = ROOT }
+        104 = { add_core_of = ROOT }
+        45 = { add_core_of = ROOT }
+        107 = { add_core_of = ROOT }
+        105 = { add_core_of = ROOT }
+        108 = { add_core_of = ROOT }
+        106 = { add_core_of = ROOT }
+
+        set_province_name = {
+          id = 11564
+          name = "Tarsatica"
+        }
+        set_province_name = {
+          id = 11581
+          name = "Zagabria"
+        }
+        set_province_name = {
+          id = 3924
+          name = "Spalatium"
+        }
+        set_province_name = {
+          id = 11899
+          name = "Seraium"
+        }
+        set_province_name = {
+          id = 6983
+          name = "Bagnaluca"
+        }
+        set_province_name = {
+          id = 9627
+          name = "Aemona"
+        }
+        set_province_name = {
+          id = 9809
+          name = "Birziminium"
+        }
+        set_province_name = {
+          id = 3882
+          name = "Scupi"
+        }
+        set_province_name = {
+          id = 9602
+          name = "Naissus"
+        }
+        set_province_name = {
+          id = 11586
+          name = "Singidunum"
+        }
+      }
+    }
+
+    ##Grecia
+    grecia_roman = {
+      icon = ger_reichskommissariats
+      fire_only_once = yes
+      available = {
+        custom_trigger_tooltip = {
+          tooltip = form_country_greece_required_states_tt
+          controls_state = 185
+          controls_state = 731
+          controls_state = 47
+          controls_state = 186
+          controls_state = 184
+          controls_state = 187
+          controls_state = 182
+        }
+      }
+      visible = {
+      }
+      cost = 200
+      days_remove = 200
+      remove_effect = {
+        185 = { add_core_of = ROOT }
+        731 = { add_core_of = ROOT }
+        47 = { add_core_of = ROOT }
+        186 = { add_core_of = ROOT }
+        184 = { add_core_of = ROOT }
+        187 = { add_core_of = ROOT }
+        182 = { add_core_of = ROOT }
+
+        set_province_name = {
+          id = 10203
+          name = "Corcyra"
+        }
+        set_province_name = {
+          id = 4109
+          name = "Athenae"
+        }
+        set_province_name = {
+          id = 3988
+          name = "Corinthus"
+        }
+        set_province_name = {
+          id = 11818
+          name = "Thessalonica"
+        }
+
+
+      }
+    }
+
+    ###Bulgaria
+    bulgaria_roman = {
+      icon = ger_reichskommissariats
+      fire_only_once = yes
+      available = {
+        custom_trigger_tooltip = {
+          tooltip = form_country_bulgaria_required_states_tt
+          controls_state = 48
+          controls_state = 212
+          controls_state = 211
+        }
+      }
+      visible = {
+      }
+      cost = 200
+      days_remove = 200
+      remove_effect = {
+        custom_effect_tooltip = form_country_bulgaria_coring_states_tt
+        hidden_effect = {
+          48 = { add_core_of = ROOT }
+          212 = { add_core_of = ROOT }
+          211 = { add_core_of = ROOT }
+        }
+
+        set_province_name = {
+          id = 6923
+          name = "Trimontium"
+        }
+        set_province_name = {
+          id = 949
+          name = "Serdica"
+        }
+        set_province_name = {
+          id = 9783
+          name = "Odessus"
+        }
+        set_province_name = {
+          id = 9902
+          name = "Deultium"
+        }
+
+
+      }
+    }
+
+    ###Turchia
+    turkey_roman = {
+      icon = ger_reichskommissariats
+      fire_only_once = yes
+      available = {
+        controls_state = 341
+        controls_state = 340
+        controls_state = 339
+        controls_state = 342
+        controls_state = 343
+        controls_state = 347
+        controls_state = 49
+        controls_state = 345
+        controls_state = 344
+      }
+      visible = {
+      }
+      cost = 200
+      days_remove = 200
+      remove_effect = {
+        custom_effect_tooltip = form_country_turkey_coring_states_tt
+        hidden_effect = {
+          341 = { add_core_of = ROOT }
+          340 = { add_core_of = ROOT }
+          339 = { add_core_of = ROOT }
+          342 = { add_core_of = ROOT }
+          343 = { add_core_of = ROOT }
+          347 = { add_core_of = ROOT }
+          49 = { add_core_of = ROOT }
+          346 = { add_core_of = ROOT }
+          345 = { add_core_of = ROOT }
+          356 = { add_core_of = ROOT }
+          348 = { add_core_of = ROOT }
+          344 = { add_core_of = ROOT }
+          355 = { add_core_of = ROOT }
+          349 = { add_core_of = ROOT }
+          350 = { add_core_of = ROOT }
+          354 = { add_core_of = ROOT }
+          353 = { add_core_of = ROOT }
+          352 = { add_core_of = ROOT }
+        }
+
+        set_province_name = {
+          id = 9833
+          name = "Byzantium"
+        }
+
+
+      }
+    }
+
+    # Switzerland
+    swiss_roman = {
+      icon = ger_reichskommissariats
+      fire_only_once = yes
+      available = {
+        custom_trigger_tooltip = {
+          tooltip = form_country_switzerland_required_states_tt
+          controls_state = 3
+          controls_state = 151
+          controls_state = 789
+        }
+      }
+      visible = {
+      }
+      cost = 200
+      days_remove = 200
+      remove_effect = {
+        custom_effect_tooltip = form_country_switzerland_coring_states_tt
+        hidden_effect = {
+          3 = { add_core_of = ROOT }
+          151 = { add_core_of = ROOT }
+          789 = { add_core_of = ROOT }
+        }
+
+        set_province_name = {
+          id = 9600
+          name = "Baltiona"
+        }
+        set_province_name = {
+          id = 663
+          name = "Tigurum"
+        }
+        set_province_name = {
+          id = 9620
+          name = "Berna"
+        }
+
+
+      }
+    }
+
+    # Portogallo
+    portugal_roman = {
+      icon = ger_reichskommissariats
+      fire_only_once = yes
+      available = {
+        custom_trigger_tooltip = {
+          tooltip = form_eu_portugal_required_states_tt
+          controls_state = 180
+          controls_state = 181
+          controls_state = 112
+          controls_state = 179
+        }
+      }
+      visible = {
+      }
+      cost = 200
+      days_remove = 200
+      remove_effect = {
+        custom_effect_tooltip = form_eu_portugal_coring_states_tt
+        hidden_effect = {
+          180 = { add_core_of = ROOT }
+          181 = { add_core_of = ROOT }
+          112 = { add_core_of = ROOT }
+          179 = { add_core_of = ROOT }
+        }
+
+
+        set_province_name = {
+          id = 11673
+          name = "Bracara Augusta"
+        }
+        set_province_name = {
+          id = 11805
+          name = "Olisipo"
+        }
+        set_province_name = {
+          id = 9869
+          name = "Ebora Liberalitas Julia"
+        }
+        set_province_name = {
+          id = 3798
+          name = "Aeminium"
+        }
+        set_province_name = {
+          id = 9817
+          name = "Portus Cale"
+        }
+        set_province_name = {
+          id = 3790
+          name = "Portus Magnus"
+        }
+      }
+    }
+
+    # Belgio
+    belgium_roman = {
+      icon = ger_reichskommissariats
+      fire_only_once = yes
+      available = {
+        custom_trigger_tooltip = {
+          tooltip = form_eu_portugal_required_states_tt
+          controls_state = 180
+          controls_state = 181
+          controls_state = 112
+          controls_state = 179
+        }
+      }
+      visible = {
+      }
+      cost = 200
+      days_remove = 200
+      remove_effect = {
+        custom_effect_tooltip = form_eu_belgium_coring_states_tt
+        hidden_effect = {
+          6 = { add_core_of = ROOT }
+          34 = { add_core_of = ROOT }
+        }
+
+
+        set_province_name = {
+          id = 516
+          name = "Bruxellae"
+        }
+        set_province_name = {
+          id = 6598
+          name = "Ambivaritum"
+        }
+        set_province_name = {
+          id = 3576
+          name = "Cortoriacum"
+        }
+      }
+    }
+
+
+    ##Spagna
+    spain_roman = {
+      icon = ger_reichskommissariats
+      fire_only_once = yes
+      available = {
+        custom_trigger_tooltip = {
+          tooltip = form_spqr_spain_required_states_tt
+          controls_state = 165
+          controls_state = 166
+          controls_state = 167
+          controls_state = 177
+          controls_state = 171
+          controls_state = 174
+          controls_state = 172
+          controls_state = 176
+          controls_state = 170
+          controls_state = 41
+          controls_state = 175
+          controls_state = 169
+          controls_state = 173
+          controls_state = 168
+          # North Africa
+          controls_state = 290
+        }
+      }
+      visible = {
+      }
+      cost = 200
+      days_remove = 200
+      remove_effect = {
+        custom_effect_tooltip = form_spqr_spain_coring_states_tt
+        hidden_effect = {
+          165 = { add_core_of = ROOT }
+          166 = { add_core_of = ROOT }
+          167 = { add_core_of = ROOT }
+          177 = { add_core_of = ROOT }
+          171 = { add_core_of = ROOT }
+          174 = { add_core_of = ROOT }
+          172 = { add_core_of = ROOT }
+          176 = { add_core_of = ROOT }
+          170 = { add_core_of = ROOT }
+          41 = { add_core_of = ROOT }
+          175 = { add_core_of = ROOT }
+          169 = { add_core_of = ROOT }
+          173 = { add_core_of = ROOT }
+          168 = { add_core_of = ROOT }
+          290 = { add_core_of = ROOT }
+        }
+
+
+
+        set_province_name = {
+          id = 758
+          name = "Brigantium"
+        }
+        set_province_name = {
+          id = 11825
+          name = "Pintia"
+        }
+        set_province_name = {
+          id = 6734
+          name = "Vicus"
+        }
+        set_province_name = {
+          id = 3874
+          name = "Salamantica"
+        }
+        set_province_name = {
+          id = 9840
+          name = "Osca"
+        }
+        set_province_name = {
+          id = 3938
+          name = "Madritum"
+        }
+        set_province_name = {
+          id = 3816
+          name = "Caesaraugusta"
+        }
+        set_province_name = {
+          id = 9764
+          name = "Barcino"
+        }
+        set_province_name = {
+          id = 6906
+          name = "Valentia"
+        }
+        set_province_name = {
+          id = 4098
+          name = "Lucentum"
+        }
+        set_province_name = {
+          id = 10024
+          name = "Carthago Nova"
+        }
+        set_province_name = {
+          id = 747
+          name = "Portus Magnus"
+        }
+        set_province_name = {
+          id = 1176
+          name = "Illiberis"
+        }
+        set_province_name = {
+          id = 9979
+          name = "Malaca"
+        }
+        set_province_name = {
+          id = 1048
+          name = "Gades"
+        }
+        set_province_name = {
+          id = 7183
+          name = "Italica"
+        }
+        set_province_name = {
+          id = 875
+          name = "Corduba"
+        }
+        set_province_name = {
+          id = 6902
+          name = "Bathalios"
+        }
+        set_province_name = {
+          id = 9945
+          name = "Septem Fratres"
+        }
+      }
+    }
+
+
+
+    ##Francia
+    france_roman = {
+      icon = ger_reichskommissariats
+      fire_only_once = yes
+      available = {
+        custom_trigger_tooltip = {
+          tooltip = form_spqr_france_required_states_tt
+          controls_state = 29
+          controls_state = 18
+          controls_state = 17
+          controls_state = 28
+          controls_state = 15
+          controls_state = 16
+          controls_state = 27
+          controls_state = 14
+          controls_state = 30
+          controls_state = 24
+          controls_state = 23
+          controls_state = 33
+          controls_state = 26
+          controls_state = 20
+          controls_state = 32
+          controls_state = 735
+          controls_state = 25
+          controls_state = 22
+          controls_state = 21
+          controls_state = 19
+          controls_state = 20
+          controls_state = 1
+          # North Africa
+          controls_state = 458
+          controls_state = 665
+          controls_state = 460
+          controls_state = 513
+          controls_state = 459
+          controls_state = 461
+          # Syria
+          controls_state = 677
+          controls_state = 680
+          controls_state = 553
+          controls_state = 554
+        }
+      }
+      visible = {
+      }
+      cost = 200
+      days_remove = 200
+      remove_effect = {
+        custom_effect_tooltip = form_spqr_france_coring_states_tt
+        hidden_effect = {
+          29 = { add_core_of = ROOT }
+          18 = { add_core_of = ROOT }
+          17 = { add_core_of = ROOT }
+          28 = { add_core_of = ROOT }
+          15 = { add_core_of = ROOT }
+          16 = { add_core_of = ROOT }
+          27 = { add_core_of = ROOT }
+          14 = { add_core_of = ROOT }
+          30 = { add_core_of = ROOT }
+          24 = { add_core_of = ROOT }
+          23 = { add_core_of = ROOT }
+          33 = { add_core_of = ROOT }
+          26 = { add_core_of = ROOT }
+          20 = { add_core_of = ROOT }
+          32 = { add_core_of = ROOT }
+          735 = { add_core_of = ROOT }
+          25 = { add_core_of = ROOT }
+          22 = { add_core_of = ROOT }
+          21 = { add_core_of = ROOT }
+          19 = { add_core_of = ROOT }
+          20 = { add_core_of = ROOT }
+          1 = { add_core_of = ROOT }
+          458 = { add_core_of = ROOT }
+          665 = { add_core_of = ROOT }
+          460 = { add_core_of = ROOT }
+          513 = { add_core_of = ROOT }
+          459 = { add_core_of = ROOT }
+          461 = { add_core_of = ROOT }
+          677 = { add_core_of = ROOT }
+          680 = { add_core_of = ROOT }
+          553 = { add_core_of = ROOT }
+          554 = { add_core_of = ROOT }
+        }
+
+
+
+        set_province_name = {
+          id = 3838
+          name = "Aiacium"
+        }
+        set_province_name = {
+          id = 9909
+          name = "Nicaea"
+        }
+        set_province_name = {
+          id = 911
+          name = "Telonis Portius"
+        }
+        set_province_name = {
+          id = 11834
+          name = "Massilia"
+        }
+        set_province_name = {
+          id = 6766
+          name = "Tolosa"
+        }
+        set_province_name = {
+          id = 9737
+          name = "Burdigala"
+        }
+        set_province_name = {
+          id = 11465
+          name = "Namnetus Portus"
+        }
+        set_province_name = {
+          id = 3552
+          name = "Brestia"
+        }
+        set_province_name = {
+          id = 9495
+          name = "Condate Riedonum"
+        }
+        set_province_name = {
+          id = 6449
+          name = " Coriallum"
+        }
+        set_province_name = {
+          id = 9434
+          name = "Franciscopolis"
+        }
+        set_province_name = {
+          id = 11563
+          name = "Rothomagus"
+        }
+        set_province_name = {
+          id = 11420
+          name = "Samarobriva"
+        }
+        set_province_name = {
+          id = 11506
+          name = "Lutetia Parisiorum"
+        }
+        set_province_name = {
+          id = 11548
+          name = "Caletum"
+        }
+        set_province_name = {
+          id = 7183
+          name = "Italica"
+        }
+        set_province_name = {
+          id = 11483
+          name = "Insula"
+        }
+        set_province_name = {
+          id = 9559
+          name = "Divodurum Mediomatricorum"
+        }
+        set_province_name = {
+          id = 11516
+          name = "Nanciacum"
+        }
+        set_province_name = {
+          id = 9503
+          name = "Argentoratum"
+        }
+        set_province_name = {
+          id = 9642
+          name = "Desontio"
+        }
+        set_province_name = {
+          id = 3652
+          name = "Divio"
+        }
+        set_province_name = {
+          id = 6613
+          name = "Lugdunum"
+        }
+        set_province_name = {
+          id = 3594
+          name = "Vipiacus"
+        }
+        set_province_name = {
+          id = 3768
+          name = "Gratianopolis"
+        }
+        set_province_name = {
+          id = 11969
+          name = "Cartagho"
+        }
+        set_province_name = {
+          id = 778
+          name = "Boutae"
+        }
+      }
+    }
+
+    ##Britannia
+    britain_roman = {
+      icon = ger_reichskommissariats
+      fire_only_once = yes
+      available = {
+
+        controls_state = 123
+        controls_state = 126
+        controls_state = 127
+        controls_state = 338
+        controls_state = 116
+        controls_state = 118
+        controls_state = 183
+        controls_state = 446
+        controls_state = 447
+      }
+      visible = {
+      }
+      cost = 200
+      days_remove = 200
+      remove_effect = {
+
+        123 = { add_core_of = ROOT }
+        126 = { add_core_of = ROOT }
+        127 = { add_core_of = ROOT }
+        338 = { add_core_of = ROOT }
+        446 = { add_core_of = ROOT }
+        447 = { add_core_of = ROOT }
+        183 = { add_core_of = ROOT }
+        118 = { add_core_of = ROOT }
+        116 = { add_core_of = ROOT }
+
+
+
+
+
+        set_province_name = {
+          id = 6103
+          name = "Londinium"
+        }
+        set_province_name = {
+          id = 3501
+          name = "Dubris"
+        }
+        set_province_name = {
+          id = 9458
+          name = "Portus Adurni"
+        }
+        set_province_name = {
+          id = 11984
+          name = "Nicosia"
+        }
+        set_province_name = {
+          id = 4076
+          name = "Alexandrea ad Aegyptum"
+        }
+
+      }
+    }
+
+
+    ###fine
+  }

@@ -1,281 +1,278 @@
 
 form_roman_empire_category = {
 
-	form_roman_empire = {
+  form_roman_empire = {
 
-		icon = generic_form_nation
+    icon = generic_form_nation
 
-		allowed = {
-			original_tag = ITA
-			has_dlc = "Waking the Tiger"
-		}
+    allowed = {
+      original_tag = ITA
+      has_dlc = "Waking the Tiger"
+    }
 
-		available = {
-			is_subject = no
-			# Some Albanian states
-			controls_state = 44
-			controls_state = 788
-			# Yugoslavia
-			controls_state = 102
-				controls_state = 103
-				controls_state = 105
-			# Greece
-			custom_trigger_tooltip = {
-				tooltip = form_country_greece_required_states_tt
-				controls_state = 185
-				controls_state = 731
-				controls_state = 47
-				controls_state = 186
-				controls_state = 184
-				controls_state = 187
-				controls_state = 182
-			}
-			# Bulgaria
-			custom_trigger_tooltip = {
-				tooltip = form_country_bulgaria_required_states_tt
-				controls_state = 48
-				controls_state = 212
-				controls_state = 211
-			}
-			# Turkey
-				controls_state = 341
-				controls_state = 340
-				controls_state = 339
-				controls_state = 342
-				controls_state = 343
-				controls_state = 347
-				controls_state = 49
-				controls_state = 345
-				controls_state = 344
-			# Switzerland
-			custom_trigger_tooltip = {
-				tooltip = form_country_switzerland_required_states_tt
-				controls_state = 3
-				controls_state = 151
-			}
-			# Portugal
-			custom_trigger_tooltip = {
-				tooltip = form_eu_portugal_required_states_tt
-				controls_state = 180
-				controls_state = 181
-				controls_state = 112
-				controls_state = 179
-			}
-			# Italy
-			custom_trigger_tooltip = {
-				tooltip = form_spqr_italy_required_states_tt
-				controls_state = 158
-				controls_state = 159
-				controls_state = 39
-				controls_state = 160
-				controls_state = 161
-				controls_state = 162
-				controls_state = 157
-				controls_state = 2
-				controls_state = 117
-				controls_state = 156
-				controls_state = 115
-				controls_state = 114
-				controls_state = 736
-				controls_state = 163
-				# North Africa / Dodecanese
-				controls_state = 164
-				controls_state = 448
-				controls_state = 661
-				controls_state = 449
-				controls_state = 662
-				controls_state = 450
-				controls_state = 451
-				controls_state = 663
-			}
-			# Spain
-			custom_trigger_tooltip = {
-				tooltip = form_spqr_spain_required_states_tt
-				controls_state = 165
-				controls_state = 166
-				controls_state = 167
-				controls_state = 177
-				controls_state = 171
-				controls_state = 174
-				controls_state = 172
-				controls_state = 176
-				controls_state = 170
-				controls_state = 41
-				controls_state = 175
-				controls_state = 169
-				controls_state = 173
-				controls_state = 168
-				# North Africa
-				controls_state = 290
-			}
-			# France
-			custom_trigger_tooltip = {
-				tooltip = form_spqr_france_required_states_tt
-				controls_state = 29
-				controls_state = 18
-				controls_state = 17
-				controls_state = 28
-				controls_state = 15
-				controls_state = 16
-				controls_state = 27
-				controls_state = 14
-				controls_state = 30
-				controls_state = 24
-				controls_state = 23
-				controls_state = 33
-				controls_state = 26
-				controls_state = 20
-				controls_state = 32
-				controls_state = 735
-				controls_state = 25
-				controls_state = 22
-				controls_state = 21
-				controls_state = 19
-				controls_state = 20
-				controls_state = 1
-				# North Africa
-				controls_state = 458
-				controls_state = 665
-				controls_state = 460
-				controls_state = 513
-				controls_state = 459
-				controls_state = 461
-				# Syria
-				controls_state = 677
-				controls_state = 680
-				controls_state = 553
-				controls_state = 554
-			}
-				# Egypt / Middle East
-				controls_state = 452
-				controls_state = 447
-				controls_state = 446
-				controls_state = 456
-				controls_state = 457
-				controls_state = 453
-				controls_state = 454
-				controls_state = 455
-				controls_state = 183
-				# Gibraltar
-				controls_state = 118
-			
-		}
+    available = {
+      is_subject = no
+      # Some Albanian states
+      controls_state = 44
+      controls_state = 788
+      # Yugoslavia
+      controls_state = 102
+      controls_state = 103
+      controls_state = 105
+      # Greece
+      custom_trigger_tooltip = {
+        tooltip = form_country_greece_required_states_tt
+        controls_state = 185
+        controls_state = 731
+        controls_state = 47
+        controls_state = 186
+        controls_state = 184
+        controls_state = 187
+        controls_state = 182
+      }
+      # Bulgaria
+      custom_trigger_tooltip = {
+        tooltip = form_country_bulgaria_required_states_tt
+        controls_state = 48
+        controls_state = 212
+        controls_state = 211
+      }
+      # Turkey
+      controls_state = 341
+      controls_state = 340
+      controls_state = 339
+      controls_state = 342
+      controls_state = 343
+      controls_state = 347
+      controls_state = 49
+      controls_state = 345
+      controls_state = 344
+      # Switzerland
+      custom_trigger_tooltip = {
+        tooltip = form_country_switzerland_required_states_tt
+        controls_state = 3
+        controls_state = 151
+      }
+      # Portugal
+      custom_trigger_tooltip = {
+        tooltip = form_eu_portugal_required_states_tt
+        controls_state = 180
+        controls_state = 181
+        controls_state = 112
+        controls_state = 179
+      }
+      # Italy
+      custom_trigger_tooltip = {
+        tooltip = form_spqr_italy_required_states_tt
+        controls_state = 158
+        controls_state = 159
+        controls_state = 39
+        controls_state = 160
+        controls_state = 161
+        controls_state = 162
+        controls_state = 157
+        controls_state = 2
+        controls_state = 117
+        controls_state = 156
+        controls_state = 115
+        controls_state = 114
+        controls_state = 736
+        controls_state = 163
+        # North Africa / Dodecanese
+        controls_state = 164
+        controls_state = 448
+        controls_state = 661
+        controls_state = 449
+        controls_state = 662
+        controls_state = 450
+        controls_state = 451
+        controls_state = 663
+      }
+      # Spain
+      custom_trigger_tooltip = {
+        tooltip = form_spqr_spain_required_states_tt
+        controls_state = 165
+        controls_state = 166
+        controls_state = 167
+        controls_state = 177
+        controls_state = 171
+        controls_state = 174
+        controls_state = 172
+        controls_state = 176
+        controls_state = 170
+        controls_state = 41
+        controls_state = 175
+        controls_state = 169
+        controls_state = 173
+        controls_state = 168
+        # North Africa
+        controls_state = 290
+      }
+      # France
+      custom_trigger_tooltip = {
+        tooltip = form_spqr_france_required_states_tt
+        controls_state = 29
+        controls_state = 18
+        controls_state = 17
+        controls_state = 28
+        controls_state = 15
+        controls_state = 16
+        controls_state = 27
+        controls_state = 14
+        controls_state = 30
+        controls_state = 24
+        controls_state = 23
+        controls_state = 33
+        controls_state = 26
+        controls_state = 20
+        controls_state = 32
+        controls_state = 735
+        controls_state = 25
+        controls_state = 22
+        controls_state = 21
+        controls_state = 19
+        controls_state = 20
+        controls_state = 1
+        # North Africa
+        controls_state = 458
+        controls_state = 665
+        controls_state = 460
+        controls_state = 513
+        controls_state = 459
+        controls_state = 461
+        # Syria
+        controls_state = 677
+        controls_state = 680
+        controls_state = 553
+        controls_state = 554
+      }
+      # Egypt / Middle East
+      controls_state = 452
+      controls_state = 447
+      controls_state = 446
+      controls_state = 456
+      controls_state = 457
+      controls_state = 453
+      controls_state = 454
+      controls_state = 455
+      controls_state = 183
+      # Gibraltar
+      controls_state = 118
 
-		visible = {
-			original_tag = ITA
-			NOT = { has_global_flag = form_roman_empire_flag }
-		}
+    }
 
-		complete_effect = {
-			set_cosmetic_tag = SPQR_UNIFIED
-		
-			set_province_name = {
-			id = 6780
-			name = "Augusta Taurinorum"
-			}
-			set_province_name = {
-			id = 3780
-			name = "Mediolanum"
-			}
-			set_province_name = {
-			id = 6788
-			name = "Genua"
-			}
-			set_province_name = {
-			id = 6606
-			name = "Bononia"
-			}
-			set_province_name = {
-			id = 11584
-			name = "Venetae"
-			}
-			set_province_name = {
-			id = 11598
-			name = "Bauzanum"
-			}
-			set_province_name = {
-			id = 6626
-			name = "Tergeste"
-			}
-			set_province_name = {
-			id = 6973
-			name = "Spedia"
-			}
-			set_province_name = {
-			id = 9907
-			name = "Florentia"
-			}
-			set_province_name = {
-			id = 11833
-			name = "Liburnum"
-			}
-			set_province_name = {
-			id = 925
-			name = "Ancon"
-			}
-			set_province_name = {
-			id = 11846
-			name = "Antium"
-			}
-			set_province_name = {
-			id = 819
-			name = "Neapolis"
-			}
-			set_province_name = {
-			id = 11837
-			name = "Tarentum"
-			}
-			set_province_name = {
-			id = 11773
-			name = "Caralis"
-			}
-			set_province_name = {
-			id = 4159
-			name = "Messana"
-			}
-			set_province_name = {
-			id = 10074
-			name = "Panormus"
-			}
-			
-			
-			hidden_effect = {
-				news_event = { id = wtt_news.64 hours = 6 }
-				set_global_flag = form_roman_empire_flag
-				if = {
-					limit = {
-						has_country_leader = { ruling_only = yes name = "Benito Mussolini" }
-					}
-					kill_country_leader = yes
-					create_country_leader = {
-						name = "Augustus Mussolini"
-						desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-						picture = "GFX_portrait_italy_emperor_mussolini"
-						expire = "1965.1.1"
-						ideology = fascism_ideology
-						traits = {
-							
-						}
-					}
-				}
-				if = {
-					limit = {
-						has_idea = victor_emmanuel
-					}
-					remove_ideas = victor_emmanuel
-				}
-			}
-		}
+    visible = {
+      original_tag = ITA
+      NOT = { has_global_flag = form_roman_empire_flag }
+    }
 
-		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}
-	}
+    complete_effect = {
+      set_cosmetic_tag = SPQR_UNIFIED
+
+      set_province_name = {
+        id = 6780
+        name = "Augusta Taurinorum"
+      }
+      set_province_name = {
+        id = 3780
+        name = "Mediolanum"
+      }
+      set_province_name = {
+        id = 6788
+        name = "Genua"
+      }
+      set_province_name = {
+        id = 6606
+        name = "Bononia"
+      }
+      set_province_name = {
+        id = 11584
+        name = "Venetae"
+      }
+      set_province_name = {
+        id = 11598
+        name = "Bauzanum"
+      }
+      set_province_name = {
+        id = 6626
+        name = "Tergeste"
+      }
+      set_province_name = {
+        id = 6973
+        name = "Spedia"
+      }
+      set_province_name = {
+        id = 9907
+        name = "Florentia"
+      }
+      set_province_name = {
+        id = 11833
+        name = "Liburnum"
+      }
+      set_province_name = {
+        id = 925
+        name = "Ancon"
+      }
+      set_province_name = {
+        id = 11846
+        name = "Antium"
+      }
+      set_province_name = {
+        id = 819
+        name = "Neapolis"
+      }
+      set_province_name = {
+        id = 11837
+        name = "Tarentum"
+      }
+      set_province_name = {
+        id = 11773
+        name = "Caralis"
+      }
+      set_province_name = {
+        id = 4159
+        name = "Messana"
+      }
+      set_province_name = {
+        id = 10074
+        name = "Panormus"
+      }
+
+
+      hidden_effect = {
+        news_event = { id = wtt_news.64 hours = 6 }
+        set_global_flag = form_roman_empire_flag
+        if = {
+          limit = {
+            has_country_leader = { ruling_only = yes name = "Benito Mussolini" }
+          }
+          kill_country_leader = yes
+          create_country_leader = {
+            name = "Augustus Mussolini"
+            desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+            picture = "GFX_portrait_italy_emperor_mussolini"
+            expire = "1965.1.1"
+            ideology = fascism_ideology
+            traits = {
+
+            }
+          }
+        }
+        if = {
+          limit = {
+            has_idea = victor_emmanuel
+          }
+          remove_ideas = victor_emmanuel
+        }
+      }
+    }
+
+    ai_will_do = {
+      factor = 200
+      modifier = {
+        factor = 0
+        is_historical_focus_on = yes
+      }
+    }
+  }
 }
-
-
-

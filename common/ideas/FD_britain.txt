@@ -1,18 +1,18 @@
 ideas = {
 
-	country = {
+  country = {
 
-sell_colonies = {
-			allowed = {
-				original_tag = "ENG"
-			}
+    sell_colonies = {
+      allowed = {
+        original_tag = "ENG"
+      }
 
-		
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = -0.1				
-			}
-		}
-		}
-		}
+
+      removal_cost = -1
+
+      modifier = {
+        consumer_goods_factor = -0.1
+      }
+    }
+  }
+}

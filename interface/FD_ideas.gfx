@@ -1,210 +1,210 @@
-spriteTypes = {	
-	spriteType = {
-		name = "GFX_idea_Poor_economic_situation"
-		texturefile = "gfx/interface/ideas/poor_economic_situation.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_ita_economic_collapse"
-		texturefile = "gfx/interface/ideas/poor_economic_situation.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_ita_economic_collapse2"
-		texturefile = "gfx/interface/ideas/poor_economic_situation.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_ita_economic_collapse3"
-		texturefile = "gfx/interface/ideas/poor_economic_situation.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_ita_economic_collapse4"
-		texturefile = "gfx/interface/ideas/poor_economic_situation.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_dev_libya"
-		texturefile = "gfx/interface/ideas/dev_libya.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_leader_arditi"
-		texturefile = "gfx/interface/ideas/giovanni_messe2.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_impresa_pizzarotti"
-		texturefile = "gfx/interface/ideas/impresa_pizzarotti.dds"
-	}	
-	spriteType = {
-		name = "GFX_idea_olivetti"
-		texturefile = "gfx/interface/ideas/olivetti.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_purchase_colonies"
-		texturefile = "gfx/interface/ideas/dev_libya.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_sell_colonies"
-		texturefile = "gfx/interface/ideas/dev_libya.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_dev_aoi"
-		texturefile = "gfx/interface/ideas/dev_aoi.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_lon_sanctions"
-		texturefile = "gfx/interface/ideas/lon_sanctions.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_discrete_economic_situation"
-		texturefile = "gfx/interface/ideas/discrete_economic_situation.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_iri_inv"
-		texturefile = "gfx/interface/ideas/iri_inv.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_discrete_economic_situation2"
-		texturefile = "gfx/interface/ideas/discrete_economic_situation2.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_discrete_economic_situation3"
-		texturefile = "gfx/interface/ideas/discrete_economic_situation3.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_italy_readtowar"
-		texturefile = "gfx/interface/ideas/italy_readtowar.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_italy_economicboom"
-		texturefile = "gfx/interface/ideas/italy_economicboom.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_italy_mobsud"
-		texturefile = "gfx/interface/ideas/italy_mobsud.dds"
-	}
-		spriteType = {
-		name = "GFX_idea_italy_induni"
-		texturefile = "gfx/interface/ideas/italy_induni.dds"
-	}
-		spriteType = {
-		name = "GFX_idea_balkan_inv"
-		texturefile = "gfx/interface/ideas/balkan_inv.dds"
-	}
-		spriteType = {
-		name = "GFX_idea_itaold_regio"
-		texturefile = "gfx/interface/ideas/itaold_regio.dds"
-	}
-		spriteType = {
-		name = "GFX_idea_itaold_regio2"
-		texturefile = "gfx/interface/ideas/itaold_regio2.dds"
-	}
-		spriteType = {
-		name = "GFX_idea_itaold_regio3"
-		texturefile = "gfx/interface/ideas/itaold_regio3.dds"
-		
-	}
-		spriteType = {
-		name = "GFX_idea_itaold_regio4"
-		texturefile = "gfx/interface/ideas/itaold_regio4.dds"
-	}
-		spriteType = {
-		name = "GFX_idea_new_regio"
-		texturefile = "gfx/interface/ideas/new_regio.dds"
-	}
-		spriteType = {
-		name = "GFX_idea_ansaldo_sangiorgio"
-		texturefile = "gfx/interface/ideas/ansaldo_sangiorgio.dds"
-	}
-		spriteType = {
-		name = "GFX_idea_ITA_piero_puricelli"
-		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_1.dds"
-	}
-			spriteType = {
-		name = "GFX_idea_alpini"
-		texturefile = "gfx/interface/ideas/alpini.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_chemical_weapons"
-		texturefile = "gfx/interface/ideas/chemical_weapons.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_gioventu"
-		texturefile = "gfx/interface/ideas/italy_littorio.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_elite_impero"
-		texturefile = "gfx/interface/ideas/elite_impero.dds"
-	}
+spriteTypes = {  
+  spriteType = {
+    name = "GFX_idea_Poor_economic_situation"
+    texturefile = "gfx/interface/ideas/poor_economic_situation.dds"
+  }
+  
+  spriteType = {
+    name = "GFX_idea_ita_economic_collapse"
+    texturefile = "gfx/interface/ideas/poor_economic_situation.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_ita_economic_collapse2"
+    texturefile = "gfx/interface/ideas/poor_economic_situation.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_ita_economic_collapse3"
+    texturefile = "gfx/interface/ideas/poor_economic_situation.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_ita_economic_collapse4"
+    texturefile = "gfx/interface/ideas/poor_economic_situation.dds"
+  }
+  
+  spriteType = {
+    name = "GFX_idea_dev_libya"
+    texturefile = "gfx/interface/ideas/dev_libya.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_leader_arditi"
+    texturefile = "gfx/interface/ideas/giovanni_messe2.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_impresa_pizzarotti"
+    texturefile = "gfx/interface/ideas/impresa_pizzarotti.dds"
+  }  
+  spriteType = {
+    name = "GFX_idea_olivetti"
+    texturefile = "gfx/interface/ideas/olivetti.dds"
+  }
+  
+  spriteType = {
+    name = "GFX_idea_purchase_colonies"
+    texturefile = "gfx/interface/ideas/dev_libya.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_sell_colonies"
+    texturefile = "gfx/interface/ideas/dev_libya.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_dev_aoi"
+    texturefile = "gfx/interface/ideas/dev_aoi.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_lon_sanctions"
+    texturefile = "gfx/interface/ideas/lon_sanctions.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_discrete_economic_situation"
+    texturefile = "gfx/interface/ideas/discrete_economic_situation.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_iri_inv"
+    texturefile = "gfx/interface/ideas/iri_inv.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_discrete_economic_situation2"
+    texturefile = "gfx/interface/ideas/discrete_economic_situation2.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_discrete_economic_situation3"
+    texturefile = "gfx/interface/ideas/discrete_economic_situation3.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_italy_readtowar"
+    texturefile = "gfx/interface/ideas/italy_readtowar.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_italy_economicboom"
+    texturefile = "gfx/interface/ideas/italy_economicboom.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_italy_mobsud"
+    texturefile = "gfx/interface/ideas/italy_mobsud.dds"
+  }
+    spriteType = {
+    name = "GFX_idea_italy_induni"
+    texturefile = "gfx/interface/ideas/italy_induni.dds"
+  }
+    spriteType = {
+    name = "GFX_idea_balkan_inv"
+    texturefile = "gfx/interface/ideas/balkan_inv.dds"
+  }
+    spriteType = {
+    name = "GFX_idea_itaold_regio"
+    texturefile = "gfx/interface/ideas/itaold_regio.dds"
+  }
+    spriteType = {
+    name = "GFX_idea_itaold_regio2"
+    texturefile = "gfx/interface/ideas/itaold_regio2.dds"
+  }
+    spriteType = {
+    name = "GFX_idea_itaold_regio3"
+    texturefile = "gfx/interface/ideas/itaold_regio3.dds"
+    
+  }
+    spriteType = {
+    name = "GFX_idea_itaold_regio4"
+    texturefile = "gfx/interface/ideas/itaold_regio4.dds"
+  }
+    spriteType = {
+    name = "GFX_idea_new_regio"
+    texturefile = "gfx/interface/ideas/new_regio.dds"
+  }
+    spriteType = {
+    name = "GFX_idea_ansaldo_sangiorgio"
+    texturefile = "gfx/interface/ideas/ansaldo_sangiorgio.dds"
+  }
+    spriteType = {
+    name = "GFX_idea_ITA_piero_puricelli"
+    texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_1.dds"
+  }
+      spriteType = {
+    name = "GFX_idea_alpini"
+    texturefile = "gfx/interface/ideas/alpini.dds"
+  }
+  
+  spriteType = {
+    name = "GFX_idea_chemical_weapons"
+    texturefile = "gfx/interface/ideas/chemical_weapons.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_gioventu"
+    texturefile = "gfx/interface/ideas/italy_littorio.dds"
+  }
+  
+  spriteType = {
+    name = "GFX_idea_elite_impero"
+    texturefile = "gfx/interface/ideas/elite_impero.dds"
+  }
 
-	spriteType = {
-		name = "GFX_idea_ita_ovra"
-		texturefile = "gfx/interface/ideas/ovra.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_ita_sim"
-		texturefile = "gfx/interface/ideas/sim.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_italian_colony"
-		texturefile = "gfx/interface/ideas/italian_colony.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_ita_agip"
-		texturefile = "gfx/interface/ideas/ita_agip.dds"
-	}
-	###
-	spriteType = {
-		name = "GFX_idea_ita_taxchurch"
-		texturefile = "gfx/interface/ideas/ateismo.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_ita_richchurch"
-		texturefile = "gfx/interface/ideas/chiesa.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_ita_peacechurch"
-		texturefile = "gfx/interface/ideas/chiesa.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_ita_nocurch"
-		texturefile = "gfx/interface/ideas/ateismo.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_ita_morechurch"
-		texturefile = "gfx/interface/ideas/chiesa.dds"
-	}
-		spriteType = {
-		name = "GFX_idea_ita_giovineitalia"
-		texturefile = "gfx/interface/ideas/giovine_italia.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_itaold_air"
-		texturefile = "gfx/interface/ideas/itaold_air.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_itaold_air2"
-		texturefile = "gfx/interface/ideas/itaold_air.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_itaold_air3"
-		texturefile = "gfx/interface/ideas/itaold_air.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_itaold_air4"
-		texturefile = "gfx/interface/ideas/itaold_air.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_ita_infantrybonus"
-		texturefile = "gfx/interface/ideas/idea_generic_infantry_equipment_manufacturer_2.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_ita_mechbonus"
-		texturefile = "gfx/interface/ideas/idea_generic_motorized_equipment_manufacturer_3.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_italian_friend"
-		texturefile = "gfx/interface/ideas/italian_friend.dds"
-	}
+  spriteType = {
+    name = "GFX_idea_ita_ovra"
+    texturefile = "gfx/interface/ideas/ovra.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_ita_sim"
+    texturefile = "gfx/interface/ideas/sim.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_italian_colony"
+    texturefile = "gfx/interface/ideas/italian_colony.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_ita_agip"
+    texturefile = "gfx/interface/ideas/ita_agip.dds"
+  }
+  ###
+  spriteType = {
+    name = "GFX_idea_ita_taxchurch"
+    texturefile = "gfx/interface/ideas/ateismo.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_ita_richchurch"
+    texturefile = "gfx/interface/ideas/chiesa.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_ita_peacechurch"
+    texturefile = "gfx/interface/ideas/chiesa.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_ita_nocurch"
+    texturefile = "gfx/interface/ideas/ateismo.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_ita_morechurch"
+    texturefile = "gfx/interface/ideas/chiesa.dds"
+  }
+    spriteType = {
+    name = "GFX_idea_ita_giovineitalia"
+    texturefile = "gfx/interface/ideas/giovine_italia.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_itaold_air"
+    texturefile = "gfx/interface/ideas/itaold_air.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_itaold_air2"
+    texturefile = "gfx/interface/ideas/itaold_air.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_itaold_air3"
+    texturefile = "gfx/interface/ideas/itaold_air.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_itaold_air4"
+    texturefile = "gfx/interface/ideas/itaold_air.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_ita_infantrybonus"
+    texturefile = "gfx/interface/ideas/idea_generic_infantry_equipment_manufacturer_2.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_ita_mechbonus"
+    texturefile = "gfx/interface/ideas/idea_generic_motorized_equipment_manufacturer_3.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_italian_friend"
+    texturefile = "gfx/interface/ideas/italian_friend.dds"
+  }
 }

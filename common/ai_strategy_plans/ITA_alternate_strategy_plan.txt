@@ -1,368 +1,368 @@
 ITA_alternate_plan_1 = {
-	name = "Italy alternate plan 1: Germany Opposed Hitler"
-	desc = "Behavior for Italy if Germany goes ahistorical and opposes Hitler, but has not decided a direction yet."
+  name = "Italy alternate plan 1: Germany Opposed Hitler"
+  desc = "Behavior for Italy if Germany goes ahistorical and opposes Hitler, but has not decided a direction yet."
 
-	enable = {
-		original_tag = ITA
-		GER = { has_completed_focus = GER_oppose_hitler }
-		has_game_rule = {
-			rule = ITA_ai_behavior
-			option = DEFAULT
-		}
-	}
-	abort = {
-		OR = {
-			GER = { has_completed_focus = GER_reestablish_free_elections }
-			GER = { has_completed_focus = GER_expatriate_the_communists }
-			GER = { has_completed_focus = GER_assassinate_mussolini }
-		}
-	}
+  enable = {
+    original_tag = ITA
+    GER = { has_completed_focus = GER_oppose_hitler }
+    has_game_rule = {
+      rule = ITA_ai_behavior
+      option = DEFAULT
+    }
+  }
+  abort = {
+    OR = {
+      GER = { has_completed_focus = GER_reestablish_free_elections }
+      GER = { has_completed_focus = GER_expatriate_the_communists }
+      GER = { has_completed_focus = GER_assassinate_mussolini }
+    }
+  }
 
-	ai_national_focuses = {
-		ITA_ethiopian_war_logistics 					
-		ITA_triumphinafrica	
-		ITA_limperodargilla
-		ITA_endoftheeconomicsanctions
-		ITA_autarky
-		ITA_reclaim_swamps
-		ITA_wheat
-		ITA_iri
-		ITA_iriciv
-		ITA_theilva
-		ITA_mussprop
-		ITA_alone
-		ITA_albania_war_goal
-		ITA_littorio
-		ITA_pizzarotti
-		ITA_olivetti
-		ITA_ansaldo
-		ITA_edison
-		ITA_triangle
-		ITA_geserra
-		ITA_iplom
-		ITA_firmil
-		ITA_napmil
-		ITA_fssud
-		ITA_extra_tech_slot
-		ITA_regioesercito
-		ITA_hear
-		ITA_fixindustry
-		ITA_miladvice
-		ITA_giovannimesse
-		ITA_invyug
-		ITA_crushbalk
-		ITA_albaniainfr
-		ITA_albaita
-		
-	}				
+  ai_national_focuses = {
+    ITA_ethiopian_war_logistics           
+    ITA_triumphinafrica  
+    ITA_limperodargilla
+    ITA_endoftheeconomicsanctions
+    ITA_autarky
+    ITA_reclaim_swamps
+    ITA_wheat
+    ITA_iri
+    ITA_iriciv
+    ITA_theilva
+    ITA_mussprop
+    ITA_alone
+    ITA_albania_war_goal
+    ITA_littorio
+    ITA_pizzarotti
+    ITA_olivetti
+    ITA_ansaldo
+    ITA_edison
+    ITA_triangle
+    ITA_geserra
+    ITA_iplom
+    ITA_firmil
+    ITA_napmil
+    ITA_fssud
+    ITA_extra_tech_slot
+    ITA_regioesercito
+    ITA_hear
+    ITA_fixindustry
+    ITA_miladvice
+    ITA_giovannimesse
+    ITA_invyug
+    ITA_crushbalk
+    ITA_albaniainfr
+    ITA_albaita
+    
+  }        
 
-	research = {
+  research = {
 
-	}
+  }
 
-	ideas = {
+  ideas = {
 
-	}
+  }
 
-	# Keep small, as it is used as a factor for some things (such as research needs)
-	# Recommended around 1.0. Useful for relation between plans
-	weight = {
-		factor = 1.0
-		modifier = {
-			factor = 1.0
-		}
-	}
+  # Keep small, as it is used as a factor for some things (such as research needs)
+  # Recommended around 1.0. Useful for relation between plans
+  weight = {
+    factor = 1.0
+    modifier = {
+      factor = 1.0
+    }
+  }
 }
 
 ITA_alternate_plan_2 = {
-	name = "Italy alternate plan 2: Central Powers"
-	desc = "Behavior for Italy if Germany goes ahistorical and opposes Hitler, and has flipped Italy unaligned and allied with them."
+  name = "Italy alternate plan 2: Central Powers"
+  desc = "Behavior for Italy if Germany goes ahistorical and opposes Hitler, and has flipped Italy unaligned and allied with them."
 
-	enable = {
-		original_tag = ITA
-		GER = { has_completed_focus = GER_assassinate_mussolini }
-		has_game_rule = {
-			rule = ITA_ai_behavior
-			option = DEFAULT
-		}
-	}
-	abort = {
-	}
+  enable = {
+    original_tag = ITA
+    GER = { has_completed_focus = GER_assassinate_mussolini }
+    has_game_rule = {
+      rule = ITA_ai_behavior
+      option = DEFAULT
+    }
+  }
+  abort = {
+  }
 
-	ai_national_focuses = {
-			ITA_ethiopian_war_logistics 					
-		ITA_triumphinafrica	
-		ITA_limperodargilla
-		ITA_endoftheeconomicsanctions
-		ITA_autarky
-		ITA_reclaim_swamps
-		ITA_wheat
-		ITA_iri
-		ITA_iriciv
-		ITA_theilva
-		ITA_mussprop
-		ITA_alone
-		ITA_albania_war_goal
-		ITA_littorio
-		ITA_pizzarotti
-		ITA_olivetti
-		ITA_ansaldo
-		ITA_edison
-		ITA_triangle
-		ITA_geserra
-		ITA_iplom
-		ITA_firmil
-		ITA_napmil
-		ITA_fssud
-		ITA_extra_tech_slot
-		ITA_regioesercito
-		ITA_hear
-		ITA_fixindustry
-		ITA_miladvice
-		ITA_giovannimesse
-		ITA_invyug
-		ITA_crushbalk
-		ITA_albaniainfr
-		ITA_albaita		
-	}				
-	research = {
+  ai_national_focuses = {
+      ITA_ethiopian_war_logistics           
+    ITA_triumphinafrica  
+    ITA_limperodargilla
+    ITA_endoftheeconomicsanctions
+    ITA_autarky
+    ITA_reclaim_swamps
+    ITA_wheat
+    ITA_iri
+    ITA_iriciv
+    ITA_theilva
+    ITA_mussprop
+    ITA_alone
+    ITA_albania_war_goal
+    ITA_littorio
+    ITA_pizzarotti
+    ITA_olivetti
+    ITA_ansaldo
+    ITA_edison
+    ITA_triangle
+    ITA_geserra
+    ITA_iplom
+    ITA_firmil
+    ITA_napmil
+    ITA_fssud
+    ITA_extra_tech_slot
+    ITA_regioesercito
+    ITA_hear
+    ITA_fixindustry
+    ITA_miladvice
+    ITA_giovannimesse
+    ITA_invyug
+    ITA_crushbalk
+    ITA_albaniainfr
+    ITA_albaita    
+  }        
+  research = {
 
-	}
+  }
 
-	ideas = {
+  ideas = {
 
-	}
+  }
 
-	# Keep small, as it is used as a factor for some things (such as research needs)
-	# Recommended around 1.0. Useful for relation between plans
-	weight = {
-		factor = 1.0
-		modifier = {
-			factor = 1.0
-		}
-	}
+  # Keep small, as it is used as a factor for some things (such as research needs)
+  # Recommended around 1.0. Useful for relation between plans
+  weight = {
+    factor = 1.0
+    modifier = {
+      factor = 1.0
+    }
+  }
 }
 
 ITA_alternate_plan_3 = {
-	name = "Italy alternate plan 3: Germany Democratic"
-	desc = "Behavior for Italy if Germany goes democratic, assuming possibility of France going fascist and forming a faction with Italy."
+  name = "Italy alternate plan 3: Germany Democratic"
+  desc = "Behavior for Italy if Germany goes democratic, assuming possibility of France going fascist and forming a faction with Italy."
 
-	enable = {
-		original_tag = ITA
-		GER = { has_completed_focus = GER_reestablish_free_elections }
-		has_game_rule = {
-			rule = ITA_ai_behavior
-			option = DEFAULT
-		}
-	}
-	abort = {
-		OR = {
-			FRA = { has_completed_focus = FRA_support_status_quo }
-			FRA = { has_completed_focus = FRA_support_the_left }
-		}
-	}
+  enable = {
+    original_tag = ITA
+    GER = { has_completed_focus = GER_reestablish_free_elections }
+    has_game_rule = {
+      rule = ITA_ai_behavior
+      option = DEFAULT
+    }
+  }
+  abort = {
+    OR = {
+      FRA = { has_completed_focus = FRA_support_status_quo }
+      FRA = { has_completed_focus = FRA_support_the_left }
+    }
+  }
 
-	ai_national_focuses = {
-			ITA_ethiopian_war_logistics 					
-		ITA_triumphinafrica	
-		ITA_limperodargilla
-		ITA_endoftheeconomicsanctions
-		ITA_autarky
-		ITA_reclaim_swamps
-		ITA_wheat
-		ITA_iri
-		ITA_iriciv
-		ITA_theilva
-		ITA_mussprop
-		ITA_alone
-		ITA_albania_war_goal
-		ITA_littorio
-		ITA_pizzarotti
-		ITA_olivetti
-		ITA_ansaldo
-		ITA_edison
-		ITA_triangle
-		ITA_geserra
-		ITA_iplom
-		ITA_firmil
-		ITA_napmil
-		ITA_fssud
-		ITA_extra_tech_slot
-		ITA_regioesercito
-		ITA_hear
-		ITA_fixindustry
-		ITA_miladvice
-		ITA_giovannimesse
-		ITA_invyug
-		ITA_crushbalk
-		ITA_albaniainfr
-		ITA_albaita		
-	}				
-	research = {
+  ai_national_focuses = {
+      ITA_ethiopian_war_logistics           
+    ITA_triumphinafrica  
+    ITA_limperodargilla
+    ITA_endoftheeconomicsanctions
+    ITA_autarky
+    ITA_reclaim_swamps
+    ITA_wheat
+    ITA_iri
+    ITA_iriciv
+    ITA_theilva
+    ITA_mussprop
+    ITA_alone
+    ITA_albania_war_goal
+    ITA_littorio
+    ITA_pizzarotti
+    ITA_olivetti
+    ITA_ansaldo
+    ITA_edison
+    ITA_triangle
+    ITA_geserra
+    ITA_iplom
+    ITA_firmil
+    ITA_napmil
+    ITA_fssud
+    ITA_extra_tech_slot
+    ITA_regioesercito
+    ITA_hear
+    ITA_fixindustry
+    ITA_miladvice
+    ITA_giovannimesse
+    ITA_invyug
+    ITA_crushbalk
+    ITA_albaniainfr
+    ITA_albaita    
+  }        
+  research = {
 
-	}
+  }
 
-	ideas = {
+  ideas = {
 
-	}
+  }
 
-	# Keep small, as it is used as a factor for some things (such as research needs)
-	# Recommended around 1.0. Useful for relation between plans
-	weight = {
-		factor = 1.0
-		modifier = {
-			factor = 1.0
-		}
-	}
+  # Keep small, as it is used as a factor for some things (such as research needs)
+  # Recommended around 1.0. Useful for relation between plans
+  weight = {
+    factor = 1.0
+    modifier = {
+      factor = 1.0
+    }
+  }
 }
 
 ITA_alternate_plan_4 = {
-	name = "Italy alternate plan 4: Italy Alone"
-	desc = "Behavior for Italy if Germany goes democratic, and France has gone communist, or if Germany goes with Britain and France has gone Communist."
+  name = "Italy alternate plan 4: Italy Alone"
+  desc = "Behavior for Italy if Germany goes democratic, and France has gone communist, or if Germany goes with Britain and France has gone Communist."
 
-	enable = {
-		original_tag = ITA
-		has_game_rule = {
-			rule = ITA_ai_behavior
-			option = DEFAULT
-		}
-		OR = {
-			AND = {
-				GER = { has_completed_focus = GER_reestablish_free_elections }
-				OR = {
-					FRA = { has_completed_focus = FRA_support_status_quo }
-					FRA = { has_completed_focus = FRA_support_the_left }
-				}
-			}
-			GER = { has_completed_focus = GER_expatriate_the_communists }
-		}
-	}
-	abort = {
-	}
+  enable = {
+    original_tag = ITA
+    has_game_rule = {
+      rule = ITA_ai_behavior
+      option = DEFAULT
+    }
+    OR = {
+      AND = {
+        GER = { has_completed_focus = GER_reestablish_free_elections }
+        OR = {
+          FRA = { has_completed_focus = FRA_support_status_quo }
+          FRA = { has_completed_focus = FRA_support_the_left }
+        }
+      }
+      GER = { has_completed_focus = GER_expatriate_the_communists }
+    }
+  }
+  abort = {
+  }
 
-	ai_national_focuses = {
-			ITA_ethiopian_war_logistics 					
-		ITA_triumphinafrica	
-		ITA_limperodargilla
-		ITA_endoftheeconomicsanctions
-		ITA_autarky
-		ITA_reclaim_swamps
-		ITA_wheat
-		ITA_iri
-		ITA_iriciv
-		ITA_theilva
-		ITA_mussprop
-		ITA_alone
-		ITA_albania_war_goal
-		ITA_littorio
-		ITA_pizzarotti
-		ITA_olivetti
-		ITA_ansaldo
-		ITA_edison
-		ITA_triangle
-		ITA_geserra
-		ITA_iplom
-		ITA_firmil
-		ITA_napmil
-		ITA_fssud
-		ITA_extra_tech_slot
-		ITA_regioesercito
-		ITA_hear
-		ITA_fixindustry
-		ITA_miladvice
-		ITA_giovannimesse
-		ITA_invyug
-		ITA_crushbalk
-		ITA_albaniainfr
-		ITA_albaita			
-	}				
-	research = {
+  ai_national_focuses = {
+      ITA_ethiopian_war_logistics           
+    ITA_triumphinafrica  
+    ITA_limperodargilla
+    ITA_endoftheeconomicsanctions
+    ITA_autarky
+    ITA_reclaim_swamps
+    ITA_wheat
+    ITA_iri
+    ITA_iriciv
+    ITA_theilva
+    ITA_mussprop
+    ITA_alone
+    ITA_albania_war_goal
+    ITA_littorio
+    ITA_pizzarotti
+    ITA_olivetti
+    ITA_ansaldo
+    ITA_edison
+    ITA_triangle
+    ITA_geserra
+    ITA_iplom
+    ITA_firmil
+    ITA_napmil
+    ITA_fssud
+    ITA_extra_tech_slot
+    ITA_regioesercito
+    ITA_hear
+    ITA_fixindustry
+    ITA_miladvice
+    ITA_giovannimesse
+    ITA_invyug
+    ITA_crushbalk
+    ITA_albaniainfr
+    ITA_albaita      
+  }        
+  research = {
 
-	}
+  }
 
-	ideas = {
+  ideas = {
 
-	}
+  }
 
-	# Keep small, as it is used as a factor for some things (such as research needs)
-	# Recommended around 1.0. Useful for relation between plans
-	weight = {
-		factor = 1.0
-		modifier = {
-			factor = 1.0
-		}
-	}
+  # Keep small, as it is used as a factor for some things (such as research needs)
+  # Recommended around 1.0. Useful for relation between plans
+  weight = {
+    factor = 1.0
+    modifier = {
+      factor = 1.0
+    }
+  }
 }
 
 
 ITA_alternate_plan_fascist = {
-	name = "Italy alternate plan 5: Italy teams up with Spain"
-	desc = ""
+  name = "Italy alternate plan 5: Italy teams up with Spain"
+  desc = ""
 
-	enable = {
-		original_tag = ITA
-		OR = {
-			has_game_rule = {
-				rule = ITA_ai_behavior
-				option = FASCIST_ALTERNATE
-			}
+  enable = {
+    original_tag = ITA
+    OR = {
+      has_game_rule = {
+        rule = ITA_ai_behavior
+        option = FASCIST_ALTERNATE
+      }
 
-		}
-		
-	}
-	abort = {
-	}
+    }
+    
+  }
+  abort = {
+  }
 
-	ai_national_focuses = {
-		ITA_ethiopian_war_logistics 					
-		ITA_triumphinafrica	
-		ITA_limperodargilla
-		ITA_endoftheeconomicsanctions
-		ITA_autarky
-		ITA_reclaim_swamps
-		ITA_wheat
-		ITA_iri
-		ITA_iriciv
-		ITA_theilva
-		ITA_mussprop
-		ITA_alone
-		ITA_albania_war_goal
-		ITA_littorio
-		ITA_pizzarotti
-		ITA_olivetti
-		ITA_ansaldo
-		ITA_edison
-		ITA_triangle
-		ITA_geserra
-		ITA_iplom
-		ITA_firmil
-		ITA_napmil
-		ITA_fssud
-		ITA_extra_tech_slot
-		ITA_regioesercito
-		ITA_hear
-		ITA_fixindustry
-		ITA_miladvice
-		ITA_giovannimesse
-		ITA_invyug
-		ITA_crushbalk
-		ITA_albaniainfr
-		ITA_albaita
-	}				
-	research = {
+  ai_national_focuses = {
+    ITA_ethiopian_war_logistics           
+    ITA_triumphinafrica  
+    ITA_limperodargilla
+    ITA_endoftheeconomicsanctions
+    ITA_autarky
+    ITA_reclaim_swamps
+    ITA_wheat
+    ITA_iri
+    ITA_iriciv
+    ITA_theilva
+    ITA_mussprop
+    ITA_alone
+    ITA_albania_war_goal
+    ITA_littorio
+    ITA_pizzarotti
+    ITA_olivetti
+    ITA_ansaldo
+    ITA_edison
+    ITA_triangle
+    ITA_geserra
+    ITA_iplom
+    ITA_firmil
+    ITA_napmil
+    ITA_fssud
+    ITA_extra_tech_slot
+    ITA_regioesercito
+    ITA_hear
+    ITA_fixindustry
+    ITA_miladvice
+    ITA_giovannimesse
+    ITA_invyug
+    ITA_crushbalk
+    ITA_albaniainfr
+    ITA_albaita
+  }        
+  research = {
 
-	}
+  }
 
-	ideas = {
+  ideas = {
 
-	}
+  }
 
-	# Keep small, as it is used as a factor for some things (such as research needs)
-	# Recommended around 1.0. Useful for relation between plans
-	weight = {
-		factor = 1.0
-		modifier = {
-			factor = 1.0
-		}
-	}
+  # Keep small, as it is used as a factor for some things (such as research needs)
+  # Recommended around 1.0. Useful for relation between plans
+  weight = {
+    factor = 1.0
+    modifier = {
+      factor = 1.0
+    }
+  }
 }

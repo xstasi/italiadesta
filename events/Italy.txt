@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # Italian Events
 ###########################
 
@@ -425,11 +425,11 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-	name = italy.20.a
-			add_political_power = 100
+		name = italy.20.a
+		add_political_power = 100
 
 
-}
+	}
 }
 
 
@@ -456,13 +456,13 @@ country_event = {
 		ITA = { transfer_state =  183 }
 		ITA = { transfer_state =  269 }
 
-	declare_war_on = {
-    target = GER
-    type = annex_everything
-}
-}
+		declare_war_on = {
+			target = GER
+			type = annex_everything
+		}
+	}
 
-		option = {
+	option = {
 		name = italy.21.b
 
 		ITA = { transfer_state =    1 }
@@ -473,19 +473,19 @@ country_event = {
 		ITA = { transfer_state =   31 }
 		ITA = { transfer_state =   20 }
 
-	declare_war_on = {
-    target = ENG
-    type = annex_everything
-}
-}
+		declare_war_on = {
+			target = ENG
+			type = annex_everything
+		}
+	}
 
-		option = {
+	option = {
 		name = italy.21.c
 
 
 
-}
 	}
+}
 #sconfittaAfrica
 country_event = {
 	id = italy.22
@@ -503,7 +503,7 @@ country_event = {
 
 		ETH = { transfer_state =  550 }
 		white_peace = ETH
-		}
+	}
 }
 
 # Situation of montenegro
@@ -523,36 +523,36 @@ country_event = {
 		ITA = { transfer_state =    105 }
 		add_threat = 3
 
-}
+	}
 
-		option = {
+	option = {
 		name = italy.23.b
 		YUG = { release = MNT }
 		puppet = MNT
 		MNT = { set_politics = {
-				ruling_party = neutrality
-}
-						set_party_name = {
-    ideology = neutrality
-	long_name = MNT_savoia
-    name = MNT_savoia
-}
-			create_country_leader = {
-					name = "Elena di Montenegro"
-					desc = ""
-					picture = "Portrait_MNT_Elena_Montenegro.dds"
-					expire = "1965.1.1"
-					ideology = despotism
-				traits = {
-
-						}
-					}
-				}
-		add_threat = 1
+			ruling_party = neutrality
 		}
+		set_party_name = {
+			ideology = neutrality
+			long_name = MNT_savoia
+			name = MNT_savoia
+		}
+		create_country_leader = {
+			name = "Elena di Montenegro"
+			desc = ""
+			picture = "Portrait_MNT_Elena_Montenegro.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
 
-
+			}
+		}
 	}
+	add_threat = 1
+}
+
+
+}
 
 
 # Trono di Bulgaria
@@ -572,16 +572,16 @@ country_event = {
 		ITA = { country_event = italy.29 }
 		ai_chance = { factor = 70 }
 
-}
+	}
 
-		option = {
+	option = {
 		name = italy.24.b
 		ITA = { country_event = italy.30 }
 		ai_chance = { factor = 30 }
-		}
-
-
 	}
+
+
+}
 
 # Bulgaria Accetta
 country_event = {
@@ -599,39 +599,39 @@ country_event = {
 		name = italy.29.a
 		puppet = BUL
 		BUL = { set_politics = {
-				ruling_party = neutrality}
-				transfer_state = 184
-				}
-				add_threat = 1
-		hidden_effect = {
-				news_event = { hours = 6 id = news.501 }
-				}
-			}
-		option = {
-		name = italy.27.b
-				puppet = BUL
-		BUL = { set_politics = {
-				ruling_party = neutrality
-}
-create_country_leader = {
-					name = "Giovanna di Savoia"
-					desc = ""
-					picture = "Portrait_BUL_Giovanna_Savoia.dds"
-					expire = "1965.1.1"
-					ideology = despotism
-				traits = {
-
-						}
-					}
+			ruling_party = neutrality}
 			transfer_state = 184
-				}
-				add_threat = 3
-				hidden_effect = {
-				news_event = { hours = 6 id = news.501 }
+		}
+		add_threat = 1
+		hidden_effect = {
+			news_event = { hours = 6 id = news.501 }
+		}
+	}
+	option = {
+		name = italy.27.b
+		puppet = BUL
+		BUL = { set_politics = {
+			ruling_party = neutrality
+		}
+		create_country_leader = {
+			name = "Giovanna di Savoia"
+			desc = ""
+			picture = "Portrait_BUL_Giovanna_Savoia.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
 
 			}
 		}
+		transfer_state = 184
 	}
+	add_threat = 3
+	hidden_effect = {
+		news_event = { hours = 6 id = news.501 }
+
+	}
+}
+}
 
 # Bulgaria Rifiuta
 country_event = {
@@ -648,25 +648,25 @@ country_event = {
 	option = {
 		name = italy.30.a
 		create_wargoal = {
-    type = puppet_wargoal_focus
-    target = BUL
-}
+			type = puppet_wargoal_focus
+			target = BUL
+		}
 		BUL = {
-				create_country_leader = {
-					name = "Giovanna di Savoia"
-					desc = ""
-					picture = "Portrait_BUL_Giovanna_Savoia.dds"
-					expire = "1965.1.1"
-					ideology = despotism
+			create_country_leader = {
+				name = "Giovanna di Savoia"
+				desc = ""
+				picture = "Portrait_BUL_Giovanna_Savoia.dds"
+				expire = "1965.1.1"
+				ideology = despotism
 				traits = {
 
-						}
-					}
+				}
+			}
 
-}
+		}
 
 
-}
+	}
 
 }
 
@@ -689,7 +689,7 @@ country_event = {
 	option = {
 		name = italy.25.a
 
-}
+	}
 
 }
 
@@ -711,14 +711,14 @@ country_event = {
 		ITA = { country_event = italy.27 }
 		ai_chance = { factor = 70 }
 
-}
+	}
 
-		option = {
+	option = {
 		name = italy.26.b
 		ai_chance = { factor = 30 }
 		ITA = { country_event = italy.28 }
-				}
-		}
+	}
+}
 
 # La Grecia Accetta
 country_event = {
@@ -736,51 +736,51 @@ country_event = {
 		name = italy.27.a
 		puppet = GRE
 		GRE = { set_politics = {
-				ruling_party = neutrality
-}
-			create_country_leader = {
-					name = "Aimone di Aosta"
-					desc = ""
-					picture = "Portrait_GRE_Aimone_Aosta.dds"
-					expire = "1965.1.1"
-					ideology = despotism
-				traits = {
+			ruling_party = neutrality
+		}
+		create_country_leader = {
+			name = "Aimone di Aosta"
+			desc = ""
+			picture = "Portrait_GRE_Aimone_Aosta.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
 				snuggler
-						}
-					}
-	set_party_name = {
-    ideology = neutrality
-	long_name = GRE_aosta
-    name = GRE_aosta
-}
-}
-add_threat = 3
-}
-		option = {
-		name = italy.27.b
-				puppet = GRE
-		GRE = { set_politics = {
-				ruling_party = neutrality
-}
-			create_country_leader = {
-					name = "Irene di Grecia"
-					desc = ""
-					picture = "Portrait_GRE_Irene.dds"
-					expire = "1965.1.1"
-					ideology = despotism
-				traits = {
-				popular_queen
-						}
-					}
-						set_party_name = {
-    ideology = neutrality
-	long_name = GRE_aosta
-    name = GRE_aosta
-}
-				}
-				add_threat = 1
+			}
+		}
+		set_party_name = {
+			ideology = neutrality
+			long_name = GRE_aosta
+			name = GRE_aosta
 		}
 	}
+	add_threat = 3
+}
+option = {
+	name = italy.27.b
+	puppet = GRE
+	GRE = { set_politics = {
+		ruling_party = neutrality
+	}
+	create_country_leader = {
+		name = "Irene di Grecia"
+		desc = ""
+		picture = "Portrait_GRE_Irene.dds"
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {
+			popular_queen
+		}
+	}
+	set_party_name = {
+		ideology = neutrality
+		long_name = GRE_aosta
+		name = GRE_aosta
+	}
+}
+add_threat = 1
+}
+}
 
 
 # Grecia Rifiuta
@@ -798,25 +798,25 @@ country_event = {
 	option = {
 		name = italy.28.a
 		create_wargoal = {
-    type = puppet_wargoal_focus
-    target = GRE
-}
+			type = puppet_wargoal_focus
+			target = GRE
+		}
 		GRE = {
-				create_country_leader = {
-					name = "Aimone di Aosta"
-					desc = ""
-					picture = "Portrait_GRE_Aimone_Aosta.dds"
-					expire = "1965.1.1"
-					ideology = despotism
+			create_country_leader = {
+				name = "Aimone di Aosta"
+				desc = ""
+				picture = "Portrait_GRE_Aimone_Aosta.dds"
+				expire = "1965.1.1"
+				ideology = despotism
 				traits = {
 
-						}
-					}
+				}
+			}
 
-}
+		}
 
 
-}
+	}
 
 }
 
@@ -844,11 +844,11 @@ country_event = {
 		hidden_effect = {
 			country_event = { days = 1 id = news.505 }
 		}
-}
+	}
 
 	option = {
 		name = italy.31.b
-}
+	}
 
 }
 
@@ -868,18 +868,18 @@ country_event = {
 	option = {
 		name = italy.32.a
 		ROM = {
-				add_to_faction = GRE
-					}
+			add_to_faction = GRE
+		}
 		ai_chance = { factor = 70 }
 		hidden_effect = {
 			country_event = { days = 2 id = news.506 }
 		}
 
-}
+	}
 
 	option = {
 		name = italy.32.b
-}
+	}
 
 }
 
@@ -900,18 +900,18 @@ country_event = {
 	option = {
 		name = italy.33.a
 		ROM= {
-				add_to_faction = BUL
-					}
+			add_to_faction = BUL
+		}
 		ai_chance = { factor = 70 }
 		hidden_effect = {
 			country_event = { days = 2 id = news.507 }
 		}
 
-}
+	}
 
 	option = {
 		name = italy.33.b
-}
+	}
 
 }
 
@@ -934,15 +934,15 @@ country_event = {
 		name = italy.34.a
 		give_resource_rights = { receiver = ITA state = 291 }
 		ai_chance = { factor = 90 }
-		 ITA = {country_event = { days = 1 id = italy.35 }}
-}
+		ITA = {country_event = { days = 1 id = italy.35 }}
+	}
 
 	option = {
 		name = italy.34.b
 		ITA = {country_event = { days = 1 id = italy.36 }}
 
 
-}
+	}
 }
 
 
@@ -961,7 +961,7 @@ country_event = {
 
 	option = {
 		name = italy.35.a
-}
+	}
 
 }
 
@@ -980,7 +980,7 @@ country_event = {
 
 	option = {
 		name = italy.36.a
-}
+	}
 
 }
 
@@ -999,17 +999,17 @@ country_event = {
 	is_triggered_only = yes
 
 
-###Hitler Accetta
+	###Hitler Accetta
 	option = {
 		name = italy.37.a
 		ai_chance = { factor = 90 }
 		ITA = {country_event = { days = 1 id = italy.38 }}
-}
-#Hitler rifiuta
-option = {
+	}
+	#Hitler rifiuta
+	option = {
 		name = italy.37.b
 		ITA = {country_event = { days = 1 id = italy.39 }}
-}
+	}
 }
 
 ##Hitler ha accettato
@@ -1026,21 +1026,21 @@ country_event = {
 
 	option = {
 		name = italy.38.a
-			2 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes
-					}
-				}
-		ITA = {
-				add_opinion_modifier = { target = GER modifier = hitler_visit_opinion }
+		2 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
 			}
-			hidden_effect = {
+		}
+		ITA = {
+			add_opinion_modifier = { target = GER modifier = hitler_visit_opinion }
+		}
+		hidden_effect = {
 			country_event = { days = 2 id = news.509 }
 		}
-}
+	}
 
 }
 
@@ -1059,9 +1059,9 @@ country_event = {
 	option = {
 		name = italy.39.a
 		ITA = {
-				add_opinion_modifier = { target = GER modifier = hitler_notvisit_opinion }
-			}
-}
+			add_opinion_modifier = { target = GER modifier = hitler_notvisit_opinion }
+		}
+	}
 
 }
 
@@ -1076,29 +1076,29 @@ country_event = {
 	option = {
 		name = italy.60.a
 		GER = { add_to_faction = ITA }
-			ai_chance = { factor = 90 }
-			ITA = {country_event = { days = 1 id = italy.62}}
-			}
+		ai_chance = { factor = 90 }
+		ITA = {country_event = { days = 1 id = italy.62}}
+	}
 	option = {
 		name = italy.60.b
 		ITA = {country_event = { days = 1 id = italy.61 }}
-			}
+	}
 }
 ##Hitler Accetta
 country_event = {
 	id = italy.62
 	title = italy.62.t
 	desc = italy.62.d
-    picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.62.a
 		hidden_effect = {
-				country_event = { days = 1 id = news.510 }
-				}
-
+			country_event = { days = 1 id = news.510 }
 		}
+
 	}
+}
 ###Hitler rifiuta Alleanza###
 
 country_event = {
@@ -1114,8 +1114,8 @@ country_event = {
 
 	option = {
 		name = italy.61.a
-		}
 	}
+}
 
 #################################################PICK A SIDE############################################
 
@@ -1131,18 +1131,18 @@ country_event = {
 	option = {
 		name = italy.40.a
 		ENG = {country_event = { days = 1 id = italy.41 }}
-		}
+	}
 	option = {
 		name = italy.40.b
 		GER = {country_event = { days = 1 id = italy.42 }}
 		ai_chance = { factor = 80 }
-		}
+	}
 	option = {
 		name = italy.40.c
 		ENG = {country_event = { days = 1 id = italy.41 }}
 		GER = {country_event = { days = 2 id = italy.42 }}
-		}
 	}
+}
 
 #trattare con Inghilterra
 country_event = {
@@ -1158,12 +1158,12 @@ country_event = {
 		name = italy.41.a
 		ai_chance = { factor = 40 }  ##offre Cipro e Malta###+contratta#
 		ITA = {country_event = { days = 1 id = italy.43 }}
-		}
-		option = {
+	}
+	option = {
 		name = italy.41.b   #rifiutoditrattare
 		ITA = {country_event = { days = 1 id = italy.44 }}
-		}
 	}
+}
 
 
 ##offerta Inglese####
@@ -1180,99 +1180,99 @@ country_event = {
 	option = {
 		name = italy.43.a
 		ITA = {country_event = { days = 1 id = italy.46 }} ##cipromalta
-		}
+	}
 	option = {
 		name = italy.43.b
 		ENG = {country_event = { days = 1 id = italy.45 }}  ###cipromaltaegitto
 		ai_chance = { factor = 80 }
-		}
+	}
 	option = {
 		name = italy.43.c
 		ENG = {country_event = { days = 1 id = italy.49 }} ###ritardo
-		}
+	}
 	option = {
 		name = italy.43.e
 		ENG = {country_event = { days = 1 id = italy.50 }} ###annulla
-			ai_chance = {
+		ai_chance = {
 			base = 10
 			modifier = { #rifiuta se in guerra
 				factor = 100
-			ITA = { has_war_with = ENG}
+				ITA = { has_war_with = ENG}
 			}
 		}
-		}
 	}
+}
 
 ##rifiuto inglese
 country_event = {
 	id = italy.44
 	title = italy.44.t
 	desc = italy.44.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.44.a
-		}
 	}
+}
 #####cipromaltaegitto
 country_event = {
 	id = italy.45
 	title = italy.45.t
 	desc = italy.45.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.45.a
 		ITA = {country_event = { days = 1 id = italy.48 }} ###accetta
 		ai_chance = { factor = 60 }
-		}
+	}
 	option = {
 		name = italy.45.b
 		ITA = {country_event = { days = 1 id = italy.47 }}
-			ai_chance = {
+		ai_chance = {
 			base = 40
 			modifier = { #rifiuta se in guerra
 				factor = 100
-			ITA = { has_war_with = ENG}
+				ITA = { has_war_with = ENG}
 			}
 		}
-		}
 	}
+}
 
 #####ItaliaentrainguerraconCiproeMalta
 country_event = {
 	id = italy.46
 	title = italy.46.t
 	desc = italy.46.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.46.a
 		ITA=	{	transfer_state = 116
-					transfer_state = 183
-					declare_war_on = {
-					target = GER
-					type = annex_everything
-					}
-					}
-							hidden_effect = {
+			transfer_state = 183
+			declare_war_on = {
+				target = GER
+				type = annex_everything
+			}
+		}
+		hidden_effect = {
 			country_event = { days = 1 id = news.511 }
 		}
 
-		}
 	}
+}
 
 ####inghilterraannullatrattativeperegitto
 country_event = {
 	id = italy.47
 	title = italy.47.t
 	desc = italy.47.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.47.a
-		}
 	}
+}
 
 
 #####InghilterraaccettaciproMaltaEgitto
@@ -1280,32 +1280,32 @@ country_event = {
 	id = italy.48
 	title = italy.48.t
 	desc = italy.48.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.48.a
 		ITA=	{
-					transfer_state = 456
-					transfer_state = 457
-					transfer_state = 446
-					transfer_state = 447
-					transfer_state = 552
-					transfer_state = 452
-					transfer_state = 116
-					transfer_state = 183
-					declare_war_on = {
-					target = GER
-					type = annex_everything
-					}
-					}
-							hidden_effect = {
+			transfer_state = 456
+			transfer_state = 457
+			transfer_state = 446
+			transfer_state = 447
+			transfer_state = 552
+			transfer_state = 452
+			transfer_state = 116
+			transfer_state = 183
+			declare_war_on = {
+				target = GER
+				type = annex_everything
+			}
+		}
+		hidden_effect = {
 			country_event = { days = 1 id = news.511 }
 		}
-		}
-		option = {
-		name = italy.48.b
-		}
 	}
+	option = {
+		name = italy.48.b
+	}
+}
 
 
 
@@ -1314,26 +1314,26 @@ country_event = {
 	id = italy.49
 	title = italy.49.t
 	desc = italy.49.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.49.a
 		ITA = {country_event = { days = 3 id = italy.43 }} ###ritardo
 
-		}
 	}
+}
 
 ###finetrattative
 country_event = {
 	id = italy.50
 	title = italy.50.t
 	desc = italy.50.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.50.a
-		}
 	}
+}
 
 
 
@@ -1358,13 +1358,13 @@ country_event = {
 		name = italy.42.a
 		ai_chance = { factor = 70 }  ##germania tratta
 		ITA = {country_event = { days = 1 id = italy.51 }}
-		}
-		option = {
+	}
+	option = {
 		name = italy.42.b   #rifiuto
 		ITA = {country_event = { days = 1 id = italy.52 }}
-		}
-
 	}
+
+}
 
 
 ####controfferta alla germania####
@@ -1382,27 +1382,27 @@ country_event = {
 		name = italy.51.a
 		ITA = {country_event = { days = 1 id = italy.53 }} ##economiaeguerra
 		ai_chance = { factor = 80 }
-		}
+	}
 	option = {
 		name = italy.51.b
 		GER = {country_event = { days = 1 id = italy.54 }}  ###economiaguerra+tirolo
-		}
+	}
 	option = {
 		name = italy.51.c
 		GER = {country_event = { days = 1 id = italy.55 }} ###ritardo
-		}
+	}
 	option = {
 		name = italy.51.e
 		GER = {country_event = { days = 1 id = italy.56 }} ###annulla
-			ai_chance = {
+		ai_chance = {
 			base = 10
 			modifier = { #rifiuta se in guerra
 				factor = 100
-			ITA = { has_war_with = GER}
+				ITA = { has_war_with = GER}
 			}
 		}
-		}
 	}
+}
 
 
 ##italiaccettasubitoaiutoeconomicoedentrainguerra
@@ -1410,30 +1410,30 @@ country_event = {
 	id = italy.53
 	title = italy.53.t
 	desc = italy.53.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.53.a
-			add_resource= {
-					type = steel
-					amount = -20
-					state = 65
-						}
-					add_resource= {
-					type = steel
-					amount = 20
-					state = 2
-						}
+		add_resource= {
+			type = steel
+			amount = -20
+			state = 65
+		}
+		add_resource= {
+			type = steel
+			amount = 20
+			state = 2
+		}
 		add_offsite_building = { type = arms_factory level = 5 }
 		declare_war_on = {
-					target = ENG
-					type = annex_everything
-					}
-							hidden_effect = {
+			target = ENG
+			type = annex_everything
+		}
+		hidden_effect = {
 			country_event = { days = 1 id = news.512 }
 		}
-		}
 	}
+}
 
 
 
@@ -1443,25 +1443,25 @@ country_event = {
 	id = italy.54
 	title = italy.54.t
 	desc = italy.54.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.54.a
 		ITA = {country_event = { days = 1 id = italy.57 }} ###accetta
 		ai_chance = { factor = 60 }
-		}
+	}
 	option = {
 		name = italy.54.b
 		ITA = {country_event = { days = 1 id = italy.58 }}
-				ai_chance = {
+		ai_chance = {
 			base = 40
 			modifier = { #rifiuta se in guerra
 				factor = 100
-			ITA = { has_war_with = GER}
+				ITA = { has_war_with = GER}
 			}
 		}
-		}
 	}
+}
 
 
 ##germaniaccettatirolo
@@ -1469,34 +1469,34 @@ country_event = {
 	id = italy.57
 	title = italy.57.t
 	desc = italy.57.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.57.a
-			add_resource= {
-					type = steel
-					amount = -20
-					state = 65
-						}
-					add_resource= {
-					type = steel
-					amount = 20
-					state = 2
-						}
+		add_resource= {
+			type = steel
+			amount = -20
+			state = 65
+		}
+		add_resource= {
+			type = steel
+			amount = 20
+			state = 2
+		}
 		add_offsite_building = { type = arms_factory level = 5 }
 		declare_war_on = {
-					target = ENG
-					type = annex_everything
-					}
-					transfer_state =153
-					hidden_effect = {
+			target = ENG
+			type = annex_everything
+		}
+		transfer_state =153
+		hidden_effect = {
 			country_event = { days = 1 id = news.512 }
 		}
-				}
-		option = {
-		name = italy.57.b
-		}
 	}
+	option = {
+		name = italy.57.b
+	}
+}
 
 
 ####Germaniarifiutatrattativapertirolo
@@ -1504,38 +1504,38 @@ country_event = {
 	id = italy.58
 	title = italy.58.t
 	desc = italy.58.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.58.a
-		}
 	}
+}
 
 ###ritardotedesco
 country_event = {
 	id = italy.55
 	title = italy.55.t
 	desc = italy.55.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.55.a
 		ITA = {country_event = { days = 3 id = italy.51 }} ###ritardo
 
-		}
 	}
+}
 
 ###finetrattativecongermania
 country_event = {
 	id = italy.56
 	title = italy.56.t
 	desc = italy.56.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.56.a
-		}
 	}
+}
 
 
 ######EVENTOBULGARIAPATHFASCISTA#####
@@ -1544,54 +1544,55 @@ country_event = {
 	id = italy.63
 	title = italy.63.t
 	desc = italy.63.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.63.a
 		ITA = {country_event = { days = 3 id = italy.64 }} ###ACCETTATRACIA
 		ai_chance = { factor = 60 }
-		}
+	}
 	option = {
 		name = italy.63.b
 		ITA = {country_event = { days = 3 id = italy.65 }} ###rifiutaTRACIA
 
-		}
 	}
+}
 ##bulgariaAccetta
 country_event = {
 	id = italy.64
 	title = italy.64.t
 	desc = italy.64.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.64.a
-			puppet = BUL
-		BUL=	{
-				transfer_state = 184}
+		puppet = BUL
+		BUL =	{
+			transfer_state = 184
+		}
 		hidden_effect = {
 			country_event = { days = 1 id = news.513 }
 		}
-			}
+	}
 
-		}
+}
 
 ##bulgariarifiuta
 country_event = {
 	id = italy.65
 	title = italy.65.t
 	desc = italy.65.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.65.a
 		create_wargoal = {
-    type = puppet_wargoal_focus
-    target = BUL
-}
-
+			type = puppet_wargoal_focus
+			target = BUL
 		}
+
 	}
+}
 
 ####STRESA#######
 
@@ -1600,90 +1601,90 @@ country_event = {
 	id = italy.66
 	title = italy.66.t
 	desc = italy.66.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.66.a
-	ITA = {transfer_state = 268}
-	ai_chance = { factor = 70 }
-	ITA = {country_event = { days = 1 id = italy.68 }}
-		}
-
-
-option = {
-		name = italy.66.b
-	ITA = {country_event = { days = 1 id = italy.69 }}
-
-		}
+		ITA = {transfer_state = 268}
+		ai_chance = { factor = 70 }
+		ITA = {country_event = { days = 1 id = italy.68 }}
 	}
+
+
+	option = {
+		name = italy.66.b
+		ITA = {country_event = { days = 1 id = italy.69 }}
+
+	}
+}
 
 ##Inghilterra
 country_event = {
 	id = italy.67
 	title = italy.67.t
 	desc = italy.67.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.67.a
-	ITA = {transfer_state = 269}
-	ai_chance = { factor = 70 }
-	ITA = {country_event = { days = 1 id = italy.70 }}
-		}
-		option = {
-		name = italy.67.b
-	ITA = {country_event = { days = 1 id = italy.71 }}
-
-		}
+		ITA = {transfer_state = 269}
+		ai_chance = { factor = 70 }
+		ITA = {country_event = { days = 1 id = italy.70 }}
 	}
+	option = {
+		name = italy.67.b
+		ITA = {country_event = { days = 1 id = italy.71 }}
+
+	}
+}
 
 ##SI Francia
 country_event = {
 	id = italy.68
 	title = italy.68.t
 	desc = italy.68.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.68.a
-		}
 	}
+}
 
 ##No Francia
 country_event = {
 	id = italy.69
 	title = italy.69.t
 	desc = italy.69.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.69.a
-		}
 	}
+}
 
 ##SI Inghilterra
 country_event = {
 	id = italy.70
 	title = italy.70.t
 	desc = italy.70.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.70.a
-		}
 	}
+}
 
 ##No Inghilterra
 country_event = {
 	id = italy.71
 	title = italy.71.t
 	desc = italy.71.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.71.a
-		}
 	}
+}
 
 
 
@@ -1692,41 +1693,41 @@ country_event = {
 	id = italy.72
 	title = italy.72.t
 	desc = italy.72.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.72.a
 		ITA = {country_event = { days = 1 id = italy.73 }}
 		ai_chance = { factor = 60 }
-		}
-		option = {
+	}
+	option = {
 		name = italy.72.b
 		ITA = {country_event = { days = 1 id = italy.74 }}
-		}
 	}
+}
 ##AustriaSI
 country_event = {
 	id = italy.73
 	title = italy.73.t
 	desc = italy.73.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.73.a
 		puppet = AUS
 		give_guarantee = AUS
-	FRA =	{give_guarantee = AUS}
-	ENG	=   {give_guarantee = AUS}
-		}
+		FRA =	{give_guarantee = AUS}
+		ENG	=   {give_guarantee = AUS}
 	}
+}
 #AustriaNO
 country_event = {
 	id = italy.74
 	title = italy.74.t
 	desc = italy.74.d
- picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
 		name = italy.74.a
-		}
 	}
+}
