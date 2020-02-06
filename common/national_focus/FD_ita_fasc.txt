@@ -3737,6 +3737,34 @@ focus = {
   }
 }
 
+focus = {
+  id = ITA_mas
+  icon = GFX_goal_generic_navy_anti_submarine
+  prerequisite = { focus = ITA_navyradar }
+  available = {
+    has_tech = marines
+  }
+  x = 43
+  y = 5
+  cost = 10
+  ai_will_do {
+    factor = 1
+  }
+  available_if_capitulated = yes
+  completion_reward = {
+    hidden_effect = {
+      load_oob = "ITA_x_mas"
+    }
+    add_tech_bonus = {
+      name = mas
+      bonus = 1.0
+      uses = 1
+      technology = marines3
+    }
+    custom_effect_tooltip = ITA_x_mas_tt
+
+  }
+}
 #REGIAAERONAUTICA
 
 #PROGRAMMAR
