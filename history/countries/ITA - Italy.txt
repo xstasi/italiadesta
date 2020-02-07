@@ -282,17 +282,6 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-  name = "Giuseppe Tellera"
-  picture = "Portrait_Italy_Giuseppe_Tellera.dds"
-  traits = { old_guard politically_connected inflexible_strategist logistics_wizard }
-  skill = 3
-  attack_skill = 2
-  defense_skill = 2
-  planning_skill = 2
-  logistics_skill = 2
-}
-
-create_field_marshal = {
   name = "Emilio De Bono"
   picture = "portrait_italy_emilio_de_bono.dds"
   traits = { defensive_doctrine old_guard politically_connected trait_cautious }
@@ -316,36 +305,12 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-  name = "Carlo Rossi"
-  picture = "Portrait_Italy_Carlo_Rossi.dds"
-  traits = {  old_guard adaptable trait_mountaineer }
-  skill = 2
-  rank = 2
-  attack_skill = 2
-  defense_skill = 1
-  planning_skill = 2
-  logistics_skill = 3
-}
-
-create_corps_commander = {
   name = "Alessandro Pirzio Biroli"
   picture = "Portrait_Italy_Pirzio_Biroli.dds"
   traits = {   trait_cautious career_officer inflexible_strategist}
   skill = 2
   rank = 1
   attack_skill = 1
-  defense_skill = 1
-  planning_skill = 2
-  logistics_skill = 3
-}
-
-create_corps_commander = {
-  name = "Pietro Maletti"
-  picture = "Portrait_Italy_Pietro_Maletti.dds"
-  traits = {  old_guard trait_cautious career_officer infantry_leader }
-  skill = 2
-  rank = 2
-  attack_skill = 2
   defense_skill = 1
   planning_skill = 2
   logistics_skill = 3
@@ -386,6 +351,15 @@ create_corps_commander = {
   logistics_skill = 1
 }
 
+create_corps_commander = {
+  name = "Italo Gariboldi"
+  picture = "Portrait_Italy_Italo_Gariboldi.dds"
+  traits = { old_guard war_hero desert_fox infantry_officer }
+  skill = 2
+  attack_skill = 2
+  planning_skill = 2
+  logistics_skill = 2
+}
 create_corps_commander = {
   name = "Mario Roatta"
   picture = "Portrait_Italy_Mario_Roatta.dds"
