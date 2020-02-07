@@ -3754,6 +3754,21 @@ focus = {
   completion_reward = {
     hidden_effect = {
       load_oob = "ITA_x_mas"
+      create_corps_commander = {
+        name = "Luigi Faggioni"
+        picture = "Portrait_Italy_Luigi_Faggioni.dds"
+        traits = {
+          naval_invader
+          career_officer
+          brilliant_strategist
+        }
+        skill = 2
+        attack_skill = 2
+        defense_skill = 1
+        planning_skill = 2
+        logistics_skill = 3
+      }
+
     }
     add_tech_bonus = {
       name = mas
@@ -3762,7 +3777,7 @@ focus = {
       technology = marines3
     }
     custom_effect_tooltip = ITA_x_mas_tt
-
+    custom_effect_tooltip = ITA_x_mas_gen_tt
   }
 }
 #REGIAAERONAUTICA
