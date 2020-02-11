@@ -1,0 +1,219 @@
+units = {
+  division = {
+    name = "Bonanno family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 7059
+  }
+  division = {
+    name = "Colombo family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 10074
+  }
+  division = {
+    name = "Gambino family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 7147
+  }
+  division = {
+    name = "Genovese family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 1009
+  }
+  division = {
+    name = "Lucchese family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 3857
+  }
+  division = {
+    name = "Castellano family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 12047
+  }
+  division = {
+    name = "Malaspina family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 1156
+  }
+  division = {
+    name = "Corleone family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 4014
+  }
+  division = {
+    name = "Marineo family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 4159
+  }
+  division = {
+    name = "Mezzojuso family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 9990
+  }
+  division = {
+    name = "Caccamo family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 12066
+  }
+  division = {
+    name = "Collesano family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 12098
+  }
+  division = {
+    name = "Sciara family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 3901
+  }
+  division = {
+    name = "Ciminna family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 10.157
+  }
+  division = {
+    name = "Sciacca family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 3968
+  }
+  division = {
+    name = "Cianciana family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 9856
+  }
+  division = {
+    name = "Castelvetrano family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 11837
+  }
+  division = {
+    name = "Gibellina family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 11998
+  }
+  division = {
+    name = "Mazzarino family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 9826
+  }
+  division = {
+    name = "Mussomeli family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 6979
+  }
+  division = {
+    name = "Mancuso family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 6972
+  }
+  division = {
+    name = "Castellamare family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 851
+  }
+  division = {
+    name = "Licata family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 6843
+  }
+  division = {
+    name = "Resuttana family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 3958
+  }
+  division = {
+    name = "Brancaccio family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 955
+  }
+  division = {
+    name = "Ciaulli family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 883
+  }
+  division = {
+    name = "Roccella family"
+    division_template = "Gang"
+    start_experience_factor = 0.01
+    start_equipment_factor = 0.7
+    location = 6980
+  }
+  division = {
+    name = "Ficarazzi family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 6939
+  }
+  division = {
+    name = "Lascari family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 11803
+  }
+  division = {
+    name = "Villabate family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 9826
+  }
+  division = {
+    name = "Camastra family"
+    division_template = "Gang"
+    start_experience_factor = 0.15
+    start_equipment_factor = 0.7
+    location = 819
+  }
+}

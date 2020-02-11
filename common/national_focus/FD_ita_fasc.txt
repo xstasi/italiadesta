@@ -774,6 +774,33 @@ focus = {
     }
   }
 }
+
+
+# Lotta alla mafia
+focus = {
+  id = ITA_mafia
+  icon = GFX_focus_eng_move_to_secure_the_dominions
+  x = 12
+  y = 2
+  cost = 5
+  prerequisite = { focus = ITA_reclaim_swamps }
+  available_if_capitulated = no
+  ai_will_do = {
+    factor = 0
+  }
+  available = {
+    has_government = fascism
+  }
+  completion_reward = {
+    custom_effect_tooltip = ITA_mafia_focus_tt
+    hidden_effect = {
+      news_event = {
+        id = news.524
+      }
+    }
+  }
+}
+
 #IRI
 focus = {
   id = ITA_iri

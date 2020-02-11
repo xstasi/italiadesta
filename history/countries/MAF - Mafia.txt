@@ -1,0 +1,49 @@
+capital = 115
+
+set_popularities = {
+  democratic = 10
+  neutrality = 90
+}
+
+set_politics = {
+  ruling_party = neutrality
+  elections_allowed = no
+}
+
+create_country_leader = {
+  name = "Charles 'Lucky' Luciano"
+  desc = POLITICS_LUCKY_LUCIANO_DESC
+  picture = "gfx/leaders/MAF/Portrait_Mafia_Lucky_Luciano.dds"
+  expire = "1965.1.1"
+  ideology = despotism
+  traits = { }
+}
+
+create_corps_commander = {
+  name = "Frank Costello"
+  picture = "Portrait_Mafia_Frank_Costello.dds"
+  skill = 1
+  traits = { politically_connected trait_reckless }
+}
+
+create_corps_commander = {
+  name = "Vito Cascio Ferro"
+  picture = "Portrait_Mafia_Vito_Cascio_Ferro.dds"
+  skill = 1
+  traits = { politically_connected trait_reckless }
+}
+
+create_corps_commander = {
+  name = "Joseph Bonanno"
+  picture = "Portrait_Mafia_Joseph_Bonanno.dds"
+  skill = 1
+  traits = { politically_connected trait_reckless }
+}
+
+division_template = {
+  name = "Gang"
+
+  regiments = {
+    infantry = { x = 0 y = 0 }
+  }
+}

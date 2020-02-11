@@ -1731,3 +1731,15 @@ country_event = {
 		name = italy.74.a
 	}
 }
+
+# Inizio lotta alla mafia
+country_event = {
+	id = italy.75
+	title = italy.75.t
+	desc = italy.75.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = italy.74.a
+	}
+}

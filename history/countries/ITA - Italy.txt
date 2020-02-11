@@ -17,6 +17,7 @@ add_ideas = {
   alpini
   chemical_weapons
   itaold_air
+  crime_ridden
 }
 
 

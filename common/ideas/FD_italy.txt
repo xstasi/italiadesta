@@ -383,8 +383,6 @@ ideas = {
 
 
 
-
-
     ################################
     dev_aoi = {
 
@@ -565,6 +563,27 @@ ideas = {
         tag = ETH
         attack_bonus_against = 0.15
         defense_bonus_against = 0.10
+      }
+    }
+
+    crime_ridden = {
+      allowed = {
+        original_tag = "ITA"
+      }
+      removal_cost = -1
+      modifier = {
+        consumer_goods_factor = 0.05
+        industrial_capacity_factory = -0.05
+      }
+    }
+    crime_fixed = {
+      allowed = {
+        original_tag = "ITA"
+      }
+      removal_cost = -1
+      modifier = {
+        consumer_goods_factor = -0.03
+        industrial_capacity_factory = +0.03
       }
     }
 

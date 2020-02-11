@@ -1,8 +1,80 @@
+crime_fight = {
+  d_mafia_spread_rumours = {
+    allowed = {
+      original_tag = ITA
+    }
 
+    visible = {
+      has_completed_focus = ITA_mafia
+      not = {
+        has_country_flag = has_spread_rumours
+      }
+    }
+
+    days_remove = 30
+    remove_effect = {
+      news_event = {
+        id = news.525
+      }
+      set_country_flag = has_spread_rumours
+    }
+
+  }
+  d_mafia_start_crime = {
+    allowed = {
+      original_tag = ITA
+    }
+
+    visible = {
+      and = {
+        has_country_flag = has_spread_rumours
+        not = {
+          has_country_flag = has_fought_mafia
+        }
+      }
+
+    }
+    modifier = {
+      consumer_goods_factor = 0.07
+      stability_weekly = -0.02
+    }
+
+    complete_effect = {
+      hidden_effect = {
+        # Fight on the street happened, army involved
+        news_event = {
+          days = 20
+          id = news.526
+        }
+        # Weapon shipment intercepted by the coast guard
+        news_event = {
+          days = 40
+          id = news.527
+        }
+        # Letter found by inspection on civilian convoy, in scilian, with status update
+        news_event = {
+          days = 48
+          id = news.528
+        }
+      }
+    }
+
+    days_remove = 60
+    remove_effect = {
+      custom_effect_tooltip = d_mafia_start_crime_tt
+      set_country_flag = has_fought_mafia
+      hidden_effect = {
+        # WAR!
+        news_event = {
+          id = news.529
+          hours = 8
+        }
+      }
+    }
+  }
+}
 ##ITA decisions
-
 colonial_works = {
-
   develop_derna = {
 
     allowed = {

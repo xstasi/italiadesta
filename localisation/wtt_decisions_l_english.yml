@@ -995,3 +995,7 @@
  italian_friend:0"Italy supports Golden Square!"
  AOI_gibuti:0"Djibouti for A.O.I"
  AOI_somaliland:0"British Somaliland for A.O.I"
+
+ crime_fight:0"Eradication of the Mafia"
+ d_mafia_spread_rumours:0"Phase 1: Spread rumours around the new family"
+ d_mafia_start_crime:0"Phase 2: Start crime competition"

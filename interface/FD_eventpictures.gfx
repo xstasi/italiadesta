@@ -19,7 +19,35 @@ spriteTypes = {
     name = "GFX_news_event_savnizza"
     texturefile = "gfx/event_pictures/news_event_savnizza.dds"
   }
-    spriteType = {
+  spriteType = {
+    name = "GFX_news_event_safestreets"
+    texturefile = "gfx/event_pictures/news_event_safestreets.dds"
+  }
+  spriteType = {
+    name = "GFX_news_event_endwar"
+    texturefile = "gfx/event_pictures/news_event_endwar.dds"
+  }
+  spriteType = {
+    name = "GFX_news_event_gangsters"
+    texturefile = "gfx/event_pictures/news_event_gangsters.dds"
+  }
+  spriteType = {
+    name = "GFX_news_event_gangsters2"
+    texturefile = "gfx/event_pictures/news_event_gangsters2.dds"
+  }
+  spriteType = {
+    name = "GFX_news_event_squadrismo"
+    texturefile = "gfx/event_pictures/news_event_squadrismo.dds"
+  }
+  spriteType = {
+    name = "GFX_news_event_letter"
+    texturefile = "gfx/event_pictures/news_event_letter.dds"
+  }
+  spriteType = {
+    name = "GFX_news_event_tommy"
+    texturefile = "gfx/event_pictures/news_event_tommy.dds"
+  }
+  spriteType = {
     name = "GFX_news_event_remusso"
     texturefile = "gfx/event_pictures/news_event_remusso.dds"
   }

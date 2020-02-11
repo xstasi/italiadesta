@@ -1,9 +1,9 @@
-spriteTypes = {  
+spriteTypes = {
   spriteType = {
     name = "GFX_idea_Poor_economic_situation"
     texturefile = "gfx/interface/ideas/poor_economic_situation.dds"
   }
-  
+
   spriteType = {
     name = "GFX_idea_ita_economic_collapse"
     texturefile = "gfx/interface/ideas/poor_economic_situation.dds"
@@ -20,7 +20,7 @@ spriteTypes = {
     name = "GFX_idea_ita_economic_collapse4"
     texturefile = "gfx/interface/ideas/poor_economic_situation.dds"
   }
-  
+
   spriteType = {
     name = "GFX_idea_dev_libya"
     texturefile = "gfx/interface/ideas/dev_libya.dds"
@@ -32,12 +32,12 @@ spriteTypes = {
   spriteType = {
     name = "GFX_idea_impresa_pizzarotti"
     texturefile = "gfx/interface/ideas/impresa_pizzarotti.dds"
-  }  
+  }
   spriteType = {
     name = "GFX_idea_olivetti"
     texturefile = "gfx/interface/ideas/olivetti.dds"
   }
-  
+
   spriteType = {
     name = "GFX_idea_purchase_colonies"
     texturefile = "gfx/interface/ideas/dev_libya.dds"
@@ -101,7 +101,7 @@ spriteTypes = {
     spriteType = {
     name = "GFX_idea_itaold_regio3"
     texturefile = "gfx/interface/ideas/itaold_regio3.dds"
-    
+
   }
     spriteType = {
     name = "GFX_idea_itaold_regio4"
@@ -123,7 +123,17 @@ spriteTypes = {
     name = "GFX_idea_alpini"
     texturefile = "gfx/interface/ideas/alpini.dds"
   }
-  
+
+  spriteType = {
+    name = "GFX_idea_crime_ridden"
+    texturefile = "gfx/interface/ideas/generic_spy_coup.dds"
+  }
+
+  spriteType = {
+    name = "GFX_idea_crime_fixed"
+    texturefile = "gfx/interface/ideas/idea_ast_classify_aliens.dds"
+  }
+
   spriteType = {
     name = "GFX_idea_chemical_weapons"
     texturefile = "gfx/interface/ideas/chemical_weapons.dds"
@@ -132,7 +142,7 @@ spriteTypes = {
     name = "GFX_idea_gioventu"
     texturefile = "gfx/interface/ideas/italy_littorio.dds"
   }
-  
+
   spriteType = {
     name = "GFX_idea_elite_impero"
     texturefile = "gfx/interface/ideas/elite_impero.dds"

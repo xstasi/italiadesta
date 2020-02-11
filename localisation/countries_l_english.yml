@@ -2230,3 +2230,5 @@
  VAI_democratic_ADJ:0 "Italo-Arabian"
  VAI_neutrality_ADJ:1 "Italo-Arabian"
  VAI_communism_ADJ:1 "Italo-Arabian"
+ MAF_neutrality:0 "Mafia Syndicate"
+ MAF_neutrality_ADJ:0 "Mafiosi"

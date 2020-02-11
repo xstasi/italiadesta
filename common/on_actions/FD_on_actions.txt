@@ -1,0 +1,19 @@
+on_actions = {
+  on_annex = {
+    effect = {
+      if = {
+        limit = {
+          FROM = {
+            original_tag = MAF
+          }
+        }
+        ROOT = {
+          news_event = {
+            days = 10
+            id = news.531
+          }
+        }
+      }
+    }
+  }
+}

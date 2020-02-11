@@ -1,6 +1,8 @@
+crime_fight = {
+  icon = eng_move_to_secure_the_dominions
+}
 colonial_works = {
   icon = generic_prospect_for_resources
-
 }
 
 ita_irredentism = {
