@@ -109,7 +109,7 @@ bookmarks = {
       }  
       focuses = {
       ITA_pact_of_steel
-      ITA_alone
+      ITA_italy_first
       ITA_iri
       }    
     }

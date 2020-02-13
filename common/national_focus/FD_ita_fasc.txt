@@ -1749,7 +1749,7 @@ focus = {
   ai_will_do = {
     factor = 1
   }
-  mutually_exclusive {focus = ITA_alone }
+  mutually_exclusive {focus = ITA_italy_first }
   available = {
     GER = {
       has_government = fascism
@@ -1772,7 +1772,7 @@ focus = {
   icon = GFX_goal_support_fascism
   prerequisite = { focus = ITA_german_millitary_cooperation}
   prerequisite = { focus = ITA_german_economic_cooperation}
-  prerequisite = { focus = ITA_claims}
+  prerequisite = { focus = ITA_slovenia_dalmatia_claims}
   bypass = {
     is_in_faction_with = GER
   }
@@ -1853,7 +1853,7 @@ focus = {
 
 #Claim Italia
 focus = {
-  id = ITA_claims
+  id = ITA_slovenia_dalmatia_claims
   icon = GFX_goal_generic_military_deal
   prerequisite = { focus = ITA_HitlerRome }
 
@@ -2141,7 +2141,7 @@ focus = {
   focus = {
     id = ITA_dalmita
     icon = GFX_goal_generic_construction2
-    prerequisite = { focus = ITA_dalmazia focus = ITA_invyug  focus = ITA_yugodeal }
+    prerequisite = { focus = ITA_dalmazia focus = ITA_yugoslavia_friend  focus = ITA_yugodeal }
     x = 23
     y = 9
     cost = 15
@@ -2424,7 +2424,7 @@ focus = {
   #Italia prima di tutto
 
   focus = {
-    id = ITA_alone
+    id = ITA_italy_first
     icon = GFX_focus_generic_italy_first
     x = 28
     y = 2
@@ -2456,7 +2456,7 @@ focus = {
   focus = {
     id = ITA_albania_war_goal
     icon = GFX_goal_generic_more_territorial_claims
-    prerequisite = { focus = ITA_itagerfrie focus = ITA_alone focus = ITA_allies}
+    prerequisite = { focus = ITA_itagerfrie focus = ITA_italy_first focus = ITA_allies}
     will_lead_to_war_with = ALB
     x = 24
     y = 3
@@ -2568,7 +2568,7 @@ focus = {
   y = 6
   cost = 10
   mutually_exclusive = { focus = ITA_dominatebalkans }
-  prerequisite = { focus = ITA_invyug }
+  prerequisite = { focus = ITA_yugoslavia_friend }
   available_if_capitulated = yes
   ai_will_do = {
     factor = 2.5
@@ -2607,7 +2607,7 @@ focus = {
   y = 6
   cost = 10
   mutually_exclusive = { focus = ITA_guidebalkans }
-  prerequisite = { focus = ITA_invyug }
+  prerequisite = { focus = ITA_yugoslavia_friend }
   available_if_capitulated = yes
   ai_will_do = {
     factor = 2.5
@@ -2630,9 +2630,10 @@ focus = {
   }
 }
 
-#invYug
+#ITA_yugoslavia_friend
 focus = {
-  id = ITA_invyug
+  # I know, I know, not very friendly
+  id = ITA_yugoslavia_friend
   icon = GFX_goal_generic_occupy_states_ongoing_war
   x = 28
   y = 3
@@ -2641,7 +2642,7 @@ focus = {
   bypass = {
     NOT = { country_exists = YUG }
   }
-  prerequisite = { focus = ITA_alone }
+  prerequisite = { focus = ITA_italy_first }
   ai_will_do = {
     factor = 1
   }
@@ -3990,7 +3991,7 @@ focus = {
 focus = {
   id = ITA_spanish_italian_faction
   icon = GFX_goal_support_fascism
-  prerequisite = { focus = ITA_alone }
+  prerequisite = { focus = ITA_italy_first }
   prerequisite = { focus = ITA_demand_balearic_islands }
   available = {
     is_in_faction = yes
@@ -4028,7 +4029,7 @@ focus = {
   cost = 5
   available = {
     is_in_faction = no
-    NOT = {  has_completed_focus = ITA_itagerfrie  has_completed_focus = ITA_alone}
+    NOT = {  has_completed_focus = ITA_itagerfrie  has_completed_focus = ITA_italy_first}
     GER = {has_government = fascism}
     ENG = {has_government = democratic}
     FRA = {has_government = democratic}

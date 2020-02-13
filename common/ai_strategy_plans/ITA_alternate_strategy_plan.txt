@@ -30,7 +30,7 @@ ITA_alternate_plan_1 = {
     ITA_iriciv
     ITA_theilva
     ITA_mussprop
-    ITA_alone
+    ITA_italy_first
     ITA_albania_war_goal
     ITA_littorio
     ITA_pizzarotti
@@ -49,7 +49,7 @@ ITA_alternate_plan_1 = {
     ITA_fixindustry
     ITA_miladvice
     ITA_giovannimesse
-    ITA_invyug
+    ITA_yugoslavia_friend
     ITA_crushbalk
     ITA_albaniainfr
     ITA_albaita
@@ -101,7 +101,7 @@ ITA_alternate_plan_2 = {
     ITA_iriciv
     ITA_theilva
     ITA_mussprop
-    ITA_alone
+    ITA_italy_first
     ITA_albania_war_goal
     ITA_littorio
     ITA_pizzarotti
@@ -120,7 +120,7 @@ ITA_alternate_plan_2 = {
     ITA_fixindustry
     ITA_miladvice
     ITA_giovannimesse
-    ITA_invyug
+    ITA_yugoslavia_friend
     ITA_crushbalk
     ITA_albaniainfr
     ITA_albaita    
@@ -174,7 +174,7 @@ ITA_alternate_plan_3 = {
     ITA_iriciv
     ITA_theilva
     ITA_mussprop
-    ITA_alone
+    ITA_italy_first
     ITA_albania_war_goal
     ITA_littorio
     ITA_pizzarotti
@@ -193,7 +193,7 @@ ITA_alternate_plan_3 = {
     ITA_fixindustry
     ITA_miladvice
     ITA_giovannimesse
-    ITA_invyug
+    ITA_yugoslavia_friend
     ITA_crushbalk
     ITA_albaniainfr
     ITA_albaita    
@@ -252,7 +252,7 @@ ITA_alternate_plan_4 = {
     ITA_iriciv
     ITA_theilva
     ITA_mussprop
-    ITA_alone
+    ITA_italy_first
     ITA_albania_war_goal
     ITA_littorio
     ITA_pizzarotti
@@ -271,7 +271,7 @@ ITA_alternate_plan_4 = {
     ITA_fixindustry
     ITA_miladvice
     ITA_giovannimesse
-    ITA_invyug
+    ITA_yugoslavia_friend
     ITA_crushbalk
     ITA_albaniainfr
     ITA_albaita      
@@ -325,7 +325,7 @@ ITA_alternate_plan_fascist = {
     ITA_iriciv
     ITA_theilva
     ITA_mussprop
-    ITA_alone
+    ITA_italy_first
     ITA_albania_war_goal
     ITA_littorio
     ITA_pizzarotti
@@ -344,7 +344,7 @@ ITA_alternate_plan_fascist = {
     ITA_fixindustry
     ITA_miladvice
     ITA_giovannimesse
-    ITA_invyug
+    ITA_yugoslavia_friend
     ITA_crushbalk
     ITA_albaniainfr
     ITA_albaita

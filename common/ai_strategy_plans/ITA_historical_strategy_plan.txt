@@ -46,7 +46,7 @@ ITA_historical_plan = {
     ITA_itagerfrie
     ITA_german_millitary_cooperation
     ITA_german_economic_cooperation
-    ITA_claims
+    ITA_slovenia_dalmatia_claims
     ITA_HitlerRome
     ITA_albania_war_goal
     ITA_albaniainfr
@@ -83,8 +83,8 @@ ITA_historical_plan = {
     ITA_addabeba
     ITA_aoideve
     ITA_colonial_elite
-                               
-  }        
+
+  }
 
   research = {
 

@@ -1240,9 +1240,9 @@ focus = {
   }
 }
 
-#invYug
+#ITA_yugoslavia_friend
 focus = {
-  id = ITA_invyug2
+  id = ITA_yugoslavia_friend2
   icon = GFX_goal_generic_occupy_states_ongoing_war
   x = -2
   y = 4
@@ -1271,7 +1271,7 @@ focus = {
 focus = {
   id = ITA_dalmita2
   icon = GFX_goal_generic_construction2
-  prerequisite = { focus = ITA_invyug2 }
+  prerequisite = { focus = ITA_yugoslavia_friend2 }
   relative_position_id = ITA_newkingdom
   x = -3
   y = 5
@@ -1408,7 +1408,7 @@ focus = {
     NOT = { country_exists = ETH }
   }
   prerequisite = { focus = ITA_revenge }
-  prerequisite = { focus = ITA_invyug2 }
+  prerequisite = { focus = ITA_yugoslavia_friend2 }
   ai_will_do = {
     factor = 1
   }
