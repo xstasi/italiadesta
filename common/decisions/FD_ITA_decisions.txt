@@ -256,7 +256,7 @@ colonial_works = {
       available = {
       }
       fire_only_once = yes
-      complete_effect = {
+      remove_effect = {
         give_guarantee = YEM
       }
     }
@@ -945,16 +945,14 @@ colonial_works = {
       icon = generic_operation
 
       available = {
-        #has_air_experience > 199
-        has_air_experience > 1
+        has_air_experience > 199
       }
 
       cost = 0
       ai_will_do = {
         factor = 500
       }
-      #days_remove = 75
-      days_remove = 2
+      days_remove = 75
 
       visible = {
 
@@ -1004,7 +1002,6 @@ colonial_works = {
       }
       complete_effect = {
         air_experience = -1
-        #air_experience = -200
       }
     }
   }
