@@ -3781,6 +3781,28 @@ focus = {
     custom_effect_tooltip = ITA_x_mas_gen_tt
   }
 }
+
+focus = {
+  id = ITA_arditi_f
+  icon = GFX_focus_arditi
+  prerequisite = { focus = ITA_regioesercito }
+  x = 46
+  y = 1
+  cost = 10
+  ai_will_do = {
+    factor = 1
+  }
+
+  available_if_capitulated = yes
+
+  completion_reward {
+    set_technology = {
+      arditi_tech = 1
+    }
+    custom_effect_tooltip = ITA_arditi_tt
+  }
+}
+
 #REGIAAERONAUTICA
 
 #PROGRAMMAR

@@ -1,0 +1,23 @@
+spriteTypes = {
+  spriteType = {
+    name = "GFX_unit_arditi_u_icon_medium"
+    textureFile = "gfx/interface/counters/divisions_large/support_unit_arditi_icon.dds"
+    noOfFrames = 2
+  }
+
+
+  spriteType = {
+    name = "GFX_arditi_tech_medium"
+    texturefile = "gfx/interface/technologies/tech_arditi.dds"
+  }
+
+  spriteType = {
+    name = "GFX_unit_arditi_u_icon_small"
+    texturefile = "gfx/texticons/support_arditi_small.dds"
+  }
+
+#  spriteType = {
+#    name = "GFX_unit_arditi_icon_medium"
+#    texturefile = "gfx/interface/counters/divisions_large/support_unit_at_icon.dds"
+#  }
+}

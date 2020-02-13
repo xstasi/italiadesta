@@ -1,0 +1,12 @@
+technologies = {
+  arditi_tech = {
+    research_cost = 1
+    start_year = 1936
+    categories = {
+      support_tech
+    }
+    enable_subunits = {
+      arditi_u
+    }
+  }
+}

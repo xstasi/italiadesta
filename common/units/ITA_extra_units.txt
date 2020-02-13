@@ -1,0 +1,33 @@
+sub_units = {
+  arditi_u = {
+    sprite = infantry
+    map_icon_category = infantry
+    active = no
+    type = {
+      support
+    }
+    group = support
+    categories = {
+      category_support_battalions
+    }
+    essential = {
+      infantry_equipment
+      support_equipment
+    }
+    need = {
+      infantry_equipment = 40
+      support_equipment = 10
+    }
+    combat_width = 0
+
+    max_organisation = 15
+    supply_consumption = 0.02
+    manpower = 150
+    initiative = 0.15
+    recon = 4
+    special_forces = yes
+    fort = {
+      attack = 0.1
+    }
+  }
+}
