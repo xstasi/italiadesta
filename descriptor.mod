@@ -1,9 +1,9 @@
-version="0.1"
+version="0.01alpha1"
 tags={
-  "Alternative History"
-  "National Focuses"
-  "Historical"
-  "Events"
+        "Alternative History"
+        "National Focuses"
+        "Events"
+        "Historical"
 }
-name="Il mod dell'Itaglia"
+name="L'Italia s'è desta"
 supported_version="1.8.2"
