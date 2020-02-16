@@ -275,8 +275,13 @@ colonial_works = {
         293 = {has_state_flag = yem_indu}
       }
       fire_only_once = yes
-      complete_effect = {
+      remove_effect = {
         puppet = YEM
+        hidden_effect = {
+          country_event = {
+            id = news.523
+          }
+        }
       }
     }
   }

@@ -1647,6 +1647,11 @@ focus = {
   completion_reward = {
     remove_ideas = {  italy_mobsud }
     add_ideas =    {  italy_induni }
+    hidden_effect = {
+      country_event = {
+        id = news.522
+      }
+    }
 
   }
 }

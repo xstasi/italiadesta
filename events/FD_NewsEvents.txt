@@ -34,6 +34,36 @@ news_event = {
 	}
 }
 
+news_event = {
+	id = news.522
+	title = news.522.t
+	desc = news.522.desc
+	picture = GFX_news_event_piazzavenezia
+
+	major = no
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.522.a
+	}
+}
+
+news_event = {
+	id = news.523
+	title = news.523.t
+	desc = news.523.desc
+	picture = GFX_news_event_generic_read_write
+
+	major = no
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.523.a
+	}
+}
+
 #Impero
 news_event = {
 	id = news.500
