@@ -12,80 +12,16 @@ focus_tree = {
   }
 
   continuous_focus_position = { x = 300 y = 2000 }
-  focus = {
-    id = ITA_change
-    icon = GFX_goal_generic_forceful_treaty
-    x = 10
-    y = 0
-    cost = 5
-    available_if_capitulated = yes
-    ai_will_do = {
-      factor = 1
-    }
-    available = {
-    }
-    completion_reward = {
-      retire_country_leader = yes
-      add_popularity = {
-        ideology = fascism
-        popularity = -0.4
-      }
-      add_popularity = {
-        ideology = neutrality
-        popularity = 0.4
-      }
-      set_politics = {
-        ruling_party = neutrality
-      }
-      create_country_leader = {
-        name = "Vittorio Emanuele III"
-        desc = ""
-        picture = "Portrait_Italy_Vittorio_Emanuele.dds"
-        expire = "1965.1.1"
-        ideology = despotism
-        traits = {
-
-        }
-      }
-      remove_ideas = { chemical_weapons
-      }
-      hidden_effect = {
-        news_event = { hours = 6 id = news.504 }
-
-      }
-    }
-  }
-
-  #Viaggio a Londra
-  focus = {
-    id = ITA_velondon
-    icon = GFX_goal_tripartite_pact
-    x = 0
-    y = 2
-    cost = 2
-    available_if_capitulated = yes
-    prerequisite = { focus = ITA_ecocollapse }
-    relative_position_id = ITA_change
-    ai_will_do = {
-      factor = 1
-    }
-    completion_reward = {
-      remove_ideas = { lon_sanctions
-      }
-
-    }
-  }
 
   #Situazione Economica
   focus = {
     id = ITA_ecocollapse
     icon = GFX_goal_generic_consumer_goods
-    x = 0
-    y = 1
+    x = 10
+    y = 0
     cost = 1
     available_if_capitulated = yes
-    prerequisite = { focus = ITA_change }
-    relative_position_id = ITA_change
+    available = {}
     ai_will_do = {
       factor = 1
     }
@@ -100,17 +36,37 @@ focus_tree = {
     }
   }
 
+  #Viaggio a Londra
+  focus = {
+    id = ITA_velondon
+    icon = GFX_goal_tripartite_pact
+    x = 0
+    y = 1
+    cost = 2
+    available_if_capitulated = yes
+    prerequisite = { focus = ITA_ecocollapse }
+    relative_position_id = ITA_ecocollapse
+    ai_will_do = {
+      factor = 1
+    }
+    completion_reward = {
+      remove_ideas = { lon_sanctions
+      }
+
+    }
+  }
+
+
   #Fiducia nel RE
   focus = {
     id = ITA_trustvict
     icon = GFX_focus_generic_home_defense
-    x = -3
-    y = 3
+    x = 0
+    y = 2
     cost = 5
     available_if_capitulated = yes
     prerequisite = { focus = ITA_velondon }
-    mutually_exclusive = { focus = ITA_trustcom focus = ITA_trustdemocr}
-    relative_position_id = ITA_change
+    relative_position_id = ITA_ecocollapse
     ai_will_do = {
       factor = 1
     }
@@ -123,56 +79,17 @@ focus_tree = {
     }
   }
 
-  #Fiducia nel comunismo
-  focus = {
-    id = ITA_trustcom
-    icon = GFX_goal_support_communism
-    x = 0
-    y = 3
-    cost = 5
-    available_if_capitulated = yes
-    available = { always = no }
-    prerequisite = { focus = ITA_velondon }
-    mutually_exclusive = { focus = ITA_trustvict focus = ITA_trustdemocr}
-    relative_position_id = ITA_change
-    ai_will_do = {
-      factor = 1
-    }
-    completion_reward = {
-
-    }
-  }
-
-  #Fiducia nelle democrazie
-  focus = {
-    id = ITA_trustdemocr
-    icon = GFX_goal_support_democracy
-    x = 3
-    y = 3
-    cost = 5
-    available = { always = no }
-    available_if_capitulated = yes
-    prerequisite = { focus = ITA_velondon }
-    mutually_exclusive = { focus = ITA_trustvict focus = ITA_trustdemocr}
-    relative_position_id = ITA_change
-    ai_will_do = {
-      factor = 1
-    }
-    completion_reward = {
-
-    }
-  }
 
   #Il re chiama il popolo
   focus = {
     id = ITA_callpeople
     icon = GFX_focus_generic_home_defense
-    x = -3
-    y = 4
+    x = 0
+    y = 3
     cost = 10
     available_if_capitulated = yes
     prerequisite = { focus = ITA_trustvict }
-    relative_position_id = ITA_change
+    relative_position_id = ITA_ecocollapse
     ai_will_do = {
       factor = 1
     }
@@ -193,8 +110,8 @@ focus_tree = {
     y = 5
     cost = 10
     available_if_capitulated = yes
-    prerequisite = { focus = ITA_callpeople focus = ITA_trustcom focus = ITA_trustdemocr}
-    relative_position_id = ITA_change
+    prerequisite = { focus = ITA_callpeople }
+    relative_position_id = ITA_ecocollapse
     ai_will_do = {
       factor = 1
     }
@@ -243,7 +160,7 @@ focus_tree = {
     cost = 5
     available_if_capitulated = yes
     prerequisite = { focus = ITA_greatworks}
-    relative_position_id = ITA_change
+    relative_position_id = ITA_ecocollapse
     ai_will_do = {
       factor = 1
     }
@@ -277,7 +194,7 @@ focus_tree = {
     cost = 5
     available_if_capitulated = yes
     prerequisite = { focus = ITA_greatworks}
-    relative_position_id = ITA_change
+    relative_position_id = ITA_ecocollapse
     ai_will_do = {
       factor = 1
     }
@@ -311,7 +228,7 @@ focus_tree = {
     cost = 5
     available_if_capitulated = yes
     prerequisite = { focus = ITA_greatworks}
-    relative_position_id = ITA_change
+    relative_position_id = ITA_ecocollapse
     ai_will_do = {
       factor = 1
     }
@@ -347,7 +264,7 @@ focus_tree = {
     prerequisite = { focus = ITA_sud1}
     prerequisite = { focus = ITA_sud2}
     prerequisite = { focus = ITA_sud3}
-    relative_position_id = ITA_change
+    relative_position_id = ITA_ecocollapse
     ai_will_do = {
       factor = 1
     }
@@ -369,7 +286,7 @@ focus_tree = {
     cost = 5
     available_if_capitulated = yes
     prerequisite = { focus = ITA_lesstaxesind}
-    relative_position_id = ITA_change
+    relative_position_id = ITA_ecocollapse
     ai_will_do = {
       factor = 1
     }
@@ -403,7 +320,7 @@ focus_tree = {
     cost = 5
     available_if_capitulated = yes
     prerequisite = { focus = ITA_lesstaxesind}
-    relative_position_id = ITA_change
+    relative_position_id = ITA_ecocollapse
     ai_will_do = {
       factor = 1
     }
@@ -437,7 +354,7 @@ focus_tree = {
     cost = 5
     available_if_capitulated = yes
     prerequisite = { focus = ITA_lesstaxesind}
-    relative_position_id = ITA_change
+    relative_position_id = ITA_ecocollapse
     ai_will_do = {
       factor = 1
     }
@@ -483,7 +400,7 @@ focus_tree = {
     prerequisite = { focus = ITA_ind1}
     prerequisite = { focus = ITA_ind2}
     prerequisite = { focus = ITA_ind3}
-    relative_position_id = ITA_change
+    relative_position_id = ITA_ecocollapse
     ai_will_do = {
       factor = 1
     }
@@ -506,7 +423,7 @@ focus_tree = {
     cost = 5
     available_if_capitulated = yes
     prerequisite = { focus = ITA_sellrifles}
-    relative_position_id = ITA_change
+    relative_position_id = ITA_ecocollapse
     ai_will_do = {
       factor = 1
     }
@@ -540,7 +457,7 @@ focus_tree = {
     cost = 5
     available_if_capitulated = yes
     prerequisite = { focus = ITA_sellrifles}
-    relative_position_id = ITA_change
+    relative_position_id = ITA_ecocollapse
     ai_will_do = {
       factor = 1
     }
@@ -574,7 +491,7 @@ focus_tree = {
     cost = 5
     available_if_capitulated = yes
     prerequisite = { focus = ITA_sellrifles}
-    relative_position_id = ITA_change
+    relative_position_id = ITA_ecocollapse
     ai_will_do = {
       factor = 1
     }
@@ -610,7 +527,7 @@ focus_tree = {
     prerequisite = { focus = ITA_mil1}
     prerequisite = { focus = ITA_mil2}
     prerequisite = { focus = ITA_mil3}
-    relative_position_id = ITA_change
+    relative_position_id = ITA_ecocollapse
     ai_will_do = {
       factor = 1
     }
@@ -625,7 +542,7 @@ focus_tree = {
     icon = GFX_focus_research
     text = extra_tech_slot
     prerequisite = { focus = ITA_neweconomy }
-    relative_position_id = ITA_change
+    relative_position_id = ITA_ecocollapse
     x = 0
     y = 12
     cost = 10
@@ -1837,7 +1754,7 @@ focus = {
   ai_will_do = {
     factor = 1
   }
-  available = { has_completed_focus = ITA_change
+  available = { has_completed_focus = ITA_ecocollapse
   }
   completion_reward = {
     army_experience = 25

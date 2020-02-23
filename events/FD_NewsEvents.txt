@@ -201,8 +201,6 @@ news_event = {
   }
 }
 
-
-
 #Impero
 news_event = {
   id = news.500
@@ -282,7 +280,29 @@ news_event = {
 
   option = {
     name = news.504.a
-  }
+    retire_country_leader = yes
+    add_popularity = {
+      ideology = fascism
+      popularity = -0.4
+    }
+    add_popularity = {
+      ideology = neutrality
+      popularity = 0.4
+    }
+    set_politics = {
+      ruling_party = neutrality
+    }
+    create_country_leader = {
+      name = "Vittorio Emanuele III"
+      desc = ""
+      picture = "Portrait_Italy_Vittorio_Emanuele.dds"
+      expire = "1965.1.1"
+      ideology = despotism
+      traits = {
+
+      }
+    }
+    remove_ideas = { chemical_weapons }  }
 }
 
 

@@ -1,6 +1,11 @@
 spriteTypes = {
 
-##fratellid'italia
+  ##fratellid'italia
+
+  spriteType = {
+    name = "GFX_event_cadmus"
+    texturefile = "gfx/event_pictures/country_event_cadmus.dds"
+  }
 
   spriteType = {
     name = "GFX_news_event_impero"
@@ -51,11 +56,11 @@ spriteTypes = {
     name = "GFX_news_event_remusso"
     texturefile = "gfx/event_pictures/news_event_remusso.dds"
   }
-    spriteType = {
+  spriteType = {
     name = "GFX_news_event_romaniawar"
     texturefile = "gfx/event_pictures/news_event_romaniawar.dds"
   }
-    spriteType = {
+  spriteType = {
     name = "GFX_news_event_piazzavenezia"
     texturefile = "gfx/event_pictures/news_event_piazzavenezia.dds"
   }

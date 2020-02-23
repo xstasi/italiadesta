@@ -153,9 +153,30 @@ focus = {
     }
   }
   completion_reward = {
-    load_focus_tree = FD_itaaltern_focus
     country_event = { id = italy.22 }
     custom_effect_tooltip = ita_change_gov
+  }
+}
+focus = {
+  id = ITA_change
+  icon = GFX_goal_generic_forceful_treaty
+  x = 5
+  y = 2
+  cost = 5
+  available_if_capitulated = yes
+  ai_will_do = {
+    factor = 1
+  }
+  prerequisite = { focus = ITA_defeatinafrica }
+  available = {
+  }
+  select_effect = {
+    hidden_effect = {
+      news_event = { days = 10 id = news.504 }
+    }
+  }
+  completion_reward = {
+    country_event = { id = italy.75 }
   }
 }
 

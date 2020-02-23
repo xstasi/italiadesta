@@ -263,7 +263,7 @@
  GER_around_maginot:0 "Around Maginot"
  GER_around_maginot_desc:0 "If we want to ensure a tactical advantage against France we need to be able to hit them from all sides. They will not expect an attack from the North, which is exactly where we will hit them from, once we've disposed of a few obstacles."
  italian_focus:0 "Italian National Focus"
- FD_itaaltern_focus:0 "A new Italy National Focus"
+ FD_itaaltern_focus:0 "Kindom of Italy Focus"
  GER_danzig_or_war_POL_civil_war:0 "Take Danzig in exchange for support"
  GER_danzig_trigger_polish_civil_war:0 "Poland is in a civil war and one of the following must be true\n      Germany has sent volunteers to support one side\n      One side is in a faction with Germany"
  GER_alone_or_peace_faction_tt:0 "is not in a faction, or is in a faction at peace with [GER.GetNameDef]."

@@ -491,20 +491,15 @@ country_event = {
 	id = italy.22
 	title = italy.22.t
 	desc = italy.22.d
-
 	picture = GFX_report_event_generic_sign_treaty1
-
 	is_triggered_only = yes
-
-
-
 	option = {
 		name = italy.22.a
-
 		ETH = { transfer_state =  550 }
 		white_peace = ETH
 	}
 }
+
 
 # Situation of montenegro
 country_event = {
@@ -1732,14 +1727,39 @@ country_event = {
 	}
 }
 
-# Inizio lotta alla mafia
 country_event = {
 	id = italy.75
 	title = italy.75.t
 	desc = italy.75.d
-	picture = GFX_report_event_generic_sign_treaty1
+
+	picture = GFX_event_cadmus
+
 	is_triggered_only = yes
+
 	option = {
-		name = italy.74.a
+		name = italy.75.a
+		load_focus_tree = FD_itaaltern_focus
+	}
+
+	option = {
+		name = italy.75.b
+	}
+	option = {
+		name = italy.75.c
+		retire_country_leader = yes
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.4
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = -0.4
+		}
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+		}
+		hold_election = ITA
+		remove_ideas = { chemical_weapons }
 	}
 }
