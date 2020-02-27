@@ -1746,20 +1746,22 @@ country_event = {
 	}
 	option = {
 		name = italy.75.c
-		retire_country_leader = yes
-		add_popularity = {
-			ideology = democratic
-			popularity = 0.4
+		ITA = {
+			retire_country_leader = yes
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.4
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.4
+			}
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+			}
+			hold_election = ITA
+			remove_ideas = { chemical_weapons }
 		}
-		add_popularity = {
-			ideology = neutrality
-			popularity = -0.4
-		}
-		set_politics = {
-			ruling_party = democratic
-			elections_allowed = yes
-		}
-		hold_election = ITA
-		remove_ideas = { chemical_weapons }
 	}
 }
