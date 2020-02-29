@@ -1111,7 +1111,7 @@ focus = {
   available = {
   }
   bypass = {
-    OR = {    AND = { has_full_control_of_state = 44 has_full_control_of_state = 788 }
+    OR = {    AND = { has_full_control_of_state = 44 has_full_control_of_state = 797 }
     ALB = {is_in_faction_with = ITA}
   }
 }
@@ -1144,11 +1144,11 @@ focus = {
   }
   available = {
     44 = { is_fully_controlled_by = ITA }
-    788 = { is_fully_controlled_by = ITA }
+    797 = { is_fully_controlled_by = ITA }
   }
   completion_reward = {
     add_state_core = 44
-    add_state_core = 788
+    add_state_core = 797
     set_province_name = {
       id = 11767
       name = "Valona"
