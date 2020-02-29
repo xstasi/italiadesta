@@ -1,0 +1,14 @@
+leader_traits = {
+  suppressor = {
+    type = land
+    trait_type = personality_trait
+    gain_xp = {
+      always = no
+    }
+  
+    modifier = {
+      local_factory_sabotage = -0.4
+      local_manpower = -0.2
+    }
+  }
+}

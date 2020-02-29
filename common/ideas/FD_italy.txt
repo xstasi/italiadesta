@@ -1,1816 +1,1837 @@
 ideas = {
-  country = {
+	country = {
 
-    Poor_economic_situation = {
+		Poor_economic_situation = {
 
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        production_speed_arms_factory_factor = -0.1
-        production_speed_dockyard_factor = -0.1
-        production_speed_industrial_complex_factor = -0.1
-        consumer_goods_factor = 0.05
-      }
-    }
+			modifier = {
+				production_speed_arms_factory_factor = -0.1
+				production_speed_dockyard_factor = -0.1
+				production_speed_industrial_complex_factor = -0.1
+				consumer_goods_factor = 0.05
+			}
+		}
 
-    ita_economic_collapse = {
+		ita_economic_collapse = {
 
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        production_speed_arms_factory_factor = -0.3
-        production_speed_dockyard_factor = -0.3
-        production_speed_industrial_complex_factor = -0.1
-        consumer_goods_factor = 0.5
+			modifier = {
+				production_speed_arms_factory_factor = -0.3
+				production_speed_dockyard_factor = -0.3
+				production_speed_industrial_complex_factor = -0.1
+				consumer_goods_factor = 0.5
 
-      }
-    }
-    ita_economic_collapse2 = {
+			}
+		}
+		ita_economic_collapse2 = {
 
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        production_speed_arms_factory_factor = -0.3
-        production_speed_dockyard_factor = -0.1
-        production_speed_industrial_complex_factor = -0.1
-        consumer_goods_factor = 0.45
+			modifier = {
+				production_speed_arms_factory_factor = -0.3
+				production_speed_dockyard_factor = -0.1
+				production_speed_industrial_complex_factor = -0.1
+				consumer_goods_factor = 0.45
 
-      }
-    }
-    ita_economic_collapse3 = {
+			}
+		}
+		ita_economic_collapse3 = {
 
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        production_speed_arms_factory_factor = -0.3
-        consumer_goods_factor = 0.30
+			modifier = {
+				production_speed_arms_factory_factor = -0.3
+				consumer_goods_factor = 0.30
 
-      }
-    }
+			}
+		}
 
-    ita_economic_collapse4 = {
+		ita_economic_collapse4 = {
 
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        production_speed_arms_factory_factor = -0.1
-        consumer_goods_factor = 0.15
+			modifier = {
+				production_speed_arms_factory_factor = -0.1
+				consumer_goods_factor = 0.15
 
-      }
-    }
+			}
+		}
 
-    italian_autarky = {
+		italian_autarky = {
 
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      picture = generic_exploit_mines
+			picture = generic_exploit_mines
 
-      modifier = {
-        local_resources_factor = 0.1
-        min_export = -0.05
-      }
-    }
+			modifier = {
+				local_resources_factor = 0.1
+				min_export = -0.05
+			}
+		}
 
-    discrete_economic_situation = {
+		discrete_economic_situation = {
 
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        production_speed_arms_factory_factor = -0.1
-        production_speed_dockyard_factor = -0.1
-        production_speed_industrial_complex_factor = -0.1
-        monthly_population = 0.20
-      }
-    }
-    discrete_economic_situation2 = {
-
+			modifier = {
+				production_speed_arms_factory_factor = -0.1
+				production_speed_dockyard_factor = -0.1
+				production_speed_industrial_complex_factor = -0.1
+				monthly_population = 0.20
+			}
+		}
+		discrete_economic_situation2 = {
+
 
-      allowed = {
-        original_tag = "ITA"
-      }
-
+			allowed = {
+				original_tag = "ITA"
+			}
+
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        production_speed_dockyard_factor = -0.1
-        production_speed_industrial_complex_factor = -0.1
-        monthly_population = 0.20
-      }
-    }
-    discrete_economic_situation3 = {
-
-
-      allowed = {
-        original_tag = "ITA"
-      }
-
-
-      removal_cost = -1
-
-      modifier = {
-        production_speed_arms_factory_factor = -0.1
-        production_speed_dockyard_factor = -0.1
-        monthly_population = 0.20
-      }
-    }
-
-    lon_sanctions = {
-      allowed = {
-        original_tag = "ITA"
-      }
-
-
-      removal_cost = -1
-
-      modifier = {
-        consumer_goods_factor = 0.1
-      }
-    }
-
-    purchase_colonies = {
-      allowed = {
-        original_tag = "ITA"
-      }
-
-
-      removal_cost = -1
-
-      modifier = {
-        consumer_goods_factor = 0.1
-      }
-    }
-    ###PROBLEMI ESERCITO
-    itaold_regio = {
-      allowed = {
-        original_tag = "ITA"
-      }
-
-
-      removal_cost = -1
-
-      modifier = {
-        planning_speed = -0.15
-        army_org_factor = -0.3
-        army_armor_attack_factor = -0.3
-        army_armor_defence_factor = -0.3
-        special_forces_attack_factor = -0.4
-        special_forces_defence_factor = -0.4
-        industrial_capacity_factory = -0.2
-      }
-      research_bonus = {
-        land_doctrine = -0.25
-      }
-
-    }
-
-    itaold_regio2 = {
-      allowed = {
-        original_tag = "ITA"
-      }
-      removal_cost = -1
-
-      modifier = {
-        planning_speed = -0.12
-        army_org_factor = -0.2
-        army_armor_attack_factor = -0.3
-        army_armor_defence_factor = -0.3
-        special_forces_attack_factor = -0.3
-        special_forces_defence_factor = -0.3
-        industrial_capacity_factory = -0.2
-      }
-      research_bonus = {
-        land_doctrine = -0.20
-      }
-    }
-
-    itaold_regio3 = {
-      allowed = {
-        original_tag = "ITA"
-      }
-
-
-      removal_cost = -1
-
-      modifier = {
-        planning_speed = -0.10
-        army_org_factor = -0.15
-        army_armor_attack_factor = -0.2
-        army_armor_defence_factor = -0.2
-        special_forces_attack_factor = -0.2
-        special_forces_defence_factor = -0.2
-        industrial_capacity_factory = -0.10
-      }
-      research_bonus = {
-        land_doctrine = -0.15
-      }
-
-    }
-
-    itaold_regio4 = {
-      allowed = {
-        original_tag = "ITA"
-      }
-
-
-      removal_cost = -1
-
-      modifier = {
-        planning_speed = -0.05
-        army_org_factor = -0.05
-        army_armor_attack_factor = -0.1
-        army_armor_defence_factor = -0.1
-        special_forces_attack_factor = -0.1
-        special_forces_defence_factor = -0.1
-        industrial_capacity_factory = -0.05
-      }
-      research_bonus = {
-        land_doctrine = -0.05
-      }
-
-    }
-
-    new_regio = {
-      allowed = {
-        original_tag = "ITA"
-      }
-
-
-      removal_cost = -1
-
-      modifier = {
-        army_armor_speed_factor = 0.05
-        army_armor_attack_factor = 0.05
-        army_armor_defence_factor = 0.05
-      }
-      research_bonus = {
-        armor = 0.1
-      }
-
-    }
-    ######PROBLEMI REGIA AERONAUTICA
-
-    itaold_air = {
-      allowed = {
-        original_tag = "ITA"
-      }
-
-
-      removal_cost = -1
-
-      modifier = {
-        air_range_factor = -0.3
-        army_bonus_air_superiority_factor = -0.2
-        naval_strike_attack_factor = -0.2
-        air_interception_attack_factor = -0.08
-        air_interception_defence_factor = -0.08
-        air_close_air_support_attack_factor = -0.2
-        air_strategic_bomber_attack_factor = -0.2
-      }
-      research_bonus = {
-        air_doctrine = -0.25
-      }
-
-    }
-    itaold_air2 = {
-      allowed = {
-        original_tag = "ITA"
-      }
-
-
-      removal_cost = -1
-
-      modifier = {
-        air_range_factor = -0.225
-        army_bonus_air_superiority_factor = -0.15
-        naval_strike_attack_factor = -0.15
-        air_interception_attack_factor = -0.06
-        air_interception_defence_factor = -0.06
-        air_close_air_support_attack_factor = -0.15
-        air_strategic_bomber_attack_factor = -0.15
-      }
-      research_bonus = {
-        air_doctrine = -0.20
-      }
-
-    }
-    itaold_air3 = {
-      allowed = {
-        original_tag = "ITA"
-      }
-
-
-      removal_cost = -1
-
-      modifier = {
-        air_range_factor = -0.15
-        army_bonus_air_superiority_factor = -0.1
-        naval_strike_attack_factor = -0.1
-        air_interception_attack_factor = -0.04
-        air_interception_defence_factor = -0.04
-        air_close_air_support_attack_factor = -0.1
-        air_strategic_bomber_attack_factor = -0.1
-      }
-      research_bonus = {
-        air_doctrine = -0.15
-      }
-
-    }
-    itaold_air4 = {
-      allowed = {
-        original_tag = "ITA"
-      }
-
-
-      removal_cost = -1
-
-      modifier = {
-        air_range_factor = -0.075
-        army_bonus_air_superiority_factor = -0.05
-        naval_strike_attack_factor = -0.05
-        air_interception_attack_factor = -0.02
-        air_interception_defence_factor = -0.02
-        air_close_air_support_attack_factor = -0.05
-        air_strategic_bomber_attack_factor = -0.05
-      }
-      research_bonus = {
-        air_doctrine = -0.05
-      }
-
-    }
-
-
-
-    ################################
-    dev_aoi = {
-
-
-      allowed = {
-        original_tag = "ITA"
-      }
-
-
-      removal_cost = -1
-
-      modifier = {
-        consumer_goods_factor = 0.05
-      }
-    }
+			modifier = {
+				production_speed_dockyard_factor = -0.1
+				production_speed_industrial_complex_factor = -0.1
+				monthly_population = 0.20
+			}
+		}
+		discrete_economic_situation3 = {
+
+
+			allowed = {
+				original_tag = "ITA"
+			}
+
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_arms_factory_factor = -0.1
+				production_speed_dockyard_factor = -0.1
+				monthly_population = 0.20
+			}
+		}
+
+		lon_sanctions = {
+			allowed = {
+				original_tag = "ITA"
+			}
+
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+
+		purchase_colonies = {
+			allowed = {
+				original_tag = "ITA"
+			}
+
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+		###PROBLEMI ESERCITO
+		itaold_regio = {
+			allowed = {
+				original_tag = "ITA"
+			}
+
+
+			removal_cost = -1
+
+			modifier = {
+				planning_speed = -0.15
+				army_org_factor = -0.3
+				army_armor_attack_factor = -0.3
+				army_armor_defence_factor = -0.3
+				special_forces_attack_factor = -0.4
+				special_forces_defence_factor = -0.4
+				industrial_capacity_factory = -0.2
+			}
+			research_bonus = {
+				land_doctrine = -0.25
+			}
+
+		}
+
+		itaold_regio2 = {
+			allowed = {
+				original_tag = "ITA"
+			}
+			removal_cost = -1
+
+			modifier = {
+				planning_speed = -0.12
+				army_org_factor = -0.2
+				army_armor_attack_factor = -0.3
+				army_armor_defence_factor = -0.3
+				special_forces_attack_factor = -0.3
+				special_forces_defence_factor = -0.3
+				industrial_capacity_factory = -0.2
+			}
+			research_bonus = {
+				land_doctrine = -0.20
+			}
+		}
+
+		itaold_regio3 = {
+			allowed = {
+				original_tag = "ITA"
+			}
+
+
+			removal_cost = -1
+
+			modifier = {
+				planning_speed = -0.10
+				army_org_factor = -0.15
+				army_armor_attack_factor = -0.2
+				army_armor_defence_factor = -0.2
+				special_forces_attack_factor = -0.2
+				special_forces_defence_factor = -0.2
+				industrial_capacity_factory = -0.10
+			}
+			research_bonus = {
+				land_doctrine = -0.15
+			}
+
+		}
+
+		itaold_regio4 = {
+			allowed = {
+				original_tag = "ITA"
+			}
+
+
+			removal_cost = -1
+
+			modifier = {
+				planning_speed = -0.05
+				army_org_factor = -0.05
+				army_armor_attack_factor = -0.1
+				army_armor_defence_factor = -0.1
+				special_forces_attack_factor = -0.1
+				special_forces_defence_factor = -0.1
+				industrial_capacity_factory = -0.05
+			}
+			research_bonus = {
+				land_doctrine = -0.05
+			}
+
+		}
+
+		new_regio = {
+			allowed = {
+				original_tag = "ITA"
+			}
+
+
+			removal_cost = -1
+
+			modifier = {
+				army_armor_speed_factor = 0.05
+				army_armor_attack_factor = 0.05
+				army_armor_defence_factor = 0.05
+			}
+			research_bonus = {
+				armor = 0.1
+			}
+
+		}
+		######PROBLEMI REGIA AERONAUTICA
+
+		itaold_air = {
+			allowed = {
+				original_tag = "ITA"
+			}
+
+
+			removal_cost = -1
+
+			modifier = {
+				air_range_factor = -0.3
+				army_bonus_air_superiority_factor = -0.2
+				naval_strike_attack_factor = -0.2
+				air_interception_attack_factor = -0.08
+				air_interception_defence_factor = -0.08
+				air_close_air_support_attack_factor = -0.2
+				air_strategic_bomber_attack_factor = -0.2
+			}
+			research_bonus = {
+				air_doctrine = -0.25
+			}
+
+		}
+		itaold_air2 = {
+			allowed = {
+				original_tag = "ITA"
+			}
+
+
+			removal_cost = -1
+
+			modifier = {
+				air_range_factor = -0.225
+				army_bonus_air_superiority_factor = -0.15
+				naval_strike_attack_factor = -0.15
+				air_interception_attack_factor = -0.06
+				air_interception_defence_factor = -0.06
+				air_close_air_support_attack_factor = -0.15
+				air_strategic_bomber_attack_factor = -0.15
+			}
+			research_bonus = {
+				air_doctrine = -0.20
+			}
+
+		}
+		itaold_air3 = {
+			allowed = {
+				original_tag = "ITA"
+			}
+
+
+			removal_cost = -1
+
+			modifier = {
+				air_range_factor = -0.15
+				army_bonus_air_superiority_factor = -0.1
+				naval_strike_attack_factor = -0.1
+				air_interception_attack_factor = -0.04
+				air_interception_defence_factor = -0.04
+				air_close_air_support_attack_factor = -0.1
+				air_strategic_bomber_attack_factor = -0.1
+			}
+			research_bonus = {
+				air_doctrine = -0.15
+			}
+
+		}
+		itaold_air4 = {
+			allowed = {
+				original_tag = "ITA"
+			}
+
+
+			removal_cost = -1
+
+			modifier = {
+				air_range_factor = -0.075
+				army_bonus_air_superiority_factor = -0.05
+				naval_strike_attack_factor = -0.05
+				air_interception_attack_factor = -0.02
+				air_interception_defence_factor = -0.02
+				air_close_air_support_attack_factor = -0.05
+				air_strategic_bomber_attack_factor = -0.05
+			}
+			research_bonus = {
+				air_doctrine = -0.05
+			}
+
+		}
+
+
+
+		################################
+		dev_aoi = {
+
+
+			allowed = {
+				original_tag = "ITA"
+			}
+
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
 
-    iri_inv = {
-      allowed = {
-        original_tag = "ITA"
-      }
+		iri_inv = {
+			allowed = {
+				original_tag = "ITA"
+			}
 
-
-      removal_cost = -1
+
+			removal_cost = -1
 
-      modifier = {
-        consumer_goods_factor = 0.05
-      }
-    }
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
 
-    balkan_inv = {
-      allowed = {
-        original_tag = "ITA"
-      }
-
-
-      removal_cost = -1
+		balkan_inv = {
+			allowed = {
+				original_tag = "ITA"
+			}
+
+
+			removal_cost = -1
 
-      modifier = {
-        consumer_goods_factor = 0.15
-      }
-    }
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+		}
 
-    italy_readtowar = {
-      allowed = {
-        original_tag = "ITA"
-      }
+		italy_readtowar = {
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        production_speed_arms_factory_factor = 0.2
-        production_factory_efficiency_gain_factor = 0.1
-        experience_gain_army = 0.05
-        production_factory_max_efficiency_factor = 0.10
-        production_speed_industrial_complex_factor = -0.15
-        production_speed_infrastructure_factor = -0.2
-      }
-    }
+			modifier = {
+				production_speed_arms_factory_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.1
+				experience_gain_army = 0.05
+				production_factory_max_efficiency_factor = 0.10
+				production_speed_industrial_complex_factor = -0.15
+				production_speed_infrastructure_factor = -0.2
+			}
+		}
 
-    italy_economicboom = {
-      allowed = {
-        original_tag = "ITA"
-      }
+		italy_economicboom = {
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        production_speed_synthetic_refinery_factor = 0.1
-        production_speed_industrial_complex_factor = 0.1
-        consumer_goods_factor = -0.03
-        monthly_population = 0.30
-      }
-    }
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				consumer_goods_factor = -0.03
+				monthly_population = 0.30
+			}
+		}
 
-    italy_mobsud = {
-      allowed = {
-        original_tag = "ITA"
-      }
+		italy_mobsud = {
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        conscription = -0.005
-        consumer_goods_factor = 0.05
-      }
-    }
+			modifier = {
+				conscription = -0.005
+				consumer_goods_factor = 0.05
+			}
+		}
 
-    gioventu = {
-      allowed = {
-        original_tag = "ITA"
-      }
+		gioventu = {
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        conscription = 0.01
-      }
-    }
+			modifier = {
+				conscription = 0.01
+			}
+		}
 
-    elite_impero = {
-      allowed = {
-        original_tag = "ITA"
-      }
+		elite_impero = {
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        research_speed_factor = 0.05
-        conscription = 0.005
+			modifier = {
+				research_speed_factor = 0.05
+				conscription = 0.005
 
-      }
-    }
+			}
+		}
 
-    italy_induni = {
-      allowed = {
-        original_tag = "ITA"
-      }
+		italy_induni = {
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        consumer_goods_factor = -0.02
-        stability_weekly = 0.002
-        political_power_gain = 0.2
-        production_speed_industrial_complex_factor = 0.10
-        production_speed_infrastructure_factor = 0.10
-      }
-    }
+			modifier = {
+				consumer_goods_factor = -0.02
+				stability_weekly = 0.002
+				political_power_gain = 0.2
+				production_speed_industrial_complex_factor = 0.10
+				production_speed_infrastructure_factor = 0.10
+			}
+		}
 
 
-    dev_libya = {
+		dev_libya = {
 
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        consumer_goods_factor = 0.05
-      }
-    }
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
 
-    alpini = {
+		alpini = {
 
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        special_forces_cap = 0.03
-      }
-    }
+			modifier = {
+				special_forces_cap = 0.03
+			}
+		}
 
-    chemical_weapons = {
+		chemical_weapons = {
 
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      targeted_modifier = {
-        tag = ETH
-        attack_bonus_against = 0.15
-        defense_bonus_against = 0.10
-      }
-    }
+			targeted_modifier = {
+				tag = ETH
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.10
+			}
+		}
 
-    crime_ridden = {
-      allowed = {
-        original_tag = "ITA"
-      }
-      removal_cost = -1
-      modifier = {
-        consumer_goods_factor = 0.05
-        industrial_capacity_factory = -0.05
-      }
-    }
-    crime_fixed = {
-      allowed = {
-        original_tag = "ITA"
-      }
-      removal_cost = -1
-      modifier = {
-        consumer_goods_factor = -0.03
-        industrial_capacity_factory = +0.03
-      }
-    }
+		crime_ridden = {
+			allowed = {
+				original_tag = "ITA"
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = -0.05
+			}
+		}
+		crime_fixed = {
+			allowed = {
+				original_tag = "ITA"
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.03
+				industrial_capacity_factory = +0.03
+			}
+		}
 
-    ita_sim = {
+		ita_sim = {
 
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        foreign_subversive_activites = -0.1
-        enemy_partisan_effect = -0.1
-        decryption_factor = 0.1
-        encryption_factor = 0.1
+			modifier = {
+				foreign_subversive_activites = -0.1
+				decryption_factor = 0.1
+				encryption_factor = 0.1
 
-      }
-    }
+			}
+		}
 
-    ita_ovra = {
+		ita_ovra = {
 
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			allowed = {
+				original_tag = "ITA"
+			}
 
 
-      removal_cost = -1
+			removal_cost = -1
 
-      modifier = {
-        communism_drift = -0.02
-        democratic_drift = -0.02
-        political_power_factor = 0.05
-      }
-    }
+			modifier = {
+				communism_drift = -0.02
+				democratic_drift = -0.02
+				political_power_factor = 0.05
+			}
+		}
+		victor_emmanuel = {
 
-    victor_emmanuel = {
 
+			allowed = {
+				original_tag = "ITA"
+			}
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			available = {
+				NOT = {
+					has_government = neutrality #remove if King in power
+				}
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+				NOT = {
+					any_other_country = {
+						original_tag = ITA
+						has_government = fascism
+					}
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		victor_emmanuel2 = {
+
+
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+				NOT = {
+					any_other_country = {
+						original_tag = ITA
+						has_government = fascism
+					}
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				neutrality_drift = 0.15
+			}
+		}
+		vittoria_mutilata = {
+
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					OR = {
+						has_government = communism
+						has_government = democratic
+					}
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				communism_acceptance = -10
+				democratic_acceptance = -10
+				fascism_acceptance = 10
+				ai_focus_aggressive_factor = 0.5
+				justify_war_goal_time = -0.05
+			}
+		}
+
+		ita_giovineitalia = {
+			allowed = {
+				original_tag = "ITA"
+			}
+			modifier = {
+				conscription = 0.015
+
+			}
+		}
+
+		ITA_german_millitary_cooperation_focus = {
+
+			picture = german_advisors
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			allowed_civil_war = {
+				OR = {
+					AND = {
+						has_government = fascism
+						GER = {
+							has_government = fascism
+						}
+					}
+					AND = {
+						has_government = communism
+						GER = {
+							has_government = communism
+						}
+					}
+					AND = {
+						has_government = democratic
+						GER = {
+							has_government = democratic
+						}
+					}
+				}
+			}
+
+			removal_cost = -1
+
+			research_bonus = {
+				land_doctrine = 0.05
+			}
+			research_bonus = {
+				air_doctrine = 0.05
+			}
+			modifier = {
+				air_close_air_support_attack_factor = 0.05
+				army_armor_attack_factor = 0.05
+				army_armor_defence_factor = 0.05
+			}
+		}
+		##chiesa###
+		ita_taxchurch = {
+			allowed = {
+				original_tag = "ITA"
+			}
+			modifier = {
+				consumer_goods_factor = -0.02
+			}
+		}
+		ita_richchurch = {
+			allowed = {
+				original_tag = "ITA"
+			}
+			modifier = {
+				consumer_goods_factor = 0.02
+				neutrality_drift = 0.10
+			}
+		}
+		ita_peacechurch = {
+			allowed = {
+				original_tag = "ITA"
+			}
+			modifier = {
+				stability_weekly = 0.005
+				generate_wargoal_tension = 1
+			}
+		}
+		ita_nocurch = {
+			allowed = {
+				original_tag = "ITA"
+			}
+			modifier = {
+				industrial_capacity_factory = 0.1
+			}
+		}
+
+		ita_morechurch = {
+			allowed = {
+				original_tag = "ITA"
+			}
+			modifier = {
+				industrial_capacity_factory = -0.1
+			}
+		}
+
+		#######bonus focus militari####
+		ita_infantrybonus = {
+			allowed = {
+				original_tag = "ITA"
+			}
+			modifier = {
+				experience_gain_army = 0.05
+				army_infantry_attack_factor = 0.05
+				army_infantry_defence_factor = 0.05
+				army_artillery_attack_factor =  0.05
+				army_artillery_defence_factor =0.05
+				training_time_army_factor =  -0.1
+			}
+		}
+		ita_mechbonus = {
+			allowed = {
+				original_tag = "ITA"
+			}
+			modifier = {
+				experience_gain_army = 0.05
+				motorized_attack_factor = 0.05
+				motorized_defence_factor  = 0.05
+				mechanized_attack_factor =  0.05
+				mechanized_defence_factor = 0.05
+			}
+		}
+	}
+
+
+	political_advisor = {
+		amadeo_bordiga = {
+
+
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+
+			traits = { communist_revolutionary }
+
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ITA_piero_puricelli = {
+
+
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			available = {
+			}
+
+			traits = { highways_genius }
+
+			do_effect = {
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ivanoe_bonomi = {
+
+
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+
+			traits = { democratic_reformer }
+
+			do_effect = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		carlo_scorza = {
+
+
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+
+			traits = { fascist_demagogue }
+
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		ITA_giovanni_marinelli = {
+
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			picture = generic_political_advisor_europe_5
+
+			traits = { prince_of_terror }
+
+			on_add = {
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ITA_gian_galeazzo_ciano = {
+
+
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			picture = generic_political_advisor_europe_6
+
+			traits = { compassionate_gentleman }
+
+			on_add = {
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		ITA_giuseppe_bottai = {
+
+
+			allowed = {
+				original_tag = "ITA"
+			}
+			available = {
+				has_completed_focus = ITA_trustvict
+			}
+
+			picture = generic_political_advisor_europe_6
+
+			traits = { staunch_monarchist }
+
+			on_add = {
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		ITA_roberto_farinacci = {
+
+
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			picture = generic_army_europe_1
+
+			traits = { backroom_backstabber }
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		ITA_dino_grandi = {
+
+
+			allowed = {
+				original_tag = "ITA"
+			}
 
-      allowed_civil_war = {
-        NOT = {
-          has_government = communism
-        }
-        NOT = {
-          any_other_country = {
-            original_tag = ITA
-            has_government = fascism
-          }
-        }
-      }
-
-      removal_cost = -1
-
-      modifier = {
-        stability_factor = 0.05
-      }
-    }
-    ##vittorioemanuelealpotere
-    victor_emmanuel2 = {
-
-
-      allowed = {
-        original_tag = "ITA"
-      }
-
-      allowed_civil_war = {
-        NOT = {
-          has_government = communism
-        }
-        NOT = {
-          any_other_country = {
-            original_tag = ITA
-            has_government = fascism
-          }
-        }
-      }
-
-      removal_cost = -1
-
-      modifier = {
-        stability_factor = 0.05
-        neutrality_drift = 0.15
-      }
-    }
-
-
-    vittoria_mutilata = {
-
-      allowed = {
-        original_tag = "ITA"
-      }
-
-      allowed_civil_war = {
-        NOT = {
-          OR = {
-            has_government = communism
-            has_government = democratic
-          }
-        }
-      }
-
-      removal_cost = -1
-
-      modifier = {
-        communism_acceptance = -10
-        democratic_acceptance = -10
-        fascism_acceptance = 10
-        ai_focus_aggressive_factor = 0.5
-        justify_war_goal_time = -0.05
-      }
-    }
-
-    ita_giovineitalia = {
-      allowed = {
-        original_tag = "ITA"
-      }
-      modifier = {
-        conscription = 0.015
-
-      }
-    }
-
-    ITA_german_millitary_cooperation_focus = {
-
-      picture = german_advisors
-
-      allowed = {
-        original_tag = ITA
-      }
-
-      allowed_civil_war = {
-        OR = {
-          AND = {
-            has_government = fascism
-            GER = {
-              has_government = fascism
-            }
-          }
-          AND = {
-            has_government = communism
-            GER = {
-              has_government = communism
-            }
-          }
-          AND = {
-            has_government = democratic
-            GER = {
-              has_government = democratic
-            }
-          }
-        }
-      }
-
-      removal_cost = -1
-
-      research_bonus = {
-        land_doctrine = 0.05
-      }
-      research_bonus = {
-        air_doctrine = 0.05
-      }
-      modifier = {
-        air_close_air_support_attack_factor = 0.05
-        army_armor_attack_factor = 0.05
-        army_armor_defence_factor = 0.05
-      }
-    }
-
-    ##chiesa###
-    ita_taxchurch = {
-      allowed = {
-        original_tag = "ITA"
-      }
-      modifier = {
-        consumer_goods_factor = -0.02
-
-      }
-    }
-    ita_richchurch = {
-      allowed = {
-        original_tag = "ITA"
-      }
-      modifier = {
-        consumer_goods_factor = 0.02
-        neutrality_drift = 0.10
-      }
-    }
-    ita_peacechurch = {
-      allowed = {
-        original_tag = "ITA"
-      }
-      modifier = {
-        stability_weekly = 0.005
-        generate_wargoal_tension = 1
-      }
-    }
-    ita_nocurch = {
-      allowed = {
-        original_tag = "ITA"
-      }
-      modifier = {
-        industrial_capacity_factory = 0.1
-      }
-    }
-
-    ita_morechurch = {
-      allowed = {
-        original_tag = "ITA"
-      }
-      modifier = {
-        industrial_capacity_factory = -0.1
-      }
-    }
-
-    #######bonus focus militari####
-    ita_infantrybonus = {
-      allowed = {
-        original_tag = "ITA"
-      }
-      modifier = {
-        experience_gain_army = 0.05
-        army_infantry_attack_factor = 0.05
-        army_infantry_defence_factor = 0.05
-        army_artillery_attack_factor =  0.05
-        army_artillery_defence_factor =0.05
-        training_time_army_factor =  -0.1
-      }
-    }
-    ita_mechbonus = {
-      allowed = {
-        original_tag = "ITA"
-      }
-      modifier = {
-        experience_gain_army = 0.05
-        motorized_attack_factor = 0.05
-        motorized_defence_factor  = 0.05
-        mechanized_attack_factor =  0.05
-        mechanized_defence_factor = 0.05
-      }
-    }
-  }
-
-
-
-  ###################
-  political_advisor = {
-
-    amadeo_bordiga = {
-
-
-      allowed = {
-        original_tag = "ITA"
-      }
-
-      available = {
-        if = {
-          limit = { has_dlc = "Man the Guns" }
-          NOT = { has_autonomy_state = autonomy_supervised_state }
-        }
-      }
-
-      traits = { communist_revolutionary }
-
-      do_effect = {
-        NOT = {
-          has_government = communism
-        }
-      }
-
-      ai_will_do = {
-        factor = 0
-      }
-    }
-
-    ITA_piero_puricelli = {
-
-
-      allowed = {
-        original_tag = "ITA"
-      }
-
-      available = {
-      }
-
-      traits = { highways_genius }
-
-      do_effect = {
-      }
-
-      ai_will_do = {
-        factor = 1
-      }
-    }
-
-    ivanoe_bonomi = {
-
-
-      allowed = {
-        original_tag = "ITA"
-      }
-
-      available = {
-        if = {
-          limit = { has_dlc = "Man the Guns" }
-          NOT = { has_autonomy_state = autonomy_supervised_state }
-        }
-      }
-
-      traits = { democratic_reformer }
-
-      do_effect = {
-        NOT = {
-          has_government = democratic
-        }
-      }
-
-      ai_will_do = {
-        factor = 0
-      }
-    }
-
-    carlo_scorza = {
-
-
-      allowed = {
-        original_tag = "ITA"
-      }
-
-      available = {
-        if = {
-          limit = { has_dlc = "Man the Guns" }
-          NOT = { has_autonomy_state = autonomy_supervised_state }
-        }
-      }
-
-      traits = { fascist_demagogue }
-
-      do_effect = {
-        NOT = {
-          has_government = fascism
-        }
-      }
-
-      ai_will_do = {
-        factor = 0
-      }
-    }
-
-    ITA_giovanni_marinelli = {
-
-      allowed = {
-        original_tag = "ITA"
-      }
-
-      picture = generic_political_advisor_europe_5
-
-      traits = { prince_of_terror }
-
-      on_add = {
-      }
-
-      ai_will_do = {
-        factor = 1
-      }
-    }
+			picture = generic_political_advisor_europe_3
 
-    ITA_gian_galeazzo_ciano = {
+			traits = { smooth_talking_charmer }
 
+			on_add = {
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
-      allowed = {
-        original_tag = "ITA"
-      }
+		ITA_serafino_mazzolini = {
 
-      picture = generic_political_advisor_europe_6
 
-      traits = { compassionate_gentleman }
+			allowed = {
+				original_tag = "ITA"
+			}
 
-      on_add = {
-      }
+			picture = generic_political_advisor_europe_1
 
-      ai_will_do = {
-        factor = 1
-      }
-    }
+			traits = { ideological_crusader }
 
-    ITA_giuseppe_bottai = {
+			on_add = {
+			}
 
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
 
-      allowed = {
-        original_tag = "ITA"
-      }
-      available = {
-        has_completed_focus = ITA_trustvict
-      }
+		ITA_giacomo_acerbo = {
 
-      picture = generic_political_advisor_europe_6
 
-      traits = { staunch_monarchist }
+			allowed = {
+				original_tag = "ITA"
+			}
 
-      on_add = {
-      }
+			picture = generic_political_advisor_europe_2
 
-      ai_will_do = {
-        factor = 1
-      }
-    }
+			traits = { war_industrialist }
 
-    ITA_roberto_farinacci = {
+			on_add = {
+			}
 
+			ai_will_do = {
+				factor = 3
+			}
+		}
 
-      allowed = {
-        original_tag = "ITA"
-      }
+		ITA_junio_valerio_borghese = {
 
-      picture = generic_army_europe_1
 
-      traits = { backroom_backstabber }
+			allowed = {
+				original_tag = "ITA"
+			}
 
-      ai_will_do = {
-        factor = 0
-      }
-    }
+			picture = generic_army_europe_2
 
-    ITA_dino_grandi = {
+			traits = { armaments_organizer }
 
+			on_add = {
+			}
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
-      picture = generic_political_advisor_europe_3
+		ITA_luigi_einaudi = {
 
-      traits = { smooth_talking_charmer }
 
-      on_add = {
-      }
+			allowed = {
+				original_tag = "ITA"
+			}
 
-      ai_will_do = {
-        factor = 1
-      }
-    }
+			picture = generic_political_advisor_europe_1
 
-    ITA_serafino_mazzolini = {
+			traits = { captain_of_industry }
 
+			on_add = {
+			}
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			ai_will_do = {
+				factor = 3
+			}
+		}
 
-      picture = generic_political_advisor_europe_1
+		ITA_paolo_thaon_di_revel = {
 
-      traits = { ideological_crusader }
+			available = { has_completed_focus = ITA_iri }
+			allowed = {
+				original_tag = "ITA"
+			}
 
-      on_add = {
-      }
+			picture = generic_navy_europe_3
 
-      ai_will_do = {
-        factor = 0.5
-      }
-    }
+			traits = { financial_expert }
 
-    ITA_giacomo_acerbo = {
+			on_add = {
+			}
 
+			ai_will_do = {
+				factor = 2
+			}
+		}
 
-      allowed = {
-        original_tag = "ITA"
-      }
+		italy_mario_roatta = {
 
-      picture = generic_political_advisor_europe_2
+			available = {
+				has_intelligence_agency = yes
+			}
 
-      traits = { war_industrialist }
+			allowed = {
+				original_tag = ITA
+				has_dlc = "La Resistance"
+			}
 
-      on_add = {
-      }
+			traits = { head_of_intelligence }
 
-      ai_will_do = {
-        factor = 3
-      }
-    }
+		}
+	}
 
-    ITA_junio_valerio_borghese = {
+	# MILITARY
+	army_chief = {
 
 
-      allowed = {
-        original_tag = "ITA"
-      }
+		leader_arditi = {
 
-      picture = generic_army_europe_2
+			allowed = {
+				original_tag = ITA
+			}
+			available = {
+				OR = {
+					has_completed_focus = ITA_giovannimesse
+					has_completed_focus = ITA_giovannimesse2
+				}
+			}
 
-      traits = { armaments_organizer }
+			traits = { army_chief_arditi }
+		}
 
-      on_add = {
-      }
+		pietro_badoglio = {
 
-      ai_will_do = {
-        factor = 1
-      }
-    }
+			allowed = {
+				original_tag = ITA
+			}
 
-    ITA_luigi_einaudi = {
 
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			traits = { army_chief_morale_1 }
 
-      picture = generic_political_advisor_europe_1
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
-      traits = { captain_of_industry }
+		ugo_cavallero = {
 
-      on_add = {
-      }
 
-      ai_will_do = {
-        factor = 3
-      }
-    }
+			allowed = {
+				original_tag = ITA
+			}
 
-    ITA_paolo_thaon_di_revel = {
 
-      available = { has_completed_focus = ITA_iri }
 
-      allowed = {
-        original_tag = "ITA"
-      }
+			traits = { army_chief_maneuver_1 }
 
-      picture = generic_navy_europe_3
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
-      traits = { financial_expert }
+		emilio_de_bono = {
 
-      on_add = {
-      }
 
-      ai_will_do = {
-        factor = 2
-      }
-    }
-  }
+			allowed = {
+				original_tag = ITA
+			}
 
-  # MILITARY
-  army_chief = {
 
-    leader_arditi = {
 
-      allowed = {
-        original_tag = ITA
-      }
-      available = {
-        OR = {has_completed_focus = ITA_giovannimesse
-          has_completed_focus = ITA_giovannimesse2}
-        }
+			traits = { army_chief_defensive_1 }
 
-        traits = { army_chief_arditi }
-      }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	navy_chief = {
 
-      pietro_badoglio = {
+		domenico_cavagnari = {
 
 
-        allowed = {
-          original_tag = ITA
-        }
+			allowed = {
+				original_tag = ITA
+			}
 
 
 
-        traits = { army_chief_morale_1 }
+			traits = { navy_chief_commerce_raiding_1 }
+			# REVISIT Old Guard to represent hesitance for necessary reforms
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
-      ugo_cavallero = {
+		arturo_riccardi = {
 
 
-        allowed = {
-          original_tag = ITA
-        }
+			allowed = {
+				original_tag = ITA
+			}
 
 
 
-        traits = { army_chief_maneuver_1 }
+			traits = { navy_chief_naval_aviation_1 }
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
-      emilio_de_bono = {
+		inigo_campioni = {
 
 
-        allowed = {
-          original_tag = ITA
-        }
+			allowed = {
+				original_tag = ITA
+			}
 
 
 
-        traits = { army_chief_defensive_1 }
+			traits = { navy_chief_decisive_battle_1 }
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
-    }
-    navy_chief = {
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	air_chief = {
 
-      domenico_cavagnari = {
 
+		italo_balbo = {
 
-        allowed = {
-          original_tag = ITA
-        }
 
+			allowed = {
+				original_tag = ITA
+			}
 
 
-        traits = { navy_chief_commerce_raiding_1 }
-        # REVISIT Old Guard to represent hesitance for necessary reforms
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
+			traits = { air_chief_all_weather_2 }
 
-      arturo_riccardi = {
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
+		rino_corso_fougier = {
 
-        allowed = {
-          original_tag = ITA
-        }
 
+			allowed = {
+				original_tag = ITA
+			}
 
 
-        traits = { navy_chief_naval_aviation_1 }
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
+			traits = { air_air_combat_training_1 }
 
-      inigo_campioni = {
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
+		francesco_pricolo = {
 
-        allowed = {
-          original_tag = ITA
-        }
 
+			allowed = {
+				original_tag = ITA
+			}
 
 
-        traits = { navy_chief_decisive_battle_1 }
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
-    }
-    air_chief = {
+			traits = { air_chief_reform_2 }
 
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
 
-      italo_balbo = {
+	high_command = {
 
+		mario_roatta = {
+			ledger = army
 
-        allowed = {
-          original_tag = ITA
-        }
 
+			allowed = {
+				original_tag = ITA
+			}
 
 
-        traits = { air_chief_all_weather_2 }
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
+			traits = { army_regrouping_1 }
 
-      rino_corso_fougier = {
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
+		vittorio_ambrosio = {
+			ledger = army
 
-        allowed = {
-          original_tag = ITA
-        }
 
+			allowed = {
+				original_tag = ITA
+			}
 
 
-        traits = { air_air_combat_training_1 }
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
+			traits = { army_cavalry_1 }
 
-      francesco_pricolo = {
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
+		alfredo_guzzoni = {
+			ledger = army
 
-        allowed = {
-          original_tag = ITA
-        }
 
+			allowed = {
+				original_tag = ITA
+			}
 
 
-        traits = { air_chief_reform_2 }
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
-    }
+			traits = { army_infantry_1 }
 
-    high_command = {
+			ai_will_do = {
+				factor = 2
+			}
+		}
 
-      mario_roatta = {
+		ettore_muti = {
+			ledger = air
 
 
-        allowed = {
-          original_tag = ITA
-        }
+			allowed = {
+				original_tag = ITA
+			}
 
 
 
-        traits = { army_regrouping_1 }
+			traits = { air_tactical_bombing_2 }
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
-      vittorio_ambrosio = {
+		marziale_cerutti = {
+			ledger = air
 
 
-        allowed = {
-          original_tag = ITA
-        }
+			allowed = {
+				original_tag = ITA
+			}
 
 
 
-        traits = { army_cavalry_1 }
+			traits = { air_air_combat_training_2 }
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
-      alfredo_guzzoni = {
+		silvio_scaroni = {
+			ledger = air
 
 
-        allowed = {
-          original_tag = ITA
-        }
+			allowed = {
+				original_tag = ITA
+			}
 
 
 
-        traits = { army_infantry_1 }
+			traits = { air_bomber_interception_2 }
 
-        ai_will_do = {
-          factor = 2
-        }
-      }
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
-      ettore_muti = {
+		alberto_da_zara = {
+			ledger = navy
 
 
-        allowed = {
-          original_tag = ITA
-        }
+			allowed = {
+				original_tag = ITA
+			}
 
 
 
-        traits = { air_tactical_bombing_2 }
+			traits = { navy_anti_submarine_1 }
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
-      marziale_cerutti = {
+		carlo_bergamini = {
+			ledger = navy
 
 
-        allowed = {
-          original_tag = ITA
-        }
+			allowed = {
+				original_tag = ITA
+			}
 
 
 
-        traits = { air_air_combat_training_2 }
+			traits = { navy_capital_ship_2 }
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
-      silvio_scaroni = {
+		luigi_mascherpa = {
+			ledger = navy
 
 
-        allowed = {
-          original_tag = ITA
-        }
+			allowed = {
+				original_tag = ITA
+			}
 
 
 
-        traits = { air_bomber_interception_2 }
+			traits = { navy_naval_air_defense_1 }
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
 
-      alberto_da_zara = {
 
+	tank_manufacturer = {
 
-        allowed = {
-          original_tag = ITA
-        }
+		designer = yes
 
+		fiat = {
 
 
-        traits = { navy_anti_submarine_1 }
+			allowed = {
+				original_tag = ITA
+			}
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
 
-      carlo_bergamini = {
+			research_bonus = {
+				armor = 0.15
+			}
 
+			traits = { tank_manufacturer }
+		}
+	}
 
-        allowed = {
-          original_tag = ITA
-        }
 
 
+	materiel_manufacturer = {
 
-        traits = { navy_capital_ship_2 }
+		designer = yes
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
+		beretta = {
 
-      luigi_mascherpa = {
 
+			allowed = {
+				original_tag = ITA
+			}
 
-        allowed = {
-          original_tag = ITA
-        }
 
 
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
 
-        traits = { navy_naval_air_defense_1 }
+			traits = { infantry_equipment_manufacturer }
+		}
 
-        ai_will_do = {
-          factor = 1
-        }
-      }
-    }
+		lancia = {
 
 
-    tank_manufacturer = {
+			allowed = {
+				original_tag = ITA
+			}
 
-      designer = yes
 
-      fiat = {
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
 
+			traits = { motorized_equipment_manufacturer }
+		}
 
-        allowed = {
-          original_tag = ITA
-        }
+		breda = {
 
 
-        research_bonus = {
-          armor = 0.15
-        }
+			allowed = {
+				original_tag = ITA
+			}
 
-        traits = { tank_manufacturer }
-      }
-    }
 
 
+			research_bonus = {
+				artillery = 0.15
+			}
 
-    materiel_manufacturer = {
+			traits = { artillery_manufacturer }
+		}
+	}
 
-      designer = yes
 
-      beretta = {
+	aircraft_manufacturer = {
 
+		designer = yes
 
-        allowed = {
-          original_tag = ITA
-        }
+		macchi = {
 
 
+			allowed = {
+				original_tag = ITA
+			}
 
-        research_bonus = {
-          infantry_weapons = 0.15
-        }
+			research_bonus = {
+				air_equipment = 0.15
+			}
 
-        traits = { infantry_equipment_manufacturer }
-      }
+			traits = { light_aircraft_manufacturer }
+		}
 
-      lancia = {
+		savoia_marchetti = {
 
 
-        allowed = {
-          original_tag = ITA
-        }
+			allowed = {
+				original_tag = ITA
+			}
 
+			research_bonus = {
+				air_equipment = 0.15
+			}
 
-        research_bonus = {
-          motorized_equipment = 0.15
-        }
+			traits = { medium_aircraft_manufacturer }
+		}
 
-        traits = { motorized_equipment_manufacturer }
-      }
+		caproni = {
 
-      breda = {
+			allowed = {
+				original_tag = ITA
+			}
 
+			research_bonus = {
+				air_equipment = 0.15
+			}
 
-        allowed = {
-          original_tag = ITA
-        }
+			traits = { naval_aircraft_manufacturer }
+		}
 
+		piaggio = {
 
+			allowed = {
+				original_tag = ITA
+			}
 
-        research_bonus = {
-          artillery = 0.15
-        }
+			research_bonus = {
+				air_equipment = 0.15
+			}
 
-        traits = { artillery_manufacturer }
-      }
-    }
+			traits = { heavy_aircraft_manufacturer }
+		}
+	}
 
+	industrial_concern = {
 
-    aircraft_manufacturer = {
+		danieli = {
 
-      designer = yes
+			allowed = {
+				original_tag = ITA
+			}
 
-      macchi = {
+			research_bonus = {
+				industry = 0.15
 
+			}
 
-        allowed = {
-          original_tag = ITA
-        }
+			traits = { industrial_concern }
+		}
+		impresa_pizzarotti = {
 
-        research_bonus = {
-          air_equipment = 0.15
-        }
+			allowed = {
+				original_tag = ITA
+			}
+			available = {
+				has_completed_focus = ITA_pizzarotti
+			}
 
-        traits = { light_aircraft_manufacturer }
-      }
+			research_bonus = {
+				industry = 0.15
 
-      savoia_marchetti = {
+			}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.15
+			}
+			ai_will_do = {
+				factor = 2
+			}
 
+			traits = { industrial_concern }
+		}
+		olivetti = {
 
-        allowed = {
-          original_tag = ITA
-        }
+			allowed = {
+				original_tag = ITA
+			}
+			available = {
+				has_completed_focus = ITA_olivetti
+			}
 
-        research_bonus = {
-          air_equipment = 0.15
-        }
+			research_bonus = {
+				electronics = 0.15
 
-        traits = { medium_aircraft_manufacturer }
-      }
+			}
+			modifier = {
+				research_speed_factor = 0.05
+			}
+			ai_will_do = {
+				factor = 2
+			}
 
-      caproni = {
+			traits = { electronics_concern }
+		}
 
-        allowed = {
-          original_tag = ITA
-        }
+		ita_agip = {
 
-        research_bonus = {
-          air_equipment = 0.15
-        }
+			allowed = {
+				original_tag = ITA
+			}
 
-        traits = { naval_aircraft_manufacturer }
-      }
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.15
+			}
 
-      piaggio = {
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.15
 
-        allowed = {
-          original_tag = ITA
-        }
+			}
+			traits = { refinery_concern }
+		}
+	}
 
-        research_bonus = {
-          air_equipment = 0.15
-        }
 
-        traits = { heavy_aircraft_manufacturer }
-      }
-    }
+	naval_manufacturer = {
 
-    industrial_concern = {
+		designer = yes
 
-      danieli = {
+		crda = {
 
-        allowed = {
-          original_tag = ITA
-        }
+			allowed = {
+				original_tag = ITA
+			}
 
-        research_bonus = {
-          industry = 0.15
+			available = {
+				OR = { has_completed_focus = ITA_crda
+					has_completed_focus = ITA_crda2
+				}
+			}
+			research_bonus = {
+				naval_equipment = 0.15
+			}
 
-        }
+			traits = { battlefleet_designer }
+		}
+		ansaldo_sangiorgio = {
 
-        traits = { industrial_concern }
-      }
+			allowed = {
+				original_tag = ITA
+			}
+			available = {
+				OR = { has_completed_focus = ITA_ansaldosangiorgio
+					has_completed_focus = ITA_ansaldosangiorgio2
+				}
+			}
+			research_bonus = {
+				naval_equipment = 0.15
+			}
 
-      impresa_pizzarotti = {
+			traits = { ansaldo_manufacturer }
+		}
+	}
 
-        allowed = {
-          original_tag = ITA
-        }
-        available = {
-          has_completed_focus = ITA_pizzarotti
-        }
+	theorist = {
+		giovanni_messe = {
+			ledger = army
+			available = {
+				OR = { has_completed_focus = ITA_hear
+					has_completed_focus = ITA_hear2
+				}
+			}
+			allowed = {
+				original_tag = ITA
+			}
 
-        research_bonus = {
-          industry = 0.15
+			cost = 250
 
-        }
-        modifier = {
-          production_speed_industrial_complex_factor = 0.15
-        }
-        ai_will_do = {
-          factor = 2
-        }
+			research_bonus = {
+				cat_mobile_warfare = 0.15
+			}
 
-        traits = { industrial_concern }
-      }
-      olivetti = {
+			traits = { mobile_warfare_expert }
+		}
 
-        allowed = {
-          original_tag = ITA
-        }
-        available = {
-          has_completed_focus = ITA_olivetti
-        }
+		rodolfo_graziani = {
+			ledger = army
 
-        research_bonus = {
-          electronics = 0.15
+			allowed = {
+				original_tag = ITA
+			}
 
-        }
-        modifier = {
-          research_speed_factor = 0.05
-        }
-        ai_will_do = {
-          factor = 2
-        }
+			cost = 250
 
-        traits = { electronics_concern }
-      }
+			research_bonus = {
+				cat_grand_battle_plan = 0.15
+			}
 
-      ita_agip = {
+			traits = { grand_battle_plan_expert }
 
-        allowed = {
-          original_tag = ITA
-        }
+			ai_will_do = {
+				factor = 3
+			}
+		}
 
-        research_bonus = {
-          industry = 0.05
-          synth_resources = 0.15
-        }
+		guiseppe_fioravanzo = {
+			ledger = navy
 
-        modifier = {
-          production_speed_synthetic_refinery_factor = 0.15
+			allowed = {
+				original_tag = ITA
+			}
 
-        }
-        traits = { refinery_concern }
-      }
-    }
+			cost = 250
 
+			research_bonus = {
+				cat_fleet_in_being = 0.15
+			}
 
-    naval_manufacturer = {
+			traits = { grand_fleet_proponent }
+		}
 
-      designer = yes
+		angelo_iachino = {
+			ledger = navy
 
-      crda = {
+			allowed = {
+				original_tag = ITA
+			}
 
-        allowed = {
-          original_tag = ITA
-        }
-        available = {
-          OR = { has_completed_focus = ITA_crda
-            has_completed_focus = ITA_crda2
-          }
-        }
-        research_bonus = {
-          naval_equipment = 0.15
-        }
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
 
-        traits = { battlefleet_designer }
-      }
+			traits = { naval_theorist }
+		}
 
+		amedeo_mecozzi = {
+			ledger = air
 
-      ansaldo_sangiorgio = {
+			allowed = {
+				original_tag = ITA
+			}
 
-        allowed = {
-          original_tag = ITA
-        }
-        available = {
-          OR = { has_completed_focus = ITA_ansaldosangiorgio
-            has_completed_focus = ITA_ansaldosangiorgio2
-          }
-        }
-        research_bonus = {
-          naval_equipment = 0.15
-        }
+			cost = 250
 
-        traits = { ansaldo_manufacturer }
-      }
-    }
+			research_bonus = {
+				cat_operational_integrity = 0.15
+			}
 
-    theorist = {
-      giovanni_messe = {
+			traits = { assault_avaition }
+		}
 
-        available = {
-          OR = { has_completed_focus = ITA_hear
-            has_completed_focus = ITA_hear2
-          }
-        }
-        allowed = {
-          original_tag = ITA
-        }
+		renato_sandalli = {
+			ledger = air
 
-        cost = 250
 
-        research_bonus = {
-          cat_mobile_warfare = 0.15
-        }
+			allowed = {
+				original_tag = ITA
+			}
 
-        traits = { mobile_warfare_expert }
-      }
+			research_bonus = {
+				air_doctrine = 0.10
+			}
 
-      rodolfo_graziani = {
+			traits = { air_warfare_theorist }
+		}
 
-        allowed = {
-          original_tag = ITA
-        }
+		gaetano_crocco = {
+			ledger = air
 
-        cost = 250
 
-        research_bonus = {
-          cat_grand_battle_plan = 0.15
-        }
+			allowed = {
+				original_tag = ITA
+			}
 
-        traits = { grand_battle_plan_expert }
+			research_bonus = {
+				rocketry = 0.15
+			}
 
-        ai_will_do = {
-          factor = 3
-        }
-      }
+			traits = { rocket_scientist }
+		}
+	}
 
-      guiseppe_fioravanzo = {
-
-        allowed = {
-          original_tag = ITA
-        }
-
-        cost = 250
-
-        research_bonus = {
-          cat_fleet_in_being = 0.15
-        }
-
-        traits = { grand_fleet_proponent }
-      }
-
-      angelo_iachino = {
-
-        allowed = {
-          original_tag = ITA
-        }
-
-        research_bonus = {
-          naval_doctrine = 0.10
-        }
-
-        traits = { naval_theorist }
-      }
-
-      amedeo_mecozzi = {
-
-        allowed = {
-          original_tag = ITA
-        }
-
-        cost = 250
-
-        research_bonus = {
-          cat_operational_integrity = 0.15
-        }
-
-        traits = { assault_avaition }
-      }
-
-      renato_sandalli = {
-
-
-        allowed = {
-          original_tag = ITA
-        }
-
-        research_bonus = {
-          air_doctrine = 0.10
-        }
-
-        traits = { air_warfare_theorist }
-      }
-
-      gaetano_crocco = {
-
-
-        allowed = {
-          original_tag = ITA
-        }
-
-        research_bonus = {
-          rocketry = 0.15
-        }
-
-        traits = { rocket_scientist }
-      }
-    }
-
-
-  }
+}
