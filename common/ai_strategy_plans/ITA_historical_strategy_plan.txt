@@ -31,7 +31,6 @@ ITA_historical_plan = {
     ITA_support_nationalist_spain
     ITA_triumphinafrica
     ITA_limperodargilla
-    ITA_endoftheeconomicsanctions
     ITA_autarky
     ITA_reclaim_swamps
     ITA_wheat

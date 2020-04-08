@@ -282,14 +282,6 @@ news_event = {
     name = news.504.a
     ITA = {
       retire_country_leader = yes
-      add_popularity = {
-        ideology = fascism
-        popularity = -0.4
-      }
-      add_popularity = {
-        ideology = neutrality
-        popularity = 0.4
-      }
       set_politics = {
         ruling_party = neutrality
       }
@@ -303,6 +295,13 @@ news_event = {
 
         }
       }
+      set_popularities = {
+      	democratic = 15
+      	neutrality = 40
+      	fascism = 40
+      	communism = 5
+      }
+
     }
     remove_ideas = { chemical_weapons }  }
 }
@@ -465,7 +464,7 @@ news_event = {
   id = news.514
   title = news.514.t
   desc = news.514.desc
-  picture = GFX_news_event_ausmusso
+  picture = gfx_news_event_cianoschuschnigg
   major = yes
   is_triggered_only = yes
 
@@ -487,5 +486,90 @@ news_event = {
 
   option = {
     name = news.515.a
+  }
+}
+
+# VE3 legitimacy questioned
+news_event = {
+  id = news.532
+  title = news.532.t
+  desc = news.532.desc
+  picture = GFX_news_event_veparliament
+  major = no
+  is_triggered_only = yes
+  option = {
+    name = news.532.a
+    add_stability = -0.10
+  }
+}
+# Amedeo I crowning
+news_event = {
+  id = news.533
+  title = news.533.t
+  desc = news.533.desc
+  picture = GFX_news_event_amedeocrown
+  major = no
+  is_triggered_only = yes
+  option = {
+    name = news.533.a
+    ITA = {
+      retire_country_leader = yes
+      create_country_leader = {
+        name = "Amedeo I di Savoia-Aosta"
+        desc = ""
+        picture = "Portrait_Italy_Amedeo.dds"
+        ideology = despotism
+        traits = {
+          rearmer
+        }
+      }
+      add_popularity = {
+        ideology = neutrality
+        popularity = 0.1
+      }
+    }
+  }
+}
+# Amedeo I special powers
+news_event = {
+  id = news.534
+  title = news.534.t
+  desc = news.534.desc
+  picture = GFX_news_event_parliament2
+  major = no
+  is_triggered_only = yes
+  option = {
+    name = news.534.a
+    add_political_power = 150
+  }
+}
+
+# San Marino agreement
+news_event = {
+  id = news.535
+  title = news.535.t
+  desc = news.535.desc
+  picture = GFX_news_event_generic_sign_treaty1
+  major = no
+  is_triggered_only = yes
+  option = {
+    name = news.535.a
+    puppet = ETH
+  }
+}
+
+# Unified industry, monarchy version
+news_event = {
+  id = news.536
+  title = news.536.t
+  desc = news.536.desc
+  picture = GFX_news_event_venezia2
+
+  major = no
+
+  is_triggered_only = yes
+
+  option = {
+    name = news.536.a
   }
 }

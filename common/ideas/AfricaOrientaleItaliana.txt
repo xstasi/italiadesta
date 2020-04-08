@@ -14,7 +14,7 @@ ideas = {
       picture = generic_exploit_mines
 
       modifier = {
-        conscription_factor = -0.7
+        conscription_factor = -0.4
       }
     }
 

@@ -8,7 +8,6 @@ ai_historical_focus_list_ITA = {
     ITA_support_nationalist_spain
     ITA_triumphinafrica
     ITA_limperodargilla
-    ITA_endoftheeconomicsanctions
     ITA_autarky
     ITA_reclaim_swamps
     ITA_wheat

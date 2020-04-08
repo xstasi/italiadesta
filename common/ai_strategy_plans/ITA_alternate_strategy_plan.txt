@@ -22,7 +22,6 @@ ITA_alternate_plan_1 = {
     ITA_ethiopian_war_logistics
     ITA_triumphinafrica
     ITA_limperodargilla
-    ITA_endoftheeconomicsanctions
     ITA_autarky
     ITA_reclaim_swamps
     ITA_wheat
@@ -93,7 +92,6 @@ ITA_alternate_plan_2 = {
     ITA_ethiopian_war_logistics
     ITA_triumphinafrica
     ITA_limperodargilla
-    ITA_endoftheeconomicsanctions
     ITA_autarky
     ITA_reclaim_swamps
     ITA_wheat
@@ -166,7 +164,6 @@ ITA_alternate_plan_3 = {
     ITA_ethiopian_war_logistics
     ITA_triumphinafrica
     ITA_limperodargilla
-    ITA_endoftheeconomicsanctions
     ITA_autarky
     ITA_reclaim_swamps
     ITA_wheat
@@ -244,7 +241,6 @@ ITA_alternate_plan_4 = {
     ITA_ethiopian_war_logistics
     ITA_triumphinafrica
     ITA_limperodargilla
-    ITA_endoftheeconomicsanctions
     ITA_autarky
     ITA_reclaim_swamps
     ITA_wheat
@@ -317,7 +313,6 @@ ITA_alternate_plan_fascist = {
     ITA_ethiopian_war_logistics
     ITA_triumphinafrica
     ITA_limperodargilla
-    ITA_endoftheeconomicsanctions
     ITA_autarky
     ITA_reclaim_swamps
     ITA_wheat

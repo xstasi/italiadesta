@@ -82,8 +82,16 @@ spriteTypes = {
     name = "GFX_idea_italy_mobsud"
     texturefile = "gfx/interface/ideas/italy_mobsud.dds"
   }
-    spriteType = {
+  spriteType = {
     name = "GFX_idea_italy_induni"
+    texturefile = "gfx/interface/ideas/italy_induni.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_italy_induni2"
+    texturefile = "gfx/interface/ideas/italy_induni.dds"
+  }
+  spriteType = {
+    name = "GFX_idea_italy_induni3"
     texturefile = "gfx/interface/ideas/italy_induni.dds"
   }
     spriteType = {
@@ -148,6 +156,10 @@ spriteTypes = {
     texturefile = "gfx/interface/ideas/elite_impero.dds"
   }
 
+  spriteType = {
+    name = "GFX_idea_duke_of_aosta"
+    texturefile = "gfx/interface/ideas/aosta.dds"
+  }
   spriteType = {
     name = "GFX_idea_ita_ovra"
     texturefile = "gfx/interface/ideas/ovra.dds"

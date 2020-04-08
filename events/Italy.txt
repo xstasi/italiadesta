@@ -507,44 +507,44 @@ country_event = {
 	title = italy.23.t
 	desc = italy.23.d
 
-	picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_china_ledo_road
 
 	is_triggered_only = yes
 
 
 
 	option = {
-		name = italy.23.a
-		ITA = { transfer_state =    105 }
-		add_threat = 3
-
-	}
-
-	option = {
 		name = italy.23.b
 		YUG = { release = MNT }
 		puppet = MNT
-		MNT = { set_politics = {
-			ruling_party = neutrality
-		}
-		set_party_name = {
-			ideology = neutrality
-			long_name = MNT_savoia
-			name = MNT_savoia
-		}
-		create_country_leader = {
-			name = "Elena di Montenegro"
-			desc = ""
-			picture = "Portrait_MNT_Elena_Montenegro.dds"
-			expire = "1965.1.1"
-			ideology = despotism
-			traits = {
+		MNT = {
+			set_politics = {
+				ruling_party = neutrality
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = MNT_savoia
+				name = MNT_savoia
+			}
+			create_country_leader = {
+				name = "Elena di Montenegro"
+				desc = ""
+				picture = "Portrait_MNT_Elena_Montenegro.dds"
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = {
 
+				}
 			}
 		}
+		YUG = {
+			declare_war_on = {
+				target = MNT
+				type = annex_everything
+			}
+		}
+		add_threat = 1
 	}
-	add_threat = 1
-}
 
 
 }
@@ -603,7 +603,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = italy.27.b
+		name = italy.29.b
 		puppet = BUL
 		BUL = { set_politics = {
 			ruling_party = neutrality
@@ -646,20 +646,6 @@ country_event = {
 			type = puppet_wargoal_focus
 			target = BUL
 		}
-		BUL = {
-			create_country_leader = {
-				name = "Giovanna di Savoia"
-				desc = ""
-				picture = "Portrait_BUL_Giovanna_Savoia.dds"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-
-				}
-			}
-
-		}
-
 
 	}
 
@@ -728,19 +714,19 @@ country_event = {
 
 
 	option = {
-		name = italy.27.a
+		name = italy.27.b
 		puppet = GRE
 		GRE = { set_politics = {
 			ruling_party = neutrality
 		}
 		create_country_leader = {
-			name = "Aimone di Aosta"
+			name = "Irene di Grecia"
 			desc = ""
-			picture = "Portrait_GRE_Aimone_Aosta.dds"
+			picture = "Portrait_GRE_Irene.dds"
 			expire = "1965.1.1"
 			ideology = despotism
 			traits = {
-				snuggler
+				popular_queen
 			}
 		}
 		set_party_name = {
@@ -749,32 +735,8 @@ country_event = {
 			name = GRE_aosta
 		}
 	}
-	add_threat = 3
-}
-option = {
-	name = italy.27.b
-	puppet = GRE
-	GRE = { set_politics = {
-		ruling_party = neutrality
+	add_threat = 1
 	}
-	create_country_leader = {
-		name = "Irene di Grecia"
-		desc = ""
-		picture = "Portrait_GRE_Irene.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			popular_queen
-		}
-	}
-	set_party_name = {
-		ideology = neutrality
-		long_name = GRE_aosta
-		name = GRE_aosta
-	}
-}
-add_threat = 1
-}
 }
 
 
@@ -1738,30 +1700,96 @@ country_event = {
 
 	option = {
 		name = italy.75.a
-		load_focus_tree = FD_itaaltern_focus
 	}
 
 	option = {
 		name = italy.75.b
 	}
+	# mehh
+	#option = {
+	#	name = italy.75.c
+	#	ITA = {
+	#		retire_country_leader = yes
+	#		add_popularity = {
+	#			ideology = democratic
+	#			popularity = 0.4
+	#		}
+	#		add_popularity = {
+	#			ideology = neutrality
+	#			popularity = -0.4
+	#		}
+	#		set_politics = {
+	#			ruling_party = democratic
+	#			elections_allowed = yes
+	#		}
+	#		hold_election = ITA
+	#		remove_ideas = { chemical_weapons }
+	#	}
+	#}
+}
+
+# Antalya
+country_event = {
+	id = italy.76
+	title = italy.76.t
+	desc = italy.76.d
+
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+
+
 	option = {
-		name = italy.75.c
+		name = italy.76.a
+		ITA = { country_event = italy.77 }
+		ai_chance = { factor = 5 }
+
+	}
+
+	option = {
+		name = italy.76.b
+		ai_chance = { factor = 95 }
+		ITA = { country_event = italy.78 }
+	}
+}
+
+# Turkey accepts
+country_event = {
+	id = italy.77
+	title = italy.77.t
+	desc = italy.77.d
+
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = italy.77.a
 		ITA = {
-			retire_country_leader = yes
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.4
-			}
-			add_popularity = {
-				ideology = neutrality
-				popularity = -0.4
-			}
-			set_politics = {
-				ruling_party = democratic
-				elections_allowed = yes
-			}
-			hold_election = ITA
-			remove_ideas = { chemical_weapons }
+			transfer_state = 342
 		}
 	}
+}
+
+
+# Turkey refuses
+country_event = {
+	id = italy.78
+	title = italy.78.t
+	desc = italy.78.d
+
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = italy.78.a
+    create_wargoal = {
+      type = take_state_focus
+      target = TUR
+      generator = { 342 } # Antalya
+    }
+	}
+
 }

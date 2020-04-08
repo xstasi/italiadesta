@@ -33,9 +33,9 @@ set_politics = {
 }
 
 create_country_leader = {
-  name = "Amedeo di Savoia-Aosta"
+  name = "Aimone di Savoia-Aosta"
   desc = ""
-  picture = "gfx/leaders/AOI/Portrait_AOI_Amedeo_Aosta.dds"
+  picture = "gfx/leaders/AOI/Portrait_AOI_Aimone_Aosta.dds"
   expire = "1965.1.1"
   ideology = fascism_ideology
   traits = {
@@ -44,9 +44,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-  name = "Amedeo di Savoia-Aosta"
+  name = "Aimone di Savoia-Aosta"
   desc = ""
-  picture = "gfx/leaders/AOI/Portrait_AOI_Amedeo_Aosta.dds"
+  picture = "gfx/leaders/AOI/Portrait_AOI_Aimone_Aosta.dds"
   expire = "1965.1.1"
   ideology = despotism
   traits = {

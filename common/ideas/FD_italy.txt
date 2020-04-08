@@ -517,6 +517,38 @@ ideas = {
 				production_speed_infrastructure_factor = 0.10
 			}
 		}
+		italy_induni2 = {
+			allowed = {
+				original_tag = "ITA"
+			}
+
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_weekly = 0.002
+				political_power_gain = 0.2
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_infrastructure_factor = 0.15
+			}
+		}
+		italy_induni3 = {
+			allowed = {
+				original_tag = "ITA"
+			}
+
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.08
+				stability_weekly = 0.002
+				political_power_gain = 0.2
+				production_speed_industrial_complex_factor = 0.20
+				production_speed_infrastructure_factor = 0.20
+			}
+		}
 
 
 		dev_libya = {
@@ -619,6 +651,22 @@ ideas = {
 				communism_drift = -0.02
 				democratic_drift = -0.02
 				political_power_factor = 0.05
+			}
+		}
+		
+		duke_of_aosta = {
+			allowed = {
+				original_tag = "ITA"
+			}
+			available = {
+			  has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				neutrality_drift = 0.15
 			}
 		}
 		victor_emmanuel = {
@@ -1147,10 +1195,7 @@ ideas = {
 				original_tag = ITA
 			}
 			available = {
-				OR = {
-					has_completed_focus = ITA_giovannimesse
-					has_completed_focus = ITA_giovannimesse2
-				}
+				has_completed_focus = ITA_giovannimesse
 			}
 
 			traits = { army_chief_arditi }
@@ -1688,9 +1733,7 @@ ideas = {
 			}
 
 			available = {
-				OR = { has_completed_focus = ITA_crda
-					has_completed_focus = ITA_crda2
-				}
+				has_completed_focus = ITA_crda
 			}
 			research_bonus = {
 				naval_equipment = 0.15
@@ -1704,9 +1747,7 @@ ideas = {
 				original_tag = ITA
 			}
 			available = {
-				OR = { has_completed_focus = ITA_ansaldosangiorgio
-					has_completed_focus = ITA_ansaldosangiorgio2
-				}
+				has_completed_focus = ITA_ansaldosangiorgio
 			}
 			research_bonus = {
 				naval_equipment = 0.15
@@ -1721,7 +1762,7 @@ ideas = {
 			ledger = army
 			available = {
 				OR = { has_completed_focus = ITA_hear
-					has_completed_focus = ITA_hear2
+					has_completed_focus = ITA_hear
 				}
 			}
 			allowed = {

@@ -45,6 +45,18 @@ spriteTypes = {
     texturefile = "gfx/event_pictures/news_event_squadrismo.dds"
   }
   spriteType = {
+    name = "GFX_news_event_amedeocrown"
+    texturefile = "gfx/event_pictures/news_event_amedeocrown.dds"
+  }
+  spriteType = {
+    name = "GFX_news_event_parliament2"
+    texturefile = "gfx/event_pictures/news_event_parliament2.dds"
+  }
+  spriteType = {
+    name = "GFX_news_event_veparliament"
+    texturefile = "gfx/event_pictures/news_event_veparliament.dds"
+  }
+  spriteType = {
     name = "GFX_news_event_letter"
     texturefile = "gfx/event_pictures/news_event_letter.dds"
   }
@@ -63,6 +75,10 @@ spriteTypes = {
   spriteType = {
     name = "GFX_news_event_piazzavenezia"
     texturefile = "gfx/event_pictures/news_event_piazzavenezia.dds"
+  }
+  spriteType = {
+    name = "GFX_news_event_venezia2"
+    texturefile = "gfx/event_pictures/news_event_venezia2.dds"
   }
   spriteType = {
     name = "GFX_news_event_hitlerroma"
@@ -88,9 +104,13 @@ spriteTypes = {
     name = "GFX_news_event_lukov"
     texturefile = "gfx/event_pictures/news_event_lukov.dds"
   }
-  spriteType = {
-    name = "GFX_news_event_ausmusso"
+  spritetype = {
+    name = "gfx_news_event_ausmusso"
     texturefile = "gfx/event_pictures/news_event_ausmusso.dds"
+  }
+  spritetype = {
+    name = "gfx_news_event_cianoschuschnigg"
+    texturefile = "gfx/event_pictures/news_event_cianoschuschnigg.dds"
   }
   spriteType = {
     name = "GFX_news_event_stresa"

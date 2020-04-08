@@ -193,8 +193,13 @@ colonial_works = {
       original_tag = ITA
     }
 
+    visible = {
+      AOI = {
+        exists = no
+      }
+    }
     cost = 100
-    days_remove = 15
+    days_remove = 0
 
     icon = generic_formable_nations
     available = {
@@ -207,12 +212,21 @@ colonial_works = {
 
     modifier = {
     }
-    complete_effect = {
+    remove_effect = {
       puppet = AOI
-      AOI = { transfer_state =  271 }
-      AOI = { transfer_state =  550 }
-      AOI = { transfer_state =  559 }
-      AOI = {  add_state_core = 271 add_state_core = 550 add_state_core = 559
+      AOI = {
+        transfer_state =  271
+        transfer_state =  550
+        transfer_state =  559
+        add_state_core = 271
+        add_state_core = 550
+        add_state_core = 559
+        add_manpower = 20000
+        add_ideas = extensive_conscription
+      }
+      set_autonomy = {
+        target = AOI
+        autonomy_state = autonomy_integrated_puppet
       }
     }
   }
@@ -224,6 +238,9 @@ colonial_works = {
     }
     visible = {
       has_full_control_of_state = 268
+      AOI = {
+        has_full_control_of_state = 271
+      }
     }
     cost = 0
     days_remove = 0
@@ -234,8 +251,7 @@ colonial_works = {
     fire_only_once = yes
     modifier = {
     }
-    complete_effect = {
-      puppet = AOI
+    remove_effect = {
       AOI = { transfer_state =  268 }
       AOI = {  add_state_core = 268 }
     }
@@ -248,6 +264,9 @@ colonial_works = {
     }
     visible = {
       has_full_control_of_state = 269
+      AOI = {
+        has_full_control_of_state = 271
+      }
     }
     cost = 0
     days_remove = 0
@@ -258,8 +277,7 @@ colonial_works = {
     fire_only_once = yes
     modifier = {
     }
-    complete_effect = {
-      puppet = AOI
+    remove_effect = {
       AOI = { transfer_state =  269 }
       AOI = {  add_state_core = 269 }
     }
@@ -309,6 +327,10 @@ colonial_works = {
         VAI = { transfer_state =  292 }
         VAI = { transfer_state =  679 }
         VAI = {  add_state_core = 656 add_state_core = 765 add_state_core = 658 add_state_core = 659 add_state_core = 294 add_state_core = 293 add_state_core = 292 add_state_core = 679 add_state_core = 678
+        }
+        set_autonomy = {
+          target = VAI
+          autonomy_state = autonomy_integrated_puppet
         }
       }
     }
@@ -816,7 +838,7 @@ colonial_works = {
       icon = generic_tank
 
       available = {
-        has_army_experience > 199
+        has_army_experience > 149
       }
 
       cost = 0
@@ -874,7 +896,7 @@ colonial_works = {
         }
       }
       complete_effect = {
-        army_experience = -200
+        army_experience = -150
       }
     }
 
@@ -1022,7 +1044,7 @@ colonial_works = {
       icon = generic_operation
 
       available = {
-        has_air_experience > 199
+        has_air_experience > 149
       }
 
       cost = 0
@@ -1078,7 +1100,7 @@ colonial_works = {
         }
       }
       complete_effect = {
-        air_experience = -1
+        air_experience = -150
       }
     }
   }
