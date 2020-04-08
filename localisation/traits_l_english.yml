@@ -663,3 +663,8 @@
  connected_citizen:0 "Connected Citizen"
  ansaldo_manufacturer:0 "Submarine designer"
  highways_genius:0 "Highway genius"
+ army_chief_arditi:1 "Arditi's Chief\n(Genius)"
+ suppressor:0 "Tyrant"
+ suppressor_desc:0 "§LThis leader has a talent for subjugation of civilians. Summary executions might get out of hand, but order is guaranteed.§"
+ ansaldo_manufacturer:0 "Submarine designer"
+ highways_genius:0 "Highway genius"

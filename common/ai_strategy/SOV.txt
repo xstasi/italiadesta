@@ -17,14 +17,14 @@ SOV_unit_production = {
   abort = {
     always = no
   }
-  
+
   ai_strategy = {
     type = role_ratio
     id = garrison
     value = 5
   }
 
-  ai_strategy = { 
+  ai_strategy = {
     type = role_ratio
     id = suppression
     value = 3
@@ -77,39 +77,39 @@ SOV_unit_production = {
     id = infantry
     value = 40 #because doctrine 70
   }
-  
+
   #Air unit factors
   ai_strategy = {
     type = unit_ratio
     id = fighter
     value = 40
   }
-  
+
   ai_strategy = {
     type = unit_ratio
     id = cas
     value = 2 #because doctrine this = 15
   }
-  
+
   ai_strategy = {
     type = unit_ratio
     id = tactical_bomber
     value = 5
   }
-  
+
   ai_strategy = {
     type = unit_ratio
     id = strategic_bomber
     value = -50 # we can add a strategy later to increase this once Germany is beaten
   }
-  
+
   ai_strategy = {
     type = unit_ratio
     id = naval_bomber
     value = 4
   }
-  
-  
+
+
   # Naval unit factors
   ai_strategy = {
     type = unit_ratio
@@ -124,7 +124,7 @@ SOV_unit_production = {
   ai_strategy = {
     type = unit_ratio
     id = submarine
-    value = 30 
+    value = 30
   }
 
   ai_strategy = {
@@ -138,37 +138,49 @@ SOV_unit_production = {
     id = convoy
     value = 20
   }
-  
+
   ai_strategy = {
     type = equipment_production_factor
     id = fighter
-    value = 20
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = tactical_bomber
+		value = -20
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = naval_bomber
+		value = -100
+    value = 25
   }
-  
+
   ai_strategy = {
     type = equipment_production_factor
     id = infantry
     value = 30
   }
-  
+
   ai_strategy = {
     type = equipment_production_factor
     id = artillery
     value = 36
   }
-  
+
   ai_strategy = {
     type = equipment_production_factor
     id = armor
     value = 5
   }
-}  
+}
 
 SOV_anti_armor = {
   enable = {
     original_tag = SOV
     ai_wants_divisions > 5 #Decreasing the amount of motorized the AI wants
-    
+
     any_enemy_country = {
       ROOT = {
         estimated_intel_max_armor = {
@@ -206,22 +218,22 @@ southern_thrust = {
       country_exists = AFG
     }
   }
-  
+
   ai_strategy = {
     type = antagonize
-    id = "PER"      
+    id = "PER"
     value = 200
   }
   ai_strategy = {
     type = antagonize
-    id = "AFG"      
+    id = "AFG"
     value = 150
-  }  
+  }
   ai_strategy = {
     type = antagonize
-    id = "IRQ"      
+    id = "IRQ"
     value = 100
-  }  
+  }
 }
 
 claims_on_poland = {
@@ -235,12 +247,12 @@ claims_on_poland = {
       country_exists = POL
     }
   }
-  
+
   ai_strategy = {
     type = antagonize
-    id = "POL"      
+    id = "POL"
     value = 200
-  }  
+  }
 }
 
 claims_on_baltic = {
@@ -258,15 +270,15 @@ claims_on_baltic = {
       country_exists = LIT
     }
   }
-  
+
   ai_strategy = {
     type = antagonize
-    id = "LAT"      
+    id = "LAT"
     value = 200
-  }  
+  }
   ai_strategy = {
     type = antagonize
-    id = "LIT"      
+    id = "LIT"
     value = 200
   }
 }
@@ -288,12 +300,12 @@ claims_on_finland = {
       controls_state = 146 #Karelija
     }
   }
-  
+
   ai_strategy = {
     type = antagonize
-    id = "FIN"      
+    id = "FIN"
     value = 200
-  }  
+  }
 }
 
 claims_on_turkey = {
@@ -307,12 +319,12 @@ claims_on_turkey = {
       country_exists = TUR
     }
   }
-  
+
   ai_strategy = {
     type = antagonize
-    id = "TUR"      
+    id = "TUR"
     value = 200
-  }  
+  }
 }
 
 claims_on_romania = {
@@ -326,12 +338,12 @@ claims_on_romania = {
       country_exists = ROM
     }
   }
-  
+
   ai_strategy = {
     type = antagonize
-    id = "ROM"      
+    id = "ROM"
     value = 200
-  }  
+  }
 }
 
 claims_on_sinkiang = {
@@ -345,12 +357,12 @@ claims_on_sinkiang = {
       country_exists = CHI
     }
   }
-  
+
   ai_strategy = {
     type = antagonize
-    id = "CHI"      
+    id = "CHI"
     value = 200
-  }  
+  }
 }
 
 japan_ally = {
@@ -362,23 +374,23 @@ japan_ally = {
   abort = {
     NOT = { country_exists = JAP }
   }
-  
+
   ai_strategy = {
     type = befriend
-    id = "JAP"      
+    id = "JAP"
     value = 200
   }
   ai_strategy = {
     type = alliance
-    id = "JAP"      
+    id = "JAP"
     value = 200
-  }  
+  }
 }
 
 germany_ally = {
   enable = {
     tag = SOV
-    OR = { 
+    OR = {
       has_completed_focus = SOV_anti_capitalist_diplomacy
       GER = { has_completed_focus = GER_soviet_ally }
     }
@@ -387,17 +399,17 @@ germany_ally = {
   abort = {
     NOT = { country_exists = GER }
   }
-  
+
   ai_strategy = {
     type = befriend
-    id = "GER"      
+    id = "GER"
     value = 200
   }
   ai_strategy = {
     type = alliance
-    id = "GER"      
+    id = "GER"
     value = 200
-  }  
+  }
 }
 
 germany_enemy = {
@@ -407,18 +419,18 @@ germany_enemy = {
     country_exists = GER
     OR = {
       date > 1942.1.1
-      has_war_with = GER 
+      has_war_with = GER
     }
   }
   abort = {
     NOT = { country_exists = GER }
   }
-  
+
   ai_strategy = {
     type = antagonize
-    id = "GER"      
+    id = "GER"
     value = 200
-  }  
+  }
 }
 
 spanish_civil_war_SOV = {
@@ -428,27 +440,27 @@ spanish_civil_war_SOV = {
     SPR = { has_civil_war = yes }
     NOT = { has_global_flag = scw_over }
   }
-  
-  abort = {  
+
+  abort = {
     OR = {
       SPR = { has_civil_war = no }
       has_global_flag = scw_over
     }
   }
-  
+
   ai_strategy = {
     type = befriend
-    id = "SPR"      
+    id = "SPR"
     value = 100
-  }  
+  }
 }
 
 SOV_template_design_1 = {
   enable = {
     original_tag = SOV
-    date < 1940.1.1        
+    date < 1940.1.1
   }
-  abort = { 
+  abort = {
     date > 1940.1.1
   }
 
@@ -463,7 +475,7 @@ SOV_template_design_1 = {
     id = cavalry
     value = -100
   }
-  
+
   ai_strategy = {
     type = template_prio
     id = light_armor
@@ -487,7 +499,7 @@ SOV_template_design_1 = {
     id = paratroopers
     value = -50
   }
-  
+
   ai_strategy = {
     type = template_prio
     id = infantry
@@ -498,7 +510,7 @@ SOV_template_design_1 = {
 SOV_template_design_2 = {
   enable = {
     original_tag = SOV
-    date > 1940.1.1        
+    date > 1940.1.1
   }
 
   ai_strategy = {
@@ -512,7 +524,7 @@ SOV_template_design_2 = {
     id = cavalry
     value = -100
   }
-  
+
   ai_strategy = {
     type = template_prio
     id = light_armor
@@ -524,7 +536,7 @@ SOV_template_design_2 = {
     id = medium_armor
     value = 50
   }
-  
+
   ai_strategy = {
     type = template_prio
     id = modern_armor
@@ -542,7 +554,7 @@ SOV_template_design_2 = {
     id = paratroopers
     value = -50
   }
-  
+
   ai_strategy = {
     type = template_prio
     id = infantry
@@ -574,7 +586,7 @@ SOV_pp_spending = {
 SOV_play_nice_with_ribbentrop_pact = {
   enable = {
     tag = SOV
-    has_global_flag = sov_yes_pact    
+    has_global_flag = sov_yes_pact
     GER = { has_war_with = POL }
     date < 1941.1.1
   }
@@ -585,13 +597,13 @@ SOV_play_nice_with_ribbentrop_pact = {
       date > 1941.1.1
     }
   }
-  
+
   # respect the spirit of the law ;)
   ai_strategy = {
     type = send_volunteers_desire
     id = "POL"
     value = -100
-  }  
+  }
 }
 SOV_naval_role_ratios_historical = {
   enable = {
@@ -666,9 +678,9 @@ SOV_dont_upgrade_to_weapons_2_too_early = {
       }
     }
   }
-  
+
   abort_when_not_enabled = yes
-  
+
   ai_strategy = {
     type = production_upgrade_desire_offset
     id = infantry_equipment_2
@@ -680,9 +692,34 @@ SOV_home_land_is_safe = {
   enable = {
     original_tag = SOV
   }
-  
+
   ai_strategy = {
     type = garrison
     value = -25
   }
+}
+
+SOV_dont_mess_with_volunteers_for_european_democratic_nations = { # Reverse strategy
+	reversed = yes
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		has_government = democratic
+		SOV = {
+			has_government = communism
+		}
+
+		capital_scope = {
+			is_on_continent = europe # lets not mess with europe
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "SOV"
+		value = -500
+	}
 }
