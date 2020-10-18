@@ -14,7 +14,7 @@ form_roman_empire_category = {
       is_subject = no
       # Some Albanian states
       controls_state = 44
-      controls_state = 797
+      controls_state = 807
       # Yugoslavia
       controls_state = 102
       controls_state = 103

@@ -1202,7 +1202,7 @@ colonial_works = {
       available = {
         has_global_flag = form_roman_empire_flag
         controls_state = 44
-        controls_state =797
+        controls_state =807
       }
       visible = {
       }
@@ -1210,7 +1210,7 @@ colonial_works = {
       days_remove = 200
       remove_effect = {
         add_state_core = 44
-        add_state_core =797
+        add_state_core =807
         set_province_name = {
           id = 9914
           name = "Theranda"
@@ -1470,7 +1470,7 @@ colonial_works = {
           tooltip = form_country_switzerland_required_states_tt
           controls_state = 3
           controls_state = 151
-          controls_state = 798
+          controls_state = 808
         }
       }
       visible = {
@@ -1482,7 +1482,7 @@ colonial_works = {
         hidden_effect = {
           3 = { add_core_of = ROOT }
           151 = { add_core_of = ROOT }
-          798 = { add_core_of = ROOT }
+          808 = { add_core_of = ROOT }
         }
 
         set_province_name = {

@@ -1,6 +1,6 @@
 state={
-  id=797
-  name="STATE_797"
+  id=807
+  name="STATE_807"
   manpower = 400000
   resources={
     aluminium=2 # was: 3
@@ -33,6 +33,6 @@ state={
   }
 
   provinces={
-    914 3448 3884 6900 11767
+    3448 3884 6900 11767
   }
 }

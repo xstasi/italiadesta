@@ -2,7 +2,7 @@ prospect_for_resources = {
 
   #ALBANIA
 
-  develop_durazzo_oil_fields   = { #797
+  develop_durazzo_oil_fields   = { #807
 
     icon = oil
 
@@ -11,21 +11,21 @@ prospect_for_resources = {
     }
 
     highlight_states = {
-      state = 797
+      state = 807
     }
 
     available = {
       has_tech = excavation2
       num_of_civilian_factories_available_for_projects > 5
-      owns_state = 797
-      controls_state = 797
+      owns_state = 807
+      controls_state = 807
     }
 
     visible = {
-      owns_state = 797
-      controls_state = 797
+      owns_state = 807
+      controls_state = 807
       has_tech = excavation2
-      797 = {
+      807 = {
         NOT = {
           has_state_flag = durazzo_developed
         }
@@ -46,10 +46,10 @@ prospect_for_resources = {
     }
 
     remove_effect = {
-      797 = {
+      807 = {
         set_state_flag = durazzo_developed
       }
-      797 = {
+      807 = {
         add_resource = {
           type = oil
           amount = 4

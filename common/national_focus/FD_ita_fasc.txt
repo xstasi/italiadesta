@@ -3573,7 +3573,7 @@ focus_tree = {
     }
     bypass = {
       OR = {
-        AND = { has_full_control_of_state = 44 has_full_control_of_state = 797 }
+        AND = { has_full_control_of_state = 44 has_full_control_of_state = 807 }
         ALB = {is_in_faction_with = ITA}
       }
     }
@@ -3604,7 +3604,7 @@ focus_tree = {
       factor = 1
     }
     completion_reward = {
-      if = { limit = { 44 = { is_owned_and_controlled_by = ITA } 797 = { is_owned_and_controlled_by = ITA }  } }
+      if = { limit = { 44 = { is_owned_and_controlled_by = ITA } 807 = { is_owned_and_controlled_by = ITA }  } }
       44 = {
         add_building_construction = {
           type = infrastructure
@@ -3617,7 +3617,7 @@ focus_tree = {
           instant_build = yes
         }
       }
-      797 = {
+      807 = {
         add_building_construction = {
           type = infrastructure
           level = 1
@@ -3652,11 +3652,11 @@ focus_tree = {
     }
     available = {
       44 = { is_fully_controlled_by = ITA }
-      797 = { is_fully_controlled_by = ITA }
+      807 = { is_fully_controlled_by = ITA }
     }
     completion_reward = {
       add_state_core = 44
-      add_state_core = 797
+      add_state_core = 807
       set_province_name = {
         id = 11767
         name = "Valona"
@@ -4272,7 +4272,7 @@ focus_tree = {
       OR = {
         AND = {
           has_full_control_of_state = 44
-          has_full_control_of_state = 797
+          has_full_control_of_state = 807
         }
         ALB = {is_in_faction_with = ITA}
       }
@@ -4305,11 +4305,11 @@ focus_tree = {
     }
     available = {
       44 = { is_fully_controlled_by = ITA }
-      797 = { is_fully_controlled_by = ITA }
+      807 = { is_fully_controlled_by = ITA }
     }
     completion_reward = {
       add_state_core = 44
-      add_state_core = 797
+      add_state_core = 807
       set_province_name = {
         id = 11767
         name = "Valona"
