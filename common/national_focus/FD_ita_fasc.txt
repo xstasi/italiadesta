@@ -1166,6 +1166,19 @@ focus_tree = {
     prerequisite = { focus = ITA_geserra }
     prerequisite = { focus = ITA_triangle focus = ITA_prepareforwar }
 
+    bypass = {
+      AND = {
+        159 = {
+          infrastructure > 9
+        }
+        161 = {
+          infrastructure > 9
+        }
+        162 = {
+          infrastructure > 9
+        }
+      }
+    }
     ai_will_do = {
       factor = 1
     }
@@ -1205,6 +1218,16 @@ focus_tree = {
     prerequisite = { focus = ITA_firmil }
     ai_will_do = {
       factor = 1
+    }
+    bypass = {
+      AND = {
+        2 = {
+          infrastructure > 9
+        }
+        117 = {
+          infrastructure > 9
+        }
+      }
     }
     completion_reward = {
       2 = {
@@ -1257,6 +1280,16 @@ focus_tree = {
     ai_will_do = {
       factor = 1
     }
+    bypass = {
+      AND = {
+        156 = {
+          infrastructure > 9
+        }
+        117 = {
+          infrastructure > 9
+        }
+      }
+    }
     completion_reward = {
       117 = {
         add_building_construction = {
@@ -1288,6 +1321,16 @@ focus_tree = {
     prerequisite = { focus = ITA_firmil }
     ai_will_do = {
       factor = 1
+    }
+    bypass = {
+      AND = {
+        114 = {
+          infrastructure > 9
+        }
+        115 = {
+          infrastructure > 9
+        }
+      }
     }
     completion_reward = {
       114 = {
@@ -1489,6 +1532,19 @@ focus_tree = {
     ai_will_do = {
       factor = 1
     }
+    bypass = {
+      AND = {
+        117 = {
+          infrastructure > 9
+        }
+        156 = {
+          infrastructure > 9
+        }
+        157 = {
+          infrastructure > 9
+        }
+      }
+    }
     completion_reward = {
       117 = {
         add_building_construction = {
@@ -1527,6 +1583,16 @@ focus_tree = {
     prerequisite = { focus = ITA_mobsud }
     ai_will_do = {
       factor = 1
+    }
+    bypass = {
+      AND = {
+        114 = {
+          infrastructure > 9
+        }
+        115 = {
+          infrastructure > 9
+        }
+      }
     }
     completion_reward = {
       114 = {
