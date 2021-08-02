@@ -1,4 +1,4 @@
-version="0.01alpha1"
+version="0.02"
 tags={
 	"Alternative History"
 	"National Focuses"
@@ -6,8 +6,6 @@ tags={
 	"Historical"
 }
 picture="thumbnail.png"
-replace_path="common/ai_strategy/ITA.txt"
-replace_path="national_focus/italy.txt"
 name="L'Italia s'è desta"
-supported_version="1.10.1"
+supported_version="1.10.7"
 remote_file_id="1996350037"
